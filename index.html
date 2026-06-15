@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Interactive map tracking cell phone bans and school device screen time limits across all 50 US states.">
 <title>Screen Time Limits & Phone Bans in America's Schools</title>
+<!-- News cache built daily by GitHub Actions — no API key needed -->
+<script src="/news-cache.js" onerror="window.NEWS_CACHE_DATA=null"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVGFWQ9RM4"></script>
 <script>
@@ -14,7 +16,6 @@
   gtag('config', 'G-NVGFWQ9RM4');
 </script>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
 <style>
 /* RESET */
@@ -971,12 +972,18 @@ function renderNews(el,arts,name){
   el.innerHTML=`<div class="news-hdr">Latest news ${rb}</div>${stamp}`+arts.map(a=>`<div class="ni"><div class="nh">${a.headline}</div><div class="ns">${a.summary}</div><div class="nd">${a.date||""}</div></div>`).join("");
 }
 async function fetchNews(name){
+  // Pull matching articles from the news cache for this state
   try{
-    const r=await fetch("/.netlify/functions/ai",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({model:"claude-sonnet-4-20250514",max_tokens:2000,system:`Today is ${ts}. Use web search. Return ONLY a JSON array, no markdown. 4 objects: headline (max 90 chars), summary (max 130 chars), date (like "May 19, 2026"), source (publication). Focus on phone bans or school device screen time.`,tools:[{"type":"web_search_20250305","name":"web_search"}],messages:[{role:"user",content:`4 recent news items about phone bans or school device screen time in ${name} as of ${ts}. Return only JSON array.`}]})});
-    const data=await r.json();
-    const t=data.content?.find(b=>b.type==="text")?.text||"[]";
-    const p=JSON.parse(t.replace(/```json|```/g,"").trim());
-    NC[name]=p;return p;
+    const cached = window.NEWS_CACHE_DATA?.items||getScrapeResults()||[];
+    const stateArticles = cached.filter(a=>a.state===name)
+      .map(a=>({
+        headline: a.headline||'',
+        summary: a.summary||'',
+        date: parseRssDate(a.date),
+        source: a.source||''
+      }));
+    NC[name] = stateArticles;
+    return stateArticles;
   }catch{return[]}
 }
 
@@ -1773,58 +1780,56 @@ window.showScrapeModal=function(){
 };
 
 async function runDailyScrape(){
-  const today=new Date().toISOString().split("T")[0]; // e.g. "2026-06-10"
-  const last=getScrapeDate();
-  if(last===today){
-    const cached=getScrapeResults();
-    // Always build ticker — merge cached results with built-in articles
-    buildTicker(cached.length ? cached : []);
-    if(cached.length){buildBreakingBanner(cached);setTimeout(()=>buildMapBadges(cached),1500);updateNewsFeed(cached);}
-    else{buildNewsFeedItems([]);}
-    return;
-  }
-  // Don't disrupt the ticker with a scanning message — it's already showing articles
-  showScrapeBar("🔍 Scanning for latest news…", "scanning");
-  try{
-    const ts=new Date().toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"});
-    const r=await fetch("/.netlify/functions/ai",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({
-      model:"claude-sonnet-4-20250514",max_tokens:3000,
-      system:`Today is ${ts}. You have web search. Find the LATEST news — including small local districts and grassroots parent groups — about school phone bans, school device/screen time limits, school board meetings on technology, and parents pushing schools to reduce screen time. Do NOT focus only on state laws — actively search for local board actions, parent advocacy groups (PAUSE, Schools Beyond Screens, etc.), health advisories, and research. Return ONLY a JSON array (no markdown). Each object: state (US state or null), district (or null), headline (max 80 chars), summary (max 130 chars), date (specific like "June 2, 2026"), source (publication), url (full URL). Sort most recent first. Aim for 10-15 items.`,
-      tools:[{"type":"web_search_20250305","name":"web_search"}],
-      messages:[{role:"user",content:`Search for the most recent news as of ${ts} about student screen time in schools. Run ALL these searches:
-1. "school board screen time" 2026
-2. "school district screen time" 2026
-3. "school phone ban" 2026
-4. "surgeon general screen time" 2026
-5. "HHS screen time children" 2026
-6. "Digital Delusion Horvath" 2026
-7. "reduce screen time school" 2026
-8. "PAUSE parents screen time" OR "Schools Beyond Screens" 2026
-9. "board of education device limit" 2026
-10. "screen time audit school" 2026
-11. "Chromebook school limit" 2026
-12. "screen time research children" 2026
-Include local districts, parent advocacy, health advisories, research — not just laws. Return only JSON array sorted most recent first.`}]
-    })});
-    const data=await r.json();
-    const text=data.content?.find(b=>b.type==="text")?.text||"[]";
-    const results=JSON.parse(text.replace(/```json|```/g,"").trim());
-    setScrapeDate(today);setScrapeResults(results);
-    if(results.length){buildTicker(results);buildBreakingBanner(results);setTimeout(()=>buildMapBadges(results),1500);}
-    else{buildTicker([]);}
-    updateNewsFeed(results);
-  }catch(e){
-    // Never hide ticker — always show built-in articles as fallback
-    buildTicker([]);
-    buildNewsFeedItems([]);
-  }
+  // Fallback: only runs if news-cache.js failed to load
+  // news-cache.js is built daily by GitHub Actions (scripts/build-news-cache.js)
+  // and requires no API key — it pulls from Google News RSS directly
+  console.log("[STIS] runDailyScrape: news-cache.js unavailable, showing built-in articles only");
+  buildTicker([]);
+  buildNewsFeedItems([]);
 }
-
 // ── BOOT ──────────────────────────────────────────────────────────
 initMap();
 buildTicker([]);
 buildNewsFeedItems([]);
-runDailyScrape();
+
+// news-cache.js is built daily by GitHub Actions (scripts/build-news-cache.js)
+// It sets window.NEWS_CACHE_DATA — no API key needed, uses Google News RSS
+function parseRssDate(d){
+  if(!d) return '';
+  try{
+    const dt = new Date(d);
+    if(!isNaN(dt)) return dt.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+  }catch{}
+  return d.slice(0,16);
+}
+
+function loadNewsCache(){
+  const data = window.NEWS_CACHE_DATA;
+  if(data && data.items && data.items.length){
+    const items = data.items.map(a=>({
+      state: a.state||null,
+      district: a.district||null,
+      headline: (a.headline||'').slice(0,90),
+      summary: a.summary||'',
+      date: parseRssDate(a.date),
+      source: a.source||'',
+      url: a.url||'',
+      builtin: true,
+      national: !a.state
+    }));
+    buildTicker(items);
+    buildNewsFeedItems(items);
+    setScrapeDate(new Date().toISOString().split('T')[0]);
+    setScrapeResults(items);
+    console.log('[STIS] Loaded '+items.length+' articles from news-cache.js (generated '+data.generatedAt+')');
+  } else {
+    // Fallback: run live scrape if no cache available
+    console.log('[STIS] No news-cache.js data, running live scrape');
+    runDailyScrape();
+  }
+}
+
+loadNewsCache();
 
 </script>
 </body>
