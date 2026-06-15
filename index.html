@@ -972,7 +972,7 @@ function renderNews(el,arts,name){
 }
 async function fetchNews(name){
   try{
-    const r=await fetch("/.netlify/functions/ai",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({model:"claude-sonnet-4-6",max_tokens:2000,system:`Today is ${ts}. Use web search. Return ONLY a JSON array, no markdown. 4 objects: headline (max 90 chars), summary (max 130 chars), date (like "May 19, 2026"), source (publication). Focus on phone bans or school device screen time.`,tools:[{"type":"web_search_20250305","name":"web_search"}],messages:[{role:"user",content:`4 recent news items about phone bans or school device screen time in ${name} as of ${ts}. Return only JSON array.`}]})});
+    const r=await fetch("/.netlify/functions/ai",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({model:"claude-sonnet-4-20250514",max_tokens:2000,system:`Today is ${ts}. Use web search. Return ONLY a JSON array, no markdown. 4 objects: headline (max 90 chars), summary (max 130 chars), date (like "May 19, 2026"), source (publication). Focus on phone bans or school device screen time.`,tools:[{"type":"web_search_20250305","name":"web_search"}],messages:[{role:"user",content:`4 recent news items about phone bans or school device screen time in ${name} as of ${ts}. Return only JSON array.`}]})});
     const data=await r.json();
     const t=data.content?.find(b=>b.type==="text")?.text||"[]";
     const p=JSON.parse(t.replace(/```json|```/g,"").trim());
@@ -1788,7 +1788,7 @@ async function runDailyScrape(){
   try{
     const ts=new Date().toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"});
     const r=await fetch("/.netlify/functions/ai",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({
-      model:"claude-sonnet-4-6",max_tokens:3000,
+      model:"claude-sonnet-4-20250514",max_tokens:3000,
       system:`Today is ${ts}. You have web search. Find the LATEST news — including small local districts and grassroots parent groups — about school phone bans, school device/screen time limits, school board meetings on technology, and parents pushing schools to reduce screen time. Do NOT focus only on state laws — actively search for local board actions, parent advocacy groups (PAUSE, Schools Beyond Screens, etc.), health advisories, and research. Return ONLY a JSON array (no markdown). Each object: state (US state or null), district (or null), headline (max 80 chars), summary (max 130 chars), date (specific like "June 2, 2026"), source (publication), url (full URL). Sort most recent first. Aim for 10-15 items.`,
       tools:[{"type":"web_search_20250305","name":"web_search"}],
       messages:[{role:"user",content:`Search for the most recent news as of ${ts} about student screen time in schools. Run ALL these searches:
