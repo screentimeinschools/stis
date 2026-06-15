@@ -5,8 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Interactive map tracking cell phone bans and school device screen time limits across all 50 US states.">
 <title>Screen Time Limits & Phone Bans in America's Schools</title>
-<!-- News cache built daily by GitHub Actions — no API key needed -->
-<script src="/news-cache.js" onerror="window.NEWS_CACHE_DATA=null"></script>
+<!-- News cache loaded from JSON — built daily by GitHub Actions, no API key needed -->
+<script>
+window.NEWS_CACHE_DATA=null;
+fetch("/news-cache.json").then(r=>r.ok?r.json():null).then(d=>{if(d&&d.items){window.NEWS_CACHE_DATA=d;if(typeof loadNewsCache==="function")loadNewsCache();}}).catch(()=>{});
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVGFWQ9RM4"></script>
 <script>
@@ -16,6 +19,7 @@
   gtag('config', 'G-NVGFWQ9RM4');
 </script>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
 <style>
 /* RESET */
@@ -501,6 +505,9 @@ body{font-family:'Source Sans 3','Helvetica Neue',Arial,sans-serif;background:va
     <span class="nf-label">Filter</span>
     <button class="nf-pill active" data-nf="all">All</button>
     <button class="nf-pill" data-nf="justnow">&#9679; Just In</button>
+    <button class="nf-pill" data-nf="cat-phone">📱 Phone Ban</button>
+    <button class="nf-pill" data-nf="cat-screen">💻 Screen Time</button>
+    <button class="nf-pill" data-nf="cat-other">📰 Other</button>
     <button class="nf-pill" data-nf="community">&#128101; Community</button>
     <button class="nf-pill" data-nf="national">&#127758; National</button>
     <input id="news-feed-search" type="search" placeholder="Search by state or keyword&#8230;" aria-label="Search news">
@@ -969,7 +976,9 @@ function renderNews(el,arts,name){
   const rb=`<button class="refresh-btn" onclick="loadNews('${name}',true)">↻ Refresh</button>`;
   const stamp=`<div class="news-stamp">Fetched ${todayStr()}</div>`;
   if(!arts.length){el.innerHTML=`<div class="news-hdr">Latest news ${rb}</div>${stamp}<p style="color:var(--ink-4);font-size:12px;font-style:italic">No news found. Try refreshing.</p>`;return}
-  el.innerHTML=`<div class="news-hdr">Latest news ${rb}</div>${stamp}`+arts.map(a=>`<div class="ni"><div class="nh">${a.headline}</div><div class="ns">${a.summary}</div><div class="nd">${a.date||""}</div></div>`).join("");
+  el.innerHTML=`<div class="news-hdr">Latest news ${rb}</div>${stamp}`+arts.map(a=>`<div class="ni"><div class="nh">${a.headline}</div>
+      <div style="margin:3px 0"><span style="font-size:10px;font-weight:700;padding:1px 5px;text-transform:uppercase;letter-spacing:.05em;background:${CAT_LABELS[categorize(a)].bg};color:${CAT_LABELS[categorize(a)].color}">${CAT_LABELS[categorize(a)].label}</span></div>
+      <div class="ns">${a.summary}</div><div class="nd">${a.date||""}</div></div>`).join("");
 }
 async function fetchNews(name){
   // Pull matching articles from the news cache for this state
@@ -1533,6 +1542,31 @@ function isWithin24h(s){const d=parseArticleDate(s);return d&&(Date.now()-d.getT
 function isWithin7Days(s){const d=parseArticleDate(s);if(!d)return true;return(Date.now()-d.getTime())<604800000;}
 function sortResults(arr){return[...arr].sort((a,b)=>{const a24=isWithin24h(a.date),b24=isWithin24h(b.date);if(a24&&!b24)return -1;if(!a24&&b24)return 1;return((parseArticleDate(b.date)||new Date(0))-(parseArticleDate(a.date)||new Date(0)));});}
 
+// ── ARTICLE CATEGORIZER ──────────────────────────────────────────
+function categorize(a){
+  const text = ((a.headline||'') + ' ' + (a.summary||'') + ' ' + (a.url||'')).toLowerCase();
+  const screenTerms = ['screen time','chromebook','device limit','school-issued device',
+    'digital device','tablet','laptop ban','device ban','device cap','screen cap',
+    'classroom device','ed tech','edtech','technology ban','tech ban','screen limit',
+    'device screen','device policy','screen policy'];
+  const phoneTerms = ['cell phone','cellphone','phone ban','phone-free','bell to bell',
+    'bell-to-bell','smartphone ban','smartphone policy','mobile phone','phone policy',
+    'phone storage','phone pouch','phone lock','yondr','phone restriction',
+    'phone free','phone use','personal phone','student phone'];
+  const isScreen = screenTerms.some(t => text.includes(t));
+  const isPhone  = phoneTerms.some(t => text.includes(t));
+  if(isScreen && !isPhone) return 'screen';
+  if(isPhone  && !isScreen) return 'phone';
+  if(isScreen || isPhone)   return 'phone'; // both — phone is primary topic
+  return 'other';
+}
+
+const CAT_LABELS = {
+  phone:  {label:'📱 Phone Ban',  bg:'#1a4a70', color:'#fff'},
+  screen: {label:'💻 Screen Time', bg:'#c9282d', color:'#fff'},
+  other:  {label:'📰 Other',       bg:'#888',    color:'#fff'}
+};
+
 // ── TICKER SCROLL ENGINE ─────────────────────────────────────────
 let tickerRAF = null;
 let tickerPos = 0;
@@ -1582,7 +1616,7 @@ function buildTicker(results){
     <span class="ticker-item" onclick="tickerClick('${(r.state||"").replace(/'/g,"\'")}','${(r.url||"").replace(/'/g,"\'")}')">
       ${r.state?`<span class="ticker-state">${r.state}</span>`:""}
       ${isWithin24h(r.date)?'<span style="color:var(--red);font-weight:700;font-size:10px">● JUST IN</span>':""}
-      ${r.national?'<span style="color:#a8d5ff;font-size:10px">🌐 NATIONAL</span>':r.advocacy?'<span style="color:#ffd700;font-size:10px">👥 COMMUNITY</span>':""}
+      ${(()=>{const cat=categorize(r);return cat==='phone'?'<span style="color:#a8d5ff;font-size:10px">📱 PHONE BAN</span>':cat==='screen'?'<span style="color:#ffd700;font-size:10px">💻 SCREEN TIME</span>':'<span style="color:rgba(255,255,255,.5);font-size:10px">📰 OTHER</span>';})()}
       ${r.headline}
       ${r.date?`<span style="color:rgba(255,255,255,.4);font-size:10px">${r.date}</span>`:""}
     </span><span class="ticker-sep">·</span>
@@ -1666,8 +1700,10 @@ function getFilteredItems(){
   return nfAllItems.filter(r=>{
     if(nfFilter==="justnow"&&!isWithin24h(r.date))return false;
     if(nfFilter==="community"&&!(r.advocacy||r.builtin))return false;
-    if(nfFilter==="phone"&&r.type!=="scrape")return false;
-    if(nfFilter==="device"&&r.type==="scrape"&&!r.district)return false;
+    if(nfFilter==="cat-phone"&&categorize(r)!=="phone")return false;
+    if(nfFilter==="cat-screen"&&categorize(r)!=="screen")return false;
+    if(nfFilter==="cat-other"&&categorize(r)!=="other")return false;
+    if(nfFilter==="national"&&!r.national)return false;
     if(nfSearch){const q=nfSearch.toLowerCase();const hay=((r.headline||"")+" "+(r.summary||"")+" "+(r.state||"")+" "+(r.district||"")).toLowerCase();if(!hay.includes(q))return false;}
     return true;
   });
@@ -1688,7 +1724,9 @@ function renderNewsFeed(){
     <div class="nf-feature-eyebrow">
       ${top.state?`<span class="nf-feature-state">${top.state}</span>`:""}
       ${topIsNew?'<span style="color:var(--red);font-weight:700">● Just In</span>':""}
-      ${top.national?'<span style="color:#1a3a54;font-weight:700">🌐 National</span>':topIsCom?'<span style="color:#1a5276;font-weight:700">👥 Community</span>':""}
+      ${(()=>{const cat=categorize(top);const c=CAT_LABELS[cat];return `<span style="background:${c.bg};color:${c.color};font-size:10px;font-weight:700;padding:1px 6px;text-transform:uppercase;letter-spacing:.06em">${c.label}</span>`;})()}
+      ${top.national?'<span style="color:#1a3a54;font-weight:700;font-size:10px">🌐 National</span>':''}
+      ${topIsCom?'<span style="color:#1a5276;font-weight:700;font-size:10px">👥 Community</span>':''}
     </div>
     <div class="nf-feature-headline" onclick="${top.state&&PHONE[top.state]?`currentState='${top.state.replace(/'/g,"\\'")}';renderSidePanel('${top.state.replace(/'/g,"\\'")}');document.getElementById('main-content').scrollIntoView({behavior:'smooth'})`:""}">${top.headline}</div>
     <div class="nf-feature-summary">${top.summary||""}</div>
@@ -1705,7 +1743,9 @@ function renderNewsFeed(){
       <div class="nf-item-top">
         ${r.state?`<span class="nf-item-state">${r.state}</span>`:""}
         ${isNew?'<span class="nf-item-tag just-in">● Just In</span>':""}
-        ${r.national?'<span class="nf-item-tag" style="background:#1a4a70;color:#fff">🌐 National</span>':isCom?'<span class="nf-item-tag community">👥 Community</span>':""}
+        <span class="nf-item-tag" style="background:${CAT_LABELS[categorize(r)].bg};color:${CAT_LABELS[categorize(r)].color}">${CAT_LABELS[categorize(r)].label}</span>
+      ${r.national?'<span class="nf-item-tag" style="background:#1a4a70;color:#fff">🌐 National</span>':''}
+      ${isCom?'<span class="nf-item-tag community">👥 Community</span>':''}
       </div>
       <div class="nf-item-headline">${r.headline}</div>
       ${r.summary?`<div class="nf-item-summary">${r.summary}</div>`:""}
@@ -1829,7 +1869,9 @@ function loadNewsCache(){
   }
 }
 
-loadNewsCache();
+// loadNewsCache() is called by the fetch above once news-cache.json loads
+// If it doesn't load within 2s, fall back
+setTimeout(()=>{ if(!window.NEWS_CACHE_DATA) runDailyScrape(); }, 2000);
 
 </script>
 </body>
