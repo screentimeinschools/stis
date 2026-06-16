@@ -354,6 +354,12 @@ body{font-family:'Source Sans 3','Helvetica Neue',Arial,sans-serif;background:va
 <body>
 <a href="#main-content" id="skip-nav">Skip to main content</a>
 <!-- TICKER -->
+<nav id="site-nav" aria-label="Site navigation">
+  <a class="nav-link active" href="#" data-page="home">🗺️ Map</a>
+  <a class="nav-link" href="#" data-page="news">📰 All News</a>
+  <a class="nav-link" href="#" data-page="about">About</a>
+  <a class="nav-link" href="#" data-page="methodology">Methodology</a>
+</nav>
 <div id="ticker-wrap" role="marquee" aria-label="Latest news" aria-live="off">
   <div id="ticker-label">&#128225; Latest</div>
   <div id="ticker-track-wrap"><div id="ticker-track"></div></div>
@@ -369,6 +375,7 @@ body{font-family:'Source Sans 3','Helvetica Neue',Arial,sans-serif;background:va
   </div>
   <button id="breaking-close" aria-label="Dismiss">&#215;</button>
 </div>
+<div id="home-content">
 <header id="masthead">
   <div id="eyebrow">An Interactive Policy Tracker</div>
   <h1>Screen Time Limits &amp; Phone Bans<br>in America&#8217;s Schools</h1>
@@ -496,28 +503,11 @@ body{font-family:'Source Sans 3','Helvetica Neue',Arial,sans-serif;background:va
   <div id="list-rows" role="list"></div>
 </div>
 <!-- News feed -->
-<section id="news-feed-section" aria-label="Latest news feed">
-  <div id="news-feed-header">
-    <h2>Latest News &amp; Updates</h2>
-    <span class="nf-meta" id="nf-stamp">Loading&#8230;</span>
+<div id="top10-header">
+    <h2>Latest News</h2>
+    <a href="#" data-page="news" class="nav-to-news">View all articles →</a>
   </div>
-  <div id="news-feed-filter-row">
-    <span class="nf-label">Filter</span>
-    <button class="nf-pill active" data-nf="all">All</button>
-    <button class="nf-pill" data-nf="justnow">&#9679; Just In</button>
-    <button class="nf-pill" data-nf="cat-phone">📱 Phone Ban</button>
-    <button class="nf-pill" data-nf="cat-screen">💻 Screen Time</button>
-    <button class="nf-pill" data-nf="cat-other">📰 Other</button>
-    <button class="nf-pill" data-nf="community">&#128101; Community</button>
-    <button class="nf-pill" data-nf="national">&#127758; National</button>
-    <input id="news-feed-search" type="search" placeholder="Search by state or keyword&#8230;" aria-label="Search news">
-  </div>
-  <div id="news-feed-count"></div>
-  <div id="news-feed-body">
-    <div id="news-feed-feature"></div>
-    <div id="news-feed-list"></div>
-  </div>
-</section>
+  <div id="top10-news" aria-label="Top 10 recent articles"></div>
 <!-- Newsletter -->
 <section id="newsletter-section" aria-label="Newsletter signup">
   <div id="newsletter-inner">
@@ -534,6 +524,80 @@ body{font-family:'Source Sans 3','Helvetica Neue',Arial,sans-serif;background:va
   </div>
 </section>
 <!-- Footer -->
+</div><!-- /home-content -->
+
+<!-- ALL NEWS PAGE -->
+<div id="news-page" class="page-section">
+  <h2>All News &amp; Updates</h2>
+  <div id="news-feed-filter-row" style="padding:0 0 12px;border-bottom:1px solid var(--rule);margin-bottom:16px">
+    <span class="nf-label">Filter</span>
+    <button class="nf-pill active" data-nf="all">All</button>
+    <button class="nf-pill" data-nf="justnow">&#9679; Just In</button>
+    <button class="nf-pill" data-nf="cat-phone">📱 Phone Ban</button>
+    <button class="nf-pill" data-nf="cat-screen">💻 Screen Time</button>
+    <button class="nf-pill" data-nf="cat-other">📰 Other</button>
+    <button class="nf-pill" data-nf="community">&#128101; Community</button>
+    <button class="nf-pill" data-nf="national">&#127758; National</button>
+    <input id="news-feed-search" type="search" placeholder="Search by state or keyword&#8230;" aria-label="Search news">
+  </div>
+  <div id="news-feed-count" style="font-size:12px;color:var(--ink-4);margin-bottom:12px"></div>
+  <div id="news-feed-body">
+    <div id="news-feed-feature"></div>
+    <div id="news-feed-list"></div>
+  </div>
+</div>
+
+<!-- ABOUT PAGE -->
+<div id="about-page" class="page-section">
+  <h2>About This Project</h2>
+  <p>Screen Time in Schools is an independent, nonpartisan tracker documenting every state-level law, board resolution, and advocacy effort aimed at reducing student screen time and banning personal phones in K–12 classrooms across the United States.</p>
+  <h3>Who made this?</h3>
+  <p>This site was built and is maintained by Danie Ulacco, a New Hampshire educator with over a decade of experience in elementary and middle school classrooms. After watching the impact of devices on student focus, social development, and mental health firsthand, she set out to create the most comprehensive public resource on school phone and screen time policy in America.</p>
+  <h3>Why it matters</h3>
+  <p>Researchers, journalists, policymakers, and parents increasingly need a reliable, up-to-date reference for what's actually happening across the country. State laws are changing rapidly — and the details matter. This tracker surfaces the legislation, the district actions, the community advocacy, and the research behind the movement.</p>
+  <h3>Is this affiliated with any organization?</h3>
+  <p>No. This is an independent project. It is not funded by, affiliated with, or endorsed by any advocacy group, technology company, school district, or government agency.</p>
+  <h3>Contact</h3>
+  <p>Have a correction, a tip, or want to collaborate? Reach out via <a href="https://screentimeinschools.substack.com" target="_blank" rel="noopener" style="color:var(--accent)">Substack</a>.</p>
+  <div style="margin-top:32px;padding:16px;background:#f5f2eb;border-left:3px solid var(--gold)">
+    <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-4);margin-bottom:6px">Women-Owned &amp; Operated</div>
+    <div style="font-size:13px;color:var(--ink-2)">Built, managed &amp; maintained by a woman educator. Made with care for parents, teachers &amp; kids everywhere 💙</div>
+  </div>
+</div>
+
+<!-- METHODOLOGY PAGE -->
+<div id="methodology-page" class="page-section">
+  <h2>Methodology</h2>
+  <p>This tracker aims to be the most accurate and current public resource on school phone and screen time policy in the United States. Here's how it works.</p>
+  <h3>Data sources</h3>
+  <ul>
+    <li><strong>State laws</strong> — sourced directly from state legislature websites, governor signing announcements, and LegiScan. Every state entry links to the primary bill text or official DOE page.</li>
+    <li><strong>District actions</strong> — sourced from local school board minutes, district press releases, and local news coverage. Districts are included when a formal board vote or written policy is on record.</li>
+    <li><strong>Community advocacy</strong> — parent groups and grassroots campaigns are included when they have demonstrated a formal, organized presence (e.g., a public meeting, petition, or media coverage).</li>
+  </ul>
+  <h3>Policy categories</h3>
+  <ul>
+    <li><strong>Bell-to-bell ban</strong> — state law prohibits personal phone use from first bell to last bell, covering all K–12 students.</li>
+    <li><strong>Class restriction</strong> — phones must be stored during instructional time but may be used during passing periods or lunch.</li>
+    <li><strong>District policies</strong> — no statewide law, but significant district-level action is documented.</li>
+    <li><strong>Guidance only</strong> — the state has issued non-binding guidance encouraging districts to restrict phones.</li>
+    <li><strong>Social media limits</strong> — law targets social media access specifically, rather than phones broadly.</li>
+    <li><strong>Pending</strong> — legislation has been introduced but not yet enacted.</li>
+  </ul>
+  <h3>News categorization</h3>
+  <ul>
+    <li><strong>📱 Phone Ban</strong> — article primarily covers personal phone bans, phone-free policies, or phone storage requirements.</li>
+    <li><strong>💻 Screen Time</strong> — article primarily covers school-issued device limits, Chromebook policies, classroom screen time caps, or ed-tech restrictions.</li>
+    <li><strong>📰 Other</strong> — article was pulled by the news scraper but is not directly about phone or screen time policy.</li>
+  </ul>
+  <h3>News collection</h3>
+  <p>News articles are collected automatically each day via a GitHub Actions workflow that searches Google News RSS feeds across all 50 states using targeted queries. Articles are scored for relevance and filtered to include only items with a meaningful connection to school phone or screen time policy. The pipeline requires no API key and runs entirely on open data.</p>
+  <h3>Update frequency</h3>
+  <p>News articles update daily. State policy data is reviewed and updated manually when new laws are enacted or significant district actions are reported. The "Updated daily" indicator in the site header refers to the news feed.</p>
+  <h3>Corrections</h3>
+  <p>If you spot an error — a misclassified law, a missing district action, or an outdated status — please reach out via <a href="https://screentimeinschools.substack.com" target="_blank" rel="noopener" style="color:var(--accent)">Substack</a>. We take accuracy seriously and will correct errors promptly.</p>
+</div>
+
 <footer id="site-footer">
   <div id="footer-inner">
     <div id="footer-brand">
@@ -749,6 +813,18 @@ const DEVICE = {
   "Wyoming":{dlevel:"dnil",dlaw:"No statewide law",dGrades:[],dsummary:"No statewide policy on school-issued device screen time.",stateSources:[{"label":"No primary state law","url":"https://edu.wyoming.gov/"}],districts:[]}
 };
 
+
+// ── REGION MAP ────────────────────────────────────────────────────
+const REGIONS = {
+  northeast:["Connecticut","Maine","Massachusetts","New Hampshire","Rhode Island","Vermont","New Jersey","New York","Pennsylvania"],
+  southeast:["Alabama","Arkansas","Delaware","Florida","Georgia","Kentucky","Louisiana","Maryland","Mississippi","North Carolina","South Carolina","Tennessee","Virginia","West Virginia"],
+  midwest:["Illinois","Indiana","Iowa","Kansas","Michigan","Minnesota","Missouri","Nebraska","North Dakota","Ohio","South Dakota","Wisconsin"],
+  southwest:["Arizona","New Mexico","Oklahoma","Texas"],
+  west:["Alaska","California","Colorado","Hawaii","Idaho","Montana","Nevada","Oregon","Utah","Washington","Wyoming"]
+};
+const STATE_REGION = {};
+Object.entries(REGIONS).forEach(([r,states])=>states.forEach(s=>STATE_REGION[s]=r));
+function stateRegion(s){ return STATE_REGION[s]||'midwest'; }
 // ── COLOR / LABEL MAPS ──────────────────────────────────────────
 const PLC={bell:"#1a4a70",class:"#2a7f7f",district:"#2e7d4f",social:"#5e3b87",pending:"#c8a84b",guidance:"#8b6e3a",none:"#d8d0c4"};
 const PLL={bell:"Bell-to-bell ban",class:"Class restriction",district:"District policies",social:"Social media limits",pending:"Pending",guidance:"Guidance only",none:"No law"};
@@ -1614,7 +1690,7 @@ function buildTicker(results){
   });
   const makeItems=()=>sorted.map(r=>`
     <span class="ticker-item" onclick="tickerClick('${(r.state||"").replace(/'/g,"\'")}','${(r.url||"").replace(/'/g,"\'")}')">
-      ${r.state?`<span class="ticker-state">${r.state}</span>`:""}
+      ${r.state?`<span class="ticker-state" data-region="${stateRegion(r.state)}">${r.state}</span>`:""}
       ${isWithin24h(r.date)?'<span style="color:var(--red);font-weight:700;font-size:10px">● JUST IN</span>':""}
       ${(()=>{const cat=categorize(r);return cat==='phone'?'<span style="color:#a8d5ff;font-size:10px">📱 PHONE BAN</span>':cat==='screen'?'<span style="color:#ffd700;font-size:10px">💻 SCREEN TIME</span>':'<span style="color:rgba(255,255,255,.5);font-size:10px">📰 OTHER</span>';})()}
       ${r.headline}
@@ -1695,6 +1771,7 @@ function buildNewsFeedItems(scrapeResults){
   const merged=[...scraped,...builtIn].filter(r=>{const k=(r.headline||"").slice(0,50).toLowerCase();if(seen.has(k))return false;seen.add(k);return true;});
   nfAllItems=merged.sort((a,b)=>{const a24=isWithin24h(a.date),b24=isWithin24h(b.date);if(a24&&!b24)return -1;if(!a24&&b24)return 1;return((parseArticleDate(b.date)||new Date(0))-(parseArticleDate(a.date)||new Date(0)));});
   renderNewsFeed();
+  renderTop10(nfAllItems);
 }
 function getFilteredItems(){
   return nfAllItems.filter(r=>{
@@ -1722,7 +1799,7 @@ function renderNewsFeed(){
   const topIsCom=top.advocacy||top.builtin;
   feat.innerHTML=`
     <div class="nf-feature-eyebrow">
-      ${top.state?`<span class="nf-feature-state">${top.state}</span>`:""}
+      ${top.state?`<span class="nf-state-tag" data-region="${stateRegion(top.state)}">${top.state}</span>`:""}
       ${topIsNew?'<span style="color:var(--red);font-weight:700">● Just In</span>':""}
       ${(()=>{const cat=categorize(top);const c=CAT_LABELS[cat];return `<span style="background:${c.bg};color:${c.color};font-size:10px;font-weight:700;padding:1px 6px;text-transform:uppercase;letter-spacing:.06em">${c.label}</span>`;})()}
       ${top.national?'<span style="color:#1a3a54;font-weight:700;font-size:10px">🌐 National</span>':''}
@@ -1741,7 +1818,7 @@ function renderNewsFeed(){
       (r.url?(r.state&&PHONE[r.state]?";":"")+"window.open('"+r.url+"','_blank','noopener')":"");
     return`<div class="nf-item" onclick="${onClick}">
       <div class="nf-item-top">
-        ${r.state?`<span class="nf-item-state">${r.state}</span>`:""}
+        ${r.state?`<span class="nf-state-tag" data-region="${stateRegion(r.state)}">${r.state}</span>`:""}
         ${isNew?'<span class="nf-item-tag just-in">● Just In</span>':""}
         <span class="nf-item-tag" style="background:${CAT_LABELS[categorize(r)].bg};color:${CAT_LABELS[categorize(r)].color}">${CAT_LABELS[categorize(r)].label}</span>
       ${r.national?'<span class="nf-item-tag" style="background:#1a4a70;color:#fff">🌐 National</span>':''}
@@ -1827,6 +1904,73 @@ async function runDailyScrape(){
   buildTicker([]);
   buildNewsFeedItems([]);
 }
+// ── PAGE NAVIGATION ──────────────────────────────────────────────
+function showPage(page){
+  // Toggle home content
+  const home = document.getElementById('home-content');
+  const newsPage = document.getElementById('news-page');
+  const aboutPage = document.getElementById('about-page');
+  const methPage = document.getElementById('methodology-page');
+  [home, newsPage, aboutPage, methPage].forEach(el=>{ if(el) el.style.display='none'; });
+  document.querySelectorAll('.nav-link').forEach(a=>{
+    a.classList.toggle('active', a.dataset.page===page);
+  });
+  if(page==='home'){ home.style.display='block'; }
+  else if(page==='news'){ newsPage.style.display='block'; renderNewsFeed(); }
+  else if(page==='about'){ aboutPage.style.display='block'; }
+  else if(page==='methodology'){ methPage.style.display='block'; }
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+document.getElementById('site-nav').addEventListener('click', e=>{
+  const a = e.target.closest('.nav-link');
+  if(!a) return;
+  e.preventDefault();
+  showPage(a.dataset.page);
+});
+
+// "View all articles" link in top10 header
+document.addEventListener('click', e=>{
+  const a = e.target.closest('[data-page]');
+  if(a && a.classList.contains('nav-to-news')){
+    e.preventDefault();
+    showPage('news');
+    document.querySelectorAll('.nav-link').forEach(l=>l.classList.toggle('active', l.dataset.page==='news'));
+  }
+});
+
+// ── TOP 10 RENDERER ────────────────────────────────────────────────
+function renderTop10(items){
+  const el = document.getElementById('top10-news');
+  if(!el) return;
+  // Filter to phone/screen only, sorted newest first, top 10
+  const relevant = (items||[])
+    .filter(r=>{ const c=categorize(r); return c==='phone'||c==='screen'; })
+    .sort((a,b)=>(parseArticleDate(b.date)||new Date(0))-(parseArticleDate(a.date)||new Date(0)))
+    .slice(0,10);
+  if(!relevant.length){
+    el.innerHTML='<div style="padding:18px 22px;color:var(--ink-4);font-style:italic">No recent articles available.</div>';
+    return;
+  }
+  el.innerHTML = relevant.map(r=>{
+    const cat = categorize(r);
+    const catC = CAT_LABELS[cat];
+    const region = stateRegion(r.state);
+    const onClick = r.state && PHONE[r.state]
+      ? `currentState='${r.state.replace(/'/g,"\'")}';renderSidePanel('${r.state.replace(/'/g,"\'")}');document.getElementById('main-content').scrollIntoView({behavior:'smooth'})`
+      : r.url ? `window.open('${r.url.replace(/'/g,"\'")}','_blank','noopener')` : '';
+    return `<div class="t10-item" onclick="${onClick}">
+      <div class="t10-eyebrow">
+        ${r.state?`<span class="nf-state-tag" data-region="${region}">${r.state}</span>`:''}
+        <span style="font-size:10px;font-weight:700;padding:1px 5px;background:${catC.bg};color:${catC.color};text-transform:uppercase;letter-spacing:.05em">${catC.label}</span>
+        ${isWithin24h(r.date)?'<span style="font-size:10px;font-weight:700;color:var(--red)">● Just In</span>':''}
+      </div>
+      <div class="t10-headline">${r.headline}</div>
+      <div class="t10-meta">${r.date||''}${r.source?' · '+r.source:''}</div>
+    </div>`;
+  }).join('');
+}
+
 // ── BOOT ──────────────────────────────────────────────────────────
 initMap();
 buildTicker([]);
