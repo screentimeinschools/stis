@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>All News — Screen Time in Schools</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#1a1a1a;--ink-2:#2d2d2d;--ink-3:#555;--ink-4:#888;--cream:#f9f6ef;--gold:#c8a84b;--accent:#1a6b9a;--red:#c9282d;--rule:#ddd}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Georgia,serif;background:var(--cream);color:var(--ink);line-height:1.6}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    #site-nav{background:var(--ink);display:flex;align-items:center;border-bottom:2px solid var(--gold)}
+    .nav-link{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.65);padding:11px 18px;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);font-family:Georgia,serif;transition:color .12s}
+    .nav-link:hover,.nav-link.active{color:#fff;text-decoration:none}
+    .nav-link.active{box-shadow:inset 0 -2px 0 var(--gold)}
+    .page-wrap{max-width:860px;margin:0 auto;padding:40px 24px 80px}
+    .page-eyebrow{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-4);margin-bottom:10px}
+    h1{font-family:'Libre Baskerville',Georgia,serif;font-size:30px;font-weight:700;margin-bottom:6px;line-height:1.2}
+    .page-sub{font-size:14px;color:var(--ink-3);margin-bottom:32px;padding-bottom:20px;border-bottom:2px solid var(--ink)}
+    h2{font-family:'Libre Baskerville',Georgia,serif;font-size:19px;font-weight:700;margin:32px 0 10px}
+    h3{font-family:'Libre Baskerville',Georgia,serif;font-size:15px;font-weight:700;margin:20px 0 7px}
+    p{font-size:14px;line-height:1.8;color:var(--ink-2);margin-bottom:14px}
+    ul{padding-left:22px;margin-bottom:14px}
+    li{font-size:14px;line-height:1.8;color:var(--ink-2);margin-bottom:5px}
+    .callout{background:#f0ece0;border-left:3px solid var(--gold);padding:16px 20px;margin:24px 0;font-size:14px;color:var(--ink-2);line-height:1.7}
+    .region-legend{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 24px}
+    .region-tag{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:3px 10px;color:#fff}
+    footer{background:var(--ink);color:rgba(255,255,255,.5);font-size:12px;padding:22px 24px;text-align:center;margin-top:60px}
+    footer a{color:rgba(255,255,255,.75)}
+  </style>
+</head>
+<body>
+<nav id="site-nav">
+  <a class="nav-link" href="/index.html">🗺️ Map</a>
+  <a class="nav-link active" href="/news.html">📰 All News</a>
+  <a class="nav-link" href="/about.html">About</a>
+  <a class="nav-link" href="/methodology.html">Methodology</a>
+</nav>
+<div class="page-wrap">
+  <div class="page-eyebrow">News &amp; Updates</div>
+  <h1>All News</h1>
+  <p class="page-sub">Every article pulled from our daily news scrape across all 50 states — filtered, categorized, and searchable.</p>
+
+  <div id="news-feed-filter-row" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid var(--rule)">
+    <span style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-4)">Filter</span>
+    <button class="nf-pill active" data-nf="all">All</button>
+    <button class="nf-pill" data-nf="justnow">&#9679; Just In</button>
+    <button class="nf-pill" data-nf="cat-phone">📱 Phone Ban</button>
+    <button class="nf-pill" data-nf="cat-screen">💻 Screen Time</button>
+    <button class="nf-pill" data-nf="cat-other">📰 Other</button>
+    <button class="nf-pill" data-nf="community">&#128101; Community</button>
+    <button class="nf-pill" data-nf="national">&#127758; National</button>
+    <input id="news-feed-search" type="search" placeholder="Search by state or keyword…" style="margin-left:auto;padding:5px 10px;border:1px solid var(--rule);background:#fff;font-size:13px;font-family:inherit;border-radius:2px" aria-label="Search news">
+  </div>
+  <div id="news-feed-count" style="font-size:12px;color:var(--ink-4);margin-bottom:14px"></div>
+  <div id="news-feed-body">
+    <div id="news-feed-feature"></div>
+    <div id="news-feed-list"></div>
+  </div>
+</div>
+<style>
+.nf-pill{font-size:11px;font-weight:700;padding:4px 10px;border:1px solid var(--rule);background:#fff;cursor:pointer;font-family:inherit;letter-spacing:.04em;transition:all .12s}
+.nf-pill.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.nf-pill:hover{border-color:var(--ink)}
+.nf-state-tag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:1px 6px;margin-right:4px;color:#fff}
+.nf-state-tag[data-region="northeast"]{background:#1a4a70}
+.nf-state-tag[data-region="southeast"]{background:#7b2d2d}
+.nf-state-tag[data-region="midwest"]{background:#2e7d4f}
+.nf-state-tag[data-region="southwest"]{background:#8a4a00}
+.nf-state-tag[data-region="west"]{background:#5e3b87}
+#news-feed-feature{margin-bottom:24px;padding-bottom:24px;border-bottom:2px solid var(--ink)}
+.nf-feature-eyebrow{display:flex;align-items:center;gap:6px;margin-bottom:8px;flex-wrap:wrap}
+.nf-feature-headline{font-family:'Libre Baskerville',Georgia,serif;font-size:20px;font-weight:700;line-height:1.35;margin-bottom:8px;cursor:pointer;color:var(--ink)}
+.nf-feature-headline:hover{color:var(--accent)}
+.nf-feature-summary{font-size:14px;color:var(--ink-3);line-height:1.6;margin-bottom:8px}
+.nf-feature-meta{font-size:12px;color:var(--ink-4);display:flex;gap:12px;align-items:center}
+.nf-feature-source{color:var(--accent);font-weight:600}
+.nf-view-state{margin-top:10px;display:inline-block;font-size:12px;font-weight:700;padding:5px 12px;background:var(--ink);color:#fff;border:none;cursor:pointer;font-family:inherit}
+#news-feed-list{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.nf-item{padding:14px 0;border-bottom:1px solid var(--rule);cursor:pointer}
+.nf-item:nth-child(odd){padding-right:20px;border-right:1px solid var(--rule)}
+.nf-item:nth-child(even){padding-left:20px}
+.nf-item:hover .nf-item-headline{color:var(--accent)}
+.nf-item-top{display:flex;align-items:center;gap:6px;margin-bottom:5px;flex-wrap:wrap}
+.nf-item-tag{font-size:10px;font-weight:700;padding:1px 5px;text-transform:uppercase;letter-spacing:.05em;color:#fff;flex-shrink:0}
+.nf-item-tag.just-in{background:var(--red)}
+.nf-item-tag.community{background:#1a5276}
+.nf-item-headline{font-family:'Libre Baskerville',Georgia,serif;font-size:13px;font-weight:700;line-height:1.4;margin-bottom:4px;color:var(--ink)}
+.nf-item-summary{font-size:12px;color:var(--ink-3);line-height:1.5;margin-bottom:5px}
+.nf-item-meta{font-size:11px;color:var(--ink-4);display:flex;gap:8px;flex-wrap:wrap}
+.nf-item-src{color:var(--accent);font-weight:600}
+.nf-empty{padding:20px 0;color:var(--ink-4);font-style:italic}
+@media(max-width:640px){#news-feed-list{grid-template-columns:1fr}.nf-item:nth-child(odd){padding-right:0;border-right:none}.nf-item:nth-child(even){padding-left:0}}
+</style>
+<script src="/news-cache.js" onerror="window.NEWS_CACHE_DATA=null"></script>
+<script>
+const REGIONS={northeast:["Connecticut","Maine","Massachusetts","New Hampshire","Rhode Island","Vermont","New Jersey","New York","Pennsylvania"],southeast:["Alabama","Arkansas","Delaware","Florida","Georgia","Kentucky","Louisiana","Maryland","Mississippi","North Carolina","South Carolina","Tennessee","Virginia","West Virginia"],midwest:["Illinois","Indiana","Iowa","Kansas","Michigan","Minnesota","Missouri","Nebraska","North Dakota","Ohio","South Dakota","Wisconsin"],southwest:["Arizona","New Mexico","Oklahoma","Texas"],west:["Alaska","California","Colorado","Hawaii","Idaho","Montana","Nevada","Oregon","Utah","Washington","Wyoming"]};
+const STATE_REGION={};Object.entries(REGIONS).forEach(([r,s])=>s.forEach(st=>STATE_REGION[st]=r));
+function stateRegion(s){return STATE_REGION[s]||'midwest';}
+const CAT_LABELS={phone:{label:'📱 Phone Ban',bg:'#1a4a70',color:'#fff'},screen:{label:'💻 Screen Time',bg:'#c9282d',color:'#fff'},other:{label:'📰 Other',bg:'#888',color:'#fff'}};
+function categorize(a){
+  const text=((a.headline||'')+(a.summary||'')+(a.url||'')).toLowerCase();
+  const phone=['cell phone','cellphone','phone ban','phone-free','bell to bell','bell-to-bell','smartphone ban','smartphone policy','mobile phone','phone policy','phone storage','phone pouch','phone lock','yondr','phone restriction','phone free','phone use','personal phone','student phone'];
+  const screen=['screen time','chromebook','device limit','school-issued device','digital device','tablet','laptop ban','device ban','device cap','screen cap','classroom device','ed tech','edtech','technology ban','tech ban','screen limit','device screen','device policy','screen policy'];
+  const isSc=screen.some(t=>text.includes(t));
+  const isPh=phone.some(t=>text.includes(t));
+  if(isSc&&!isPh)return 'screen';
+  if(isPh||isSc)return 'phone';
+  return 'other';
+}
+function parseD(d){if(!d)return null;const dt=new Date(d);return isNaN(dt)?null:dt;}
+function isWithin24h(d){const dt=parseD(d);return dt&&(Date.now()-dt)<86400000;}
+let nfFilter='all',nfSearch='',nfAllItems=[];
+function getFiltered(){
+  return nfAllItems.filter(r=>{
+    if(nfFilter==='justnow'&&!isWithin24h(r.date))return false;
+    if(nfFilter==='cat-phone'&&categorize(r)!=='phone')return false;
+    if(nfFilter==='cat-screen'&&categorize(r)!=='screen')return false;
+    if(nfFilter==='cat-other'&&categorize(r)!=='other')return false;
+    if(nfFilter==='community'&&!r.advocacy&&!r.builtin)return false;
+    if(nfFilter==='national'&&!r.national)return false;
+    if(nfSearch){const q=nfSearch.toLowerCase();const h=((r.headline||'')+(r.summary||'')+(r.state||'')+(r.district||'')).toLowerCase();if(!h.includes(q))return false;}
+    return true;
+  });
+}
+function esc(s){return(s||'').replace(/'/g,"\'")}
+function renderFeed(){
+  const items=getFiltered();
+  const feat=document.getElementById('news-feed-feature');
+  const list=document.getElementById('news-feed-list');
+  const cnt=document.getElementById('news-feed-count');
+  cnt.textContent=items.length+' item'+(items.length!==1?'s':'')+(nfSearch||nfFilter!=='all'?' matching filter':'');
+  if(!items.length){feat.innerHTML='';list.innerHTML='<div class="nf-empty">No items match your filter.</div>';return;}
+  const top=items[0];const cat=categorize(top);const cc=CAT_LABELS[cat];
+  feat.innerHTML=`<div class="nf-feature-eyebrow">
+    ${top.state?`<span class="nf-state-tag" data-region="${stateRegion(top.state)}">${top.state}</span>`:''}
+    <span style="font-size:10px;font-weight:700;padding:1px 5px;background:${cc.bg};color:${cc.color};text-transform:uppercase;letter-spacing:.05em">${cc.label}</span>
+    ${isWithin24h(top.date)?'<span style="color:#c9282d;font-weight:700;font-size:10px">● Just In</span>':''}
+    ${top.national?'<span style="color:#1a3a54;font-weight:700;font-size:10px">🌐 National</span>':''}
+  </div>
+  <div class="nf-feature-headline" onclick="${top.url?`window.open('${esc(top.url)}','_blank','noopener')`:''}"> ${top.headline}</div>
+  <div class="nf-feature-summary">${top.summary||''}</div>
+  <div class="nf-feature-meta"><span>${top.date||''}</span>${top.source&&top.url?`<a class="nf-feature-source" href="${top.url}" target="_blank" rel="noopener">${top.source} →</a>`:''}</div>`;
+  list.innerHTML=items.slice(1).map(r=>{
+    const c=categorize(r);const cc2=CAT_LABELS[c];
+    const isNew=isWithin24h(r.date);
+    const onClick=r.url?`window.open('${esc(r.url)}','_blank','noopener')`:'';
+    return`<div class="nf-item" onclick="${onClick}">
+      <div class="nf-item-top">
+        ${r.state?`<span class="nf-state-tag" data-region="${stateRegion(r.state)}">${r.state}</span>`:''}
+        <span class="nf-item-tag" style="background:${cc2.bg};color:${cc2.color}">${cc2.label}</span>
+        ${isNew?'<span class="nf-item-tag just-in">● Just In</span>':''}
+        ${r.national?'<span class="nf-item-tag" style="background:#1a4a70">🌐 National</span>':''}
+      </div>
+      <div class="nf-item-headline">${r.headline}</div>
+      ${r.summary?`<div class="nf-item-summary">${r.summary}</div>`:''}
+      <div class="nf-item-meta"><span>${r.date||''}</span>${r.source&&r.url?`<a class="nf-item-src" href="${r.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${r.source} →</a>`:''}</div>
+    </div>`;
+  }).join('')||'<div class="nf-empty">Only one item matches.</div>';
+}
+function parseRssDate(d){if(!d)return'';try{const dt=new Date(d);if(!isNaN(dt))return dt.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});}catch{}return d.slice?d.slice(0,16):'';}
+function loadAndRender(){
+  // Try news-cache.js (window.NEWS_CACHE_DATA) first, then fetch JSON
+  function process(data){
+    if(!data||!data.items||!data.items.length)return;
+    nfAllItems=data.items.map(a=>({...a,date:parseRssDate(a.date),builtin:true,national:!a.state}));
+    renderFeed();
+  }
+  if(window.NEWS_CACHE_DATA){process(window.NEWS_CACHE_DATA);return;}
+  fetch('/news-cache.json').then(r=>r.ok?r.json():null).then(d=>{if(d)process(d);}).catch(()=>{});
+}
+document.getElementById('news-feed-filter-row').addEventListener('click',e=>{
+  const b=e.target.closest('.nf-pill');if(!b)return;
+  document.querySelectorAll('.nf-pill').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active');nfFilter=b.dataset.nf;renderFeed();
+});
+document.getElementById('news-feed-search').addEventListener('input',e=>{nfSearch=e.target.value.trim();renderFeed();});
+loadAndRender();
+</script>
+<footer>
+  <p>© 2026 <a href="/">screentimeinschools.org</a> &nbsp;·&nbsp; <a href="/about.html">About</a> &nbsp;·&nbsp; <a href="/methodology.html">Methodology</a> &nbsp;·&nbsp; <a href="https://screentimeinschools.substack.com" target="_blank" rel="noopener">Newsletter</a></p>
+  <p style="margin-top:6px;color:rgba(255,255,255,.35)">Built with care by a New Hampshire educator 💙</p>
+</footer>
+</body>
+</html>
