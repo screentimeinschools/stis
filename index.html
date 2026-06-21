@@ -506,12 +506,6 @@ body{font-family:'Source Sans 3','Helvetica Neue',Arial,sans-serif;background:va
   </div>
   <div id="list-rows" role="list"></div>
 </div>
-<!-- News feed -->
-<div id="top10-header">
-    <h2>Latest News</h2>
-    <a href="/news.html" style="font-size:12px;color:var(--accent);font-weight:600;text-decoration:none">View all articles →</a>
-  </div>
-  <div id="top10-news" aria-label="Top 10 recent articles"></div>
 <!-- Newsletter -->
 <section id="newsletter-section" aria-label="Newsletter signup">
   <div id="newsletter-inner">
@@ -527,14 +521,6 @@ body{font-family:'Source Sans 3','Helvetica Neue',Arial,sans-serif;background:va
     <div id="newsletter-note">Free forever &nbsp;&#183;&nbsp; No spam &nbsp;&#183;&nbsp; Powered by <a href="https://screentimeinschools.substack.com" target="_blank" rel="noopener">Substack</a> &nbsp;&#183;&nbsp; Unsubscribe anytime</div>
   </div>
 </section>
-<!-- Footer -->
-<!-- ALL NEWS PAGE -->
-  <div id="news-feed-count" style="font-size:12px;color:var(--ink-4);margin-bottom:12px"></div>
-  <div id="news-feed-body">
-    <div id="news-feed-feature"></div>
-    <div id="news-feed-list"></div>
-  </div>
-</div>
 
 <footer id="site-footer">
   <div id="footer-inner">
@@ -1724,9 +1710,10 @@ function getFilteredItems(){
   });
 }
 function renderNewsFeed(){
-  const items=getFilteredItems();
   const feat=document.getElementById("news-feed-feature");
   const list=document.getElementById("news-feed-list");
+  if(!feat||!list)return;
+  const items=getFilteredItems();
   const count=document.getElementById("news-feed-count");
   const stamp=document.getElementById("nf-stamp");
   if(stamp)stamp.textContent="Updated "+todayStr()+" · "+nfAllItems.length+" total items";
@@ -1877,7 +1864,6 @@ function renderTop10(items){
 // ── BOOT ──────────────────────────────────────────────────────────
 initMap();
 buildTicker([]);
-buildNewsFeedItems([]);
 
 // news-cache.js is built daily by GitHub Actions (scripts/build-news-cache.js)
 // It sets window.NEWS_CACHE_DATA — no API key needed, uses Google News RSS
