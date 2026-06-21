@@ -1729,7 +1729,7 @@ function renderNewsFeed(){
   const list=document.getElementById("news-feed-list");
   const count=document.getElementById("news-feed-count");
   const stamp=document.getElementById("nf-stamp");
-  stamp.textContent="Updated "+todayStr()+" · "+nfAllItems.length+" total items";
+  if(stamp)stamp.textContent="Updated "+todayStr()+" · "+nfAllItems.length+" total items";
   count.textContent=items.length+" item"+(items.length!==1?"s":"")+(nfSearch||nfFilter!=="all"?" matching filter":"");
   if(!items.length){feat.innerHTML='<div class="nf-empty">No items match your filter.</div>';list.innerHTML="";return;}
   const top=items[0];
@@ -1772,12 +1772,12 @@ function renderNewsFeed(){
     </div>`;
   }).join("")||'<div class="nf-empty">Only one item matches.</div>';
 }
-document.getElementById("news-feed-filter-row").addEventListener("click",e=>{
+document.getElementById("news-feed-filter-row")?.addEventListener("click",e=>{
   const b=e.target.closest(".nf-pill");if(!b)return;
   document.querySelectorAll(".nf-pill").forEach(x=>x.classList.remove("active"));
   b.classList.add("active");nfFilter=b.dataset.nf;renderNewsFeed();
 });
-document.getElementById("news-feed-search").addEventListener("input",e=>{nfSearch=e.target.value.trim();renderNewsFeed();});
+document.getElementById("news-feed-search")?.addEventListener("input",e=>{nfSearch=e.target.value.trim();renderNewsFeed();});
 function updateNewsFeed(results){buildNewsFeedItems(results);}
 
 // ── NEWSLETTER ────────────────────────────────────────────────────
