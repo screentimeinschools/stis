@@ -12,10 +12,10 @@
     body{font-family:Georgia,serif;background:var(--cream);color:var(--ink);line-height:1.6}
     a{color:var(--accent);text-decoration:none}
     a:hover{text-decoration:underline}
-    #site-nav{background:var(--ink);display:flex;align-items:center;border-bottom:2px solid var(--gold)}
-    .nav-link{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.65);padding:11px 18px;text-decoration:none;border-right:1px solid rgba(255,255,255,.1);font-family:Georgia,serif;transition:color .12s}
-    .nav-link:hover,.nav-link.active{color:#fff;text-decoration:none}
-    .nav-link.active{box-shadow:inset 0 -2px 0 var(--gold)}
+    #site-nav{background:var(--ink);display:flex;align-items:stretch;border-bottom:3px solid var(--gold);white-space:nowrap;overflow-x:auto}
+    .nav-link{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.6);padding:14px 22px;text-decoration:none;transition:color .12s,background .12s;border-right:1px solid rgba(255,255,255,.08);font-family:Georgia,serif;display:flex;align-items:center;gap:6px;flex-shrink:0}
+    .nav-link:hover{color:#fff;background:rgba(255,255,255,.05);text-decoration:none}
+    .nav-link.active{color:#fff;box-shadow:inset 0 -3px 0 var(--gold)}
     .page-wrap{max-width:860px;margin:0 auto;padding:40px 24px 80px}
     .page-eyebrow{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-4);margin-bottom:10px}
     h1{font-family:'Libre Baskerville',Georgia,serif;font-size:30px;font-weight:700;margin-bottom:6px;line-height:1.2}
@@ -83,12 +83,8 @@
     <span class="region-tag" style="background:#5e3b87">West</span>
   </div>
 
-  <h2>News Collection</h2>
-  <p>News articles are collected automatically each day via a GitHub Actions workflow that searches Google News RSS feeds across all 50 states using targeted queries — phrases like "[State] school cell phone ban," "[State] school screen time," and "[State] classroom phone policy." Articles are scored for relevance using a keyword weighting system and filtered to remove items with low scores.</p>
-  <p>The pipeline requires no API key and runs entirely on open data. Source code is publicly available in the <a href="https://github.com/screentimeinschools/stis" target="_blank" rel="noopener">GitHub repository</a>.</p>
-
-  <h2>Update Frequency</h2>
-  <p>News articles update daily via automated GitHub Actions. State policy data is reviewed and updated manually when new laws are enacted, when significant district actions are reported, or when readers submit corrections. The "Updated daily" indicator in the site header refers to the news feed only.</p>
+  <h2>News</h2>
+  <p>Articles are collected and updated daily from sources across all 50 states. State policy data is reviewed and updated manually as new laws are enacted or significant district actions are reported.</p>
 
   <h2>Corrections</h2>
   <p>If you spot an error — a misclassified law, a missing district action, an outdated status, or an article that shouldn't be tagged the way it is — please reach out via <a href="https://screentimeinschools.substack.com" target="_blank" rel="noopener">Substack</a>. We take accuracy seriously and will correct errors promptly.</p>
