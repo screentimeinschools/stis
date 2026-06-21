@@ -190,6 +190,8 @@ body{font-family:'Source Sans 3','Helvetica Neue',Arial,sans-serif;background:va
 .ni{padding:9px 0;border-bottom:1px solid var(--rule-light);animation:fi .3s ease}
 .ni:last-child{border-bottom:none}
 .nh{font-size:13px;color:var(--ink);line-height:1.4;margin-bottom:3px;font-weight:600;font-family:'Libre Baskerville',Georgia,serif}
+a.nh{display:block;text-decoration:none;color:var(--ink)}
+a.nh:hover{color:var(--accent);text-decoration:underline}
 .ns{color:var(--ink-3);font-size:12px;margin-bottom:3px;line-height:1.45}
 .nd{font-size:11px;color:var(--ink-4);font-style:italic}
 @keyframes fi{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
@@ -976,7 +978,7 @@ function renderNews(el,arts,name){
   const rb=`<button class="refresh-btn" onclick="loadNews('${name}',true)">↻ Refresh</button>`;
   const stamp=`<div class="news-stamp">Fetched ${todayStr()}</div>`;
   if(!arts.length){el.innerHTML=`<div class="news-hdr">Latest news ${rb}</div>${stamp}<p style="color:var(--ink-4);font-size:12px;font-style:italic">No news found. Try refreshing.</p>`;return}
-  el.innerHTML=`<div class="news-hdr">Latest news ${rb}</div>${stamp}`+arts.map(a=>`<div class="ni"><div class="nh">${a.headline}</div>
+  el.innerHTML=`<div class="news-hdr">Latest news ${rb}</div>${stamp}`+arts.map(a=>`<div class="ni">${a.url?`<a class="nh" href="${a.url}" target="_blank" rel="noopener">${a.headline}</a>`:`<div class="nh">${a.headline}</div>`}
       <div style="margin:3px 0"><span style="font-size:10px;font-weight:700;padding:1px 5px;text-transform:uppercase;letter-spacing:.05em;background:${CAT_LABELS[categorize(a)].bg};color:${CAT_LABELS[categorize(a)].color}">${CAT_LABELS[categorize(a)].label}</span></div>
       <div class="ns">${a.summary}</div><div class="nd">${a.date||""}</div></div>`).join("");
 }
@@ -989,7 +991,8 @@ async function fetchNews(name){
         headline: a.headline||'',
         summary: a.summary||'',
         date: parseRssDate(a.date),
-        source: a.source||''
+        source: a.source||'',
+        url: a.url||''
       }));
     NC[name] = stateArticles;
     return stateArticles;
