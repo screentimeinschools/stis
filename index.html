@@ -1892,7 +1892,7 @@ function loadNewsCache(){
       url: a.url||'',
       builtin: true,
       national: !a.state
-    }));
+    })).filter(a=>categorize(a)!=='other');
     buildTicker(items);
     buildNewsFeedItems(items);
     setScrapeDate(new Date().toISOString().split('T')[0]);
