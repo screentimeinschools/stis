@@ -1,0 +1,32 @@
+name: Update News Cache
+
+on:
+  schedule:
+    - cron: '0 10 * * *'   # Daily at 10:00 UTC (6 AM Eastern)
+  workflow_dispatch:        # Allow manual run from GitHub Actions tab
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch news
+        run: node scripts/build-news-cache.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add news-cache.json news-cache.js
+          git diff --staged --quiet && echo "No changes" || git commit -m "chore: update news cache [skip ci]"
+          git push
