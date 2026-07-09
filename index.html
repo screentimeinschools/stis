@@ -8,7 +8,7 @@
 <!-- News cache loaded from JSON — built daily by GitHub Actions, no API key needed -->
 <script>
 window.NEWS_CACHE_DATA=null;
-fetch("/news-cache.json").then(r=>r.ok?r.json():null).then(d=>{if(d&&d.items){window.NEWS_CACHE_DATA=d;if(typeof loadNewsCache==="function")loadNewsCache();}}).catch(()=>{});
+fetch("/news-cache.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(d=>{if(d&&d.items){window.NEWS_CACHE_DATA=d;if(typeof loadNewsCache==="function")loadNewsCache();}}).catch(()=>{});
 </script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVGFWQ9RM4"></script>
