@@ -5,31 +5,30 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>All News — Screen Time in Schools</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    :root{--ink:#1a1a1a;--ink-2:#2d2d2d;--ink-3:#555;--ink-4:#888;--cream:#f9f6ef;--gold:#c8a84b;--accent:#1a6b9a;--red:#c9282d;--rule:#ddd}
+    :root{--ink:#1a1a1a;--ink-2:#2d2d2d;--ink-3:#555;--ink-4:#666;--cream:#faf8f3;--gold:#e8c84a;--accent:#c9282d;--red:#c9282d;--rule:#ddd;--navy:#1a4a70}
     *{box-sizing:border-box;margin:0;padding:0}
-    body{font-family:Georgia,serif;background:var(--cream);color:var(--ink);line-height:1.6}
+    body{font-family:'Inter','Helvetica Neue',Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.6}
     a{color:var(--accent);text-decoration:none}
     a:hover{text-decoration:underline}
-    #site-nav{background:var(--ink);display:flex;align-items:stretch;border-bottom:3px solid var(--gold);white-space:nowrap;overflow-x:auto}
-    .nav-link{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.6);padding:14px 22px;text-decoration:none;transition:color .12s,background .12s;border-right:1px solid rgba(255,255,255,.08);font-family:Georgia,serif;display:flex;align-items:center;gap:6px;flex-shrink:0}
-    .nav-link:hover{color:#fff;background:rgba(255,255,255,.05);text-decoration:none}
-    .nav-link.active{color:#fff;box-shadow:inset 0 -3px 0 var(--gold)}
-    .page-wrap{max-width:860px;margin:0 auto;padding:40px 24px 80px}
-    .page-eyebrow{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-4);margin-bottom:10px}
-    h1{font-family:'Libre Baskerville',Georgia,serif;font-size:30px;font-weight:700;margin-bottom:6px;line-height:1.2}
-    .page-sub{font-size:14px;color:var(--ink-3);margin-bottom:32px;padding-bottom:20px;border-bottom:2px solid var(--ink)}
-    h2{font-family:'Libre Baskerville',Georgia,serif;font-size:19px;font-weight:700;margin:32px 0 10px}
-    h3{font-family:'Libre Baskerville',Georgia,serif;font-size:15px;font-weight:700;margin:20px 0 7px}
-    p{font-size:14px;line-height:1.8;color:var(--ink-2);margin-bottom:14px}
-    ul{padding-left:22px;margin-bottom:14px}
-    li{font-size:14px;line-height:1.8;color:var(--ink-2);margin-bottom:5px}
-    .callout{background:#f0ece0;border-left:3px solid var(--gold);padding:16px 20px;margin:24px 0;font-size:14px;color:var(--ink-2);line-height:1.7}
-    .region-legend{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 24px}
-    .region-tag{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:3px 10px;color:#fff}
-    footer{background:var(--ink);color:rgba(255,255,255,.5);font-size:12px;padding:22px 24px;text-align:center;margin-top:60px}
+    *:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+    #top-banner{background:var(--ink);color:var(--gold);display:flex;align-items:center;justify-content:space-between;padding:7px 22px;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-family:'Inter',sans-serif}
+    #top-banner-right{color:rgba(232,200,74,.65)}
+    #site-nav{background:var(--cream);display:flex;align-items:center;justify-content:space-between;border-bottom:3px solid var(--ink);padding:0 22px;white-space:nowrap;overflow-x:auto}
+    #nav-brand{font-family:'Playfair Display',Georgia,serif;font-size:18px;font-weight:900;color:var(--ink);text-decoration:none;padding:12px 0;flex-shrink:0;line-height:1.2}
+    #nav-brand em{font-style:italic}
+    .nav-links{display:flex;align-items:stretch;gap:0;margin-left:auto}
+    .nav-link{font-size:13px;font-weight:500;color:var(--ink-3);padding:14px 16px;text-decoration:none;transition:color .12s;border-bottom:3px solid transparent;margin-bottom:-3px;font-family:'Inter',sans-serif;display:flex;align-items:center;flex-shrink:0}
+    .nav-link:hover{color:var(--ink);text-decoration:none}
+    .nav-link.active{color:var(--ink);border-bottom-color:var(--red)}
+    .page-wrap{max-width:1000px;margin:0 auto;padding:32px 24px 80px}
+    .page-eyebrow{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-4);margin-bottom:10px;font-family:'Inter',sans-serif}
+    h1{font-family:'Playfair Display',Georgia,serif;font-size:30px;font-weight:900;margin-bottom:6px;line-height:1.2}
+    .page-sub{font-size:14px;color:var(--ink-3);margin-bottom:24px;padding-bottom:18px;border-bottom:2px solid var(--ink);font-family:'Inter',sans-serif}
+    footer{background:var(--ink);color:rgba(255,255,255,.5);font-size:12px;padding:22px 24px;text-align:center;margin-top:60px;font-family:'Inter',sans-serif}
     footer a{color:rgba(255,255,255,.75)}
+    @media(max-width:600px){#top-banner{padding:6px 16px}#site-nav{padding:0 16px}#nav-brand{font-size:16px}.nav-link{padding:12px 10px;font-size:12px}.page-wrap{padding:20px 16px 60px}}
   </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVGFWQ9RM4"></script>
@@ -41,12 +40,21 @@
 </script>
 </head>
 <body>
-<nav id="site-nav">
-  <a class="nav-link" href="/index.html">🗺️ Map</a>
-  <a class="nav-link active" href="/news.html">📰 All News</a>
-  <a class="nav-link" href="/about.html">About</a>
-  <a class="nav-link" href="/methodology.html">Methodology</a>
+<a href="#main-content" class="skip-link" style="position:absolute;top:-100px;left:16px;z-index:9999;background:var(--ink);color:#fff;padding:10px 16px;font-size:14px;font-weight:600;text-decoration:none;transition:top .15s" onfocus="this.style.top='8px'" onblur="this.style.top='-100px'">Skip to main content</a>
+<div id="top-banner" aria-hidden="true">
+  <span>Screen Time in Schools</span>
+  <span id="top-banner-right">All 50 states &middot; Updated daily</span>
+</div>
+<nav id="site-nav" aria-label="Site navigation">
+  <a id="nav-brand" href="/index.html">Screen Time <em>in Schools</em></a>
+  <div class="nav-links">
+    <a class="nav-link" href="/index.html">Map</a>
+    <a class="nav-link active" href="/news.html" aria-current="page">All News</a>
+    <a class="nav-link" href="/about.html">About</a>
+    <a class="nav-link" href="/methodology.html">Methodology</a>
+  </div>
 </nav>
+<main id="main-content">
 <div class="page-wrap">
   <div class="page-eyebrow">News &amp; Updates</div>
   <h1>All News</h1>
@@ -54,13 +62,13 @@
 
   <div id="news-feed-filter-row" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid var(--rule)">
     <span style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-4)">Filter</span>
-    <button class="nf-pill active" data-nf="all">All</button>
-    <button class="nf-pill" data-nf="justnow">&#9679; Just In</button>
-    <button class="nf-pill" data-nf="cat-phone">📱 Phone Ban</button>
-    <button class="nf-pill" data-nf="cat-screen">💻 Screen Time</button>
-    <button class="nf-pill" data-nf="cat-other">📰 Other</button>
-    <button class="nf-pill" data-nf="community">&#128101; Community</button>
-    <button class="nf-pill" data-nf="national">&#127758; National</button>
+    <button class="nf-pill active" data-nf="all" aria-pressed="true">All</button>
+    <button class="nf-pill" data-nf="justnow" aria-pressed="false">&#9679; Just In</button>
+    <button class="nf-pill" data-nf="cat-phone" aria-pressed="false">&#128241; Phone Ban</button>
+    <button class="nf-pill" data-nf="cat-screen" aria-pressed="false">&#128187; Screen Time</button>
+    <button class="nf-pill" data-nf="cat-other" aria-pressed="false">&#128240; Other</button>
+    <button class="nf-pill" data-nf="community" aria-pressed="false">&#128101; Community</button>
+    <button class="nf-pill" data-nf="national" aria-pressed="false">&#127758; National</button>
     <input id="news-feed-search" type="search" placeholder="Search by state or keyword…" style="margin-left:auto;padding:5px 10px;border:1px solid var(--rule);background:#fff;font-size:13px;font-family:inherit;border-radius:2px" aria-label="Search news">
   </div>
   <div id="news-feed-count" style="font-size:12px;color:var(--ink-4);margin-bottom:14px"></div>
@@ -70,10 +78,10 @@
   </div>
 </div>
 <style>
-.nf-pill{font-size:11px;font-weight:700;padding:4px 10px;border:1px solid var(--rule);background:#fff;cursor:pointer;font-family:inherit;letter-spacing:.04em;transition:all .12s}
-.nf-pill.active{background:var(--ink);color:#fff;border-color:var(--ink)}
-.nf-pill:hover{border-color:var(--ink)}
-.nf-state-tag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:1px 6px;margin-right:4px;color:#fff}
+.nf-pill{font-size:12px;font-weight:600;padding:5px 12px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;font-family:'Inter',sans-serif;letter-spacing:.02em;transition:all .12s;line-height:1}
+.nf-pill.active,.nf-pill[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.nf-pill:hover{background:var(--ink);color:#fff}
+.nf-state-tag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:1px 6px;margin-right:4px;color:#fff;font-family:'Inter',sans-serif}
 .nf-state-tag[data-region="northeast"]{background:#1a4a70}
 .nf-state-tag[data-region="southeast"]{background:#7b2d2d}
 .nf-state-tag[data-region="midwest"]{background:#2e7d4f}
@@ -81,26 +89,27 @@
 .nf-state-tag[data-region="west"]{background:#5e3b87}
 #news-feed-feature{margin-bottom:24px;padding-bottom:24px;border-bottom:2px solid var(--ink)}
 .nf-feature-eyebrow{display:flex;align-items:center;gap:6px;margin-bottom:8px;flex-wrap:wrap}
-.nf-feature-headline{font-family:'Libre Baskerville',Georgia,serif;font-size:20px;font-weight:700;line-height:1.35;margin-bottom:8px;cursor:pointer;color:var(--ink)}
-.nf-feature-headline:hover{color:var(--accent)}
-.nf-feature-summary{font-size:14px;color:var(--ink-3);line-height:1.6;margin-bottom:8px}
-.nf-feature-meta{font-size:12px;color:var(--ink-4);display:flex;gap:12px;align-items:center}
-.nf-feature-source{color:var(--accent);font-weight:600}
-.nf-view-state{margin-top:10px;display:inline-block;font-size:12px;font-weight:700;padding:5px 12px;background:var(--ink);color:#fff;border:none;cursor:pointer;font-family:inherit}
+.nf-feature-headline{font-family:'Inter','Helvetica Neue',Arial,sans-serif;font-size:20px;font-weight:700;line-height:1.35;margin-bottom:8px;cursor:pointer;color:var(--ink)}
+.nf-feature-headline:hover{color:var(--red)}
+.nf-feature-summary{font-size:14px;color:var(--ink-3);line-height:1.6;margin-bottom:8px;font-family:'Inter',sans-serif}
+.nf-feature-meta{font-size:12px;color:var(--ink-4);display:flex;gap:12px;align-items:center;font-family:'Inter',sans-serif}
+.nf-feature-source{color:var(--red);font-weight:600}
+.nf-view-state{margin-top:10px;display:inline-block;font-size:12px;font-weight:700;padding:5px 12px;background:var(--ink);color:#fff;border:none;cursor:pointer;font-family:'Inter',sans-serif}
 #news-feed-list{display:grid;grid-template-columns:1fr 1fr;gap:0}
 .nf-item{padding:14px 0;border-bottom:1px solid var(--rule);cursor:pointer}
+.nf-item:focus{outline:3px solid var(--red);outline-offset:2px}
 .nf-item:nth-child(odd){padding-right:20px;border-right:1px solid var(--rule)}
 .nf-item:nth-child(even){padding-left:20px}
-.nf-item:hover .nf-item-headline{color:var(--accent)}
+.nf-item:hover .nf-item-headline,.nf-item:focus .nf-item-headline{color:var(--red)}
 .nf-item-top{display:flex;align-items:center;gap:6px;margin-bottom:5px;flex-wrap:wrap}
-.nf-item-tag{font-size:10px;font-weight:700;padding:1px 5px;text-transform:uppercase;letter-spacing:.05em;color:#fff;flex-shrink:0}
+.nf-item-tag{font-size:10px;font-weight:700;padding:1px 5px;text-transform:uppercase;letter-spacing:.05em;color:#fff;flex-shrink:0;font-family:'Inter',sans-serif}
 .nf-item-tag.just-in{background:var(--red)}
 .nf-item-tag.community{background:#1a5276}
-.nf-item-headline{font-family:'Libre Baskerville',Georgia,serif;font-size:13px;font-weight:700;line-height:1.4;margin-bottom:4px;color:var(--ink)}
-.nf-item-summary{font-size:12px;color:var(--ink-3);line-height:1.5;margin-bottom:5px}
-.nf-item-meta{font-size:11px;color:var(--ink-4);display:flex;gap:8px;flex-wrap:wrap}
-.nf-item-src{color:var(--accent);font-weight:600}
-.nf-empty{padding:20px 0;color:var(--ink-4);font-style:italic}
+.nf-item-headline{font-family:'Inter','Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:700;line-height:1.4;margin-bottom:4px;color:var(--ink)}
+.nf-item-summary{font-size:12px;color:var(--ink-3);line-height:1.5;margin-bottom:5px;font-family:'Inter',sans-serif}
+.nf-item-meta{font-size:11px;color:var(--ink-4);display:flex;gap:8px;flex-wrap:wrap;font-family:'Inter',sans-serif}
+.nf-item-src{color:var(--red);font-weight:600}
+.nf-empty{padding:20px 0;color:var(--ink-4);font-style:italic;font-family:'Inter',sans-serif}
 @media(max-width:640px){#news-feed-list{grid-template-columns:1fr}.nf-item:nth-child(odd){padding-right:0;border-right:none}.nf-item:nth-child(even){padding-left:0}}
 </style>
 <script src="/news-cache.js" onerror="window.NEWS_CACHE_DATA=null"></script>
@@ -156,7 +165,8 @@ function renderFeed(){
     const c=categorize(r);const cc2=CAT_LABELS[c];
     const isNew=isWithin24h(r.date);
     const onClick=r.url?`window.open('${esc(r.url)}','_blank','noopener')`:'';
-    return`<div class="nf-item" onclick="${onClick}">
+    const onKey=onClick?`if(event.key==='Enter'||event.key===' '){event.preventDefault();${onClick}}`:'';
+    return`<div class="nf-item" onclick="${onClick}" tabindex="0" role="article" onkeydown="${onKey}">
       <div class="nf-item-top">
         ${r.state?`<span class="nf-state-tag" data-region="${stateRegion(r.state)}">${r.state}</span>`:''}
         <span class="nf-item-tag" style="background:${cc2.bg};color:${cc2.color}">${cc2.label}</span>
@@ -182,12 +192,13 @@ function loadAndRender(){
 }
 document.getElementById('news-feed-filter-row').addEventListener('click',e=>{
   const b=e.target.closest('.nf-pill');if(!b)return;
-  document.querySelectorAll('.nf-pill').forEach(x=>x.classList.remove('active'));
-  b.classList.add('active');nfFilter=b.dataset.nf;renderFeed();
+  document.querySelectorAll('.nf-pill').forEach(x=>{x.classList.remove('active');x.setAttribute('aria-pressed','false');});
+  b.classList.add('active');b.setAttribute('aria-pressed','true');nfFilter=b.dataset.nf;renderFeed();
 });
 document.getElementById('news-feed-search').addEventListener('input',e=>{nfSearch=e.target.value.trim();renderFeed();});
 loadAndRender();
 </script>
+</main>
 <footer>
   <p>© 2026 <a href="/">screentimeinschools.org</a> &nbsp;·&nbsp; <a href="/about.html">About</a> &nbsp;·&nbsp; <a href="/methodology.html">Methodology</a> &nbsp;·&nbsp; <a href="https://screentimeinschools.substack.com" target="_blank" rel="noopener">Newsletter</a></p>
   <p style="margin-top:6px;color:rgba(255,255,255,.35)">Built with care by an educator 💙</p>

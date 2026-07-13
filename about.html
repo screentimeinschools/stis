@@ -5,31 +5,38 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>About — Screen Time in Schools</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    :root{--ink:#1a1a1a;--ink-2:#2d2d2d;--ink-3:#555;--ink-4:#888;--cream:#f9f6ef;--gold:#c8a84b;--accent:#1a6b9a;--red:#c9282d;--rule:#ddd}
+    :root{--ink:#1a1a1a;--ink-2:#2d2d2d;--ink-3:#555;--ink-4:#666;--cream:#faf8f3;--gold:#e8c84a;--accent:#c9282d;--red:#c9282d;--rule:#ddd;--navy:#1a4a70}
     *{box-sizing:border-box;margin:0;padding:0}
-    body{font-family:Georgia,serif;background:var(--cream);color:var(--ink);line-height:1.6}
+    body{font-family:'Inter','Helvetica Neue',Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.6}
     a{color:var(--accent);text-decoration:none}
     a:hover{text-decoration:underline}
-    #site-nav{background:var(--ink);display:flex;align-items:stretch;border-bottom:3px solid var(--gold);white-space:nowrap;overflow-x:auto}
-    .nav-link{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.6);padding:14px 22px;text-decoration:none;transition:color .12s,background .12s;border-right:1px solid rgba(255,255,255,.08);font-family:Georgia,serif;display:flex;align-items:center;gap:6px;flex-shrink:0}
-    .nav-link:hover{color:#fff;background:rgba(255,255,255,.05);text-decoration:none}
-    .nav-link.active{color:#fff;box-shadow:inset 0 -3px 0 var(--gold)}
+    *:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+    #top-banner{background:var(--ink);color:var(--gold);display:flex;align-items:center;justify-content:space-between;padding:7px 22px;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-family:'Inter',sans-serif}
+    #top-banner-right{color:rgba(232,200,74,.65)}
+    #site-nav{background:var(--cream);display:flex;align-items:center;justify-content:space-between;border-bottom:3px solid var(--ink);padding:0 22px;white-space:nowrap;overflow-x:auto}
+    #nav-brand{font-family:'Playfair Display',Georgia,serif;font-size:18px;font-weight:900;color:var(--ink);text-decoration:none;padding:12px 0;flex-shrink:0;line-height:1.2}
+    #nav-brand em{font-style:italic}
+    .nav-links{display:flex;align-items:stretch;gap:0;margin-left:auto}
+    .nav-link{font-size:13px;font-weight:500;color:var(--ink-3);padding:14px 16px;text-decoration:none;transition:color .12s;border-bottom:3px solid transparent;margin-bottom:-3px;font-family:'Inter',sans-serif;display:flex;align-items:center;flex-shrink:0}
+    .nav-link:hover{color:var(--ink);text-decoration:none}
+    .nav-link.active{color:var(--ink);border-bottom-color:var(--red)}
     .page-wrap{max-width:860px;margin:0 auto;padding:40px 24px 80px}
-    .page-eyebrow{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-4);margin-bottom:10px}
-    h1{font-family:'Libre Baskerville',Georgia,serif;font-size:30px;font-weight:700;margin-bottom:6px;line-height:1.2}
-    .page-sub{font-size:14px;color:var(--ink-3);margin-bottom:32px;padding-bottom:20px;border-bottom:2px solid var(--ink)}
-    h2{font-family:'Libre Baskerville',Georgia,serif;font-size:19px;font-weight:700;margin:32px 0 10px}
-    h3{font-family:'Libre Baskerville',Georgia,serif;font-size:15px;font-weight:700;margin:20px 0 7px}
-    p{font-size:14px;line-height:1.8;color:var(--ink-2);margin-bottom:14px}
+    .page-eyebrow{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-4);margin-bottom:10px;font-family:'Inter',sans-serif}
+    h1{font-family:'Playfair Display',Georgia,serif;font-size:30px;font-weight:900;margin-bottom:6px;line-height:1.2}
+    .page-sub{font-size:14px;color:var(--ink-3);margin-bottom:32px;padding-bottom:20px;border-bottom:2px solid var(--ink);font-family:'Inter',sans-serif}
+    h2{font-family:'Playfair Display',Georgia,serif;font-size:19px;font-weight:900;margin:32px 0 10px}
+    h3{font-family:'Playfair Display',Georgia,serif;font-size:15px;font-weight:900;margin:20px 0 7px}
+    p{font-size:14px;line-height:1.8;color:var(--ink-2);margin-bottom:14px;font-family:'Inter',sans-serif}
     ul{padding-left:22px;margin-bottom:14px}
-    li{font-size:14px;line-height:1.8;color:var(--ink-2);margin-bottom:5px}
-    .callout{background:#f0ece0;border-left:3px solid var(--gold);padding:16px 20px;margin:24px 0;font-size:14px;color:var(--ink-2);line-height:1.7}
+    li{font-size:14px;line-height:1.8;color:var(--ink-2);margin-bottom:5px;font-family:'Inter',sans-serif}
+    .callout{background:#fff;border:1.5px solid var(--ink);border-left:5px solid var(--gold);padding:16px 20px;margin:24px 0;font-size:14px;color:var(--ink-2);line-height:1.7;font-family:'Inter',sans-serif}
     .region-legend{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 24px}
     .region-tag{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:3px 10px;color:#fff}
-    footer{background:var(--ink);color:rgba(255,255,255,.5);font-size:12px;padding:22px 24px;text-align:center;margin-top:60px}
+    footer{background:var(--ink);color:rgba(255,255,255,.5);font-size:12px;padding:22px 24px;text-align:center;margin-top:60px;font-family:'Inter',sans-serif}
     footer a{color:rgba(255,255,255,.75)}
+    @media(max-width:600px){#top-banner{padding:6px 16px}#site-nav{padding:0 16px}#nav-brand{font-size:16px}.nav-link{padding:12px 10px;font-size:12px}}
   </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVGFWQ9RM4"></script>
@@ -41,12 +48,21 @@
 </script>
 </head>
 <body>
-<nav id="site-nav">
-  <a class="nav-link" href="/index.html">🗺️ Map</a>
-  <a class="nav-link" href="/news.html">📰 All News</a>
-  <a class="nav-link active" href="/about.html">About</a>
-  <a class="nav-link" href="/methodology.html">Methodology</a>
+<a href="#main-content" class="skip-link" style="position:absolute;top:-100px;left:16px;z-index:9999;background:var(--ink);color:#fff;padding:10px 16px;font-size:14px;font-weight:600;text-decoration:none;transition:top .15s" onfocus="this.style.top='8px'" onblur="this.style.top='-100px'">Skip to main content</a>
+<div id="top-banner" aria-hidden="true">
+  <span>Screen Time in Schools</span>
+  <span id="top-banner-right">All 50 states &middot; Updated daily</span>
+</div>
+<nav id="site-nav" aria-label="Site navigation">
+  <a id="nav-brand" href="/index.html">Screen Time <em>in Schools</em></a>
+  <div class="nav-links">
+    <a class="nav-link" href="/index.html">Map</a>
+    <a class="nav-link" href="/news.html">All News</a>
+    <a class="nav-link active" href="/about.html" aria-current="page">About</a>
+    <a class="nav-link" href="/methodology.html">Methodology</a>
+  </div>
 </nav>
+<main id="main-content">
 <div class="page-wrap">
   <div class="page-eyebrow">About This Project</div>
   <h1>Screen Time in Schools</h1>
@@ -74,9 +90,10 @@
 
   <div class="callout">
     <strong>Women-Owned &amp; Operated</strong><br>
-    Built, managed &amp; maintained by a woman educator . Made with care for parents, teachers &amp; kids everywhere 💙
+    Built, managed &amp; maintained by a woman educator. Made with care for parents, teachers &amp; kids everywhere 💙
   </div>
 </div>
+</main>
 <footer>
   <p>© 2026 <a href="/">screentimeinschools.org</a> &nbsp;·&nbsp; <a href="/about.html">About</a> &nbsp;·&nbsp; <a href="/methodology.html">Methodology</a> &nbsp;·&nbsp; <a href="https://screentimeinschools.substack.com" target="_blank" rel="noopener">Newsletter</a></p>
   <p style="margin-top:6px;color:rgba(255,255,255,.35)">Built with care by an educator 💙</p>
