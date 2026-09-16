@@ -1,24 +1,64 @@
 window.NEWS_CACHE_DATA = {
-  "generatedAt": "2026-09-15T14:30:36.295Z",
+  "generatedAt": "2026-09-16T14:24:31.121Z",
   "count": 400,
   "items": [
     {
-      "state": "Mississippi",
+      "state": "New York",
       "district": null,
-      "headline": "12-year-old Columbia County student arrested after Mississippi student reports threats to ‘shoot up his school’:...",
-      "date": "Mon, 14 Sep 2026 20:19:00 GMT",
-      "source": "News4JAX",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNeHY2eUlWRVdFSVhIVzJJd2g5QWxFNmdGaDhFNnpkZ1VrTWtXQ3N4b09Bdnp2UUNmYUZyNk9BZkx6TWxOU29Jdm1HcEhVcnRNakVYYmw1ek5WYVc2SFNza3NKa2NGWU1KRlhEekIxUC1EY2pFclo4RFVGU250ZnZtNGgtRm5yRThRR1F6ZXVTMndhX2ZoalRKZ2xRbm5XUmJCSVE2enRKeGJlVkw3cjZuOW1OV1YzZWtnWkVlYThQQ0hMY0RyeFVRUlRyX2hZZHh6WXNUYUpsSlNiR3VNZlRJWmFySE1hNUtaeDNycnJhX0tDQ2tN?oc=5",
+      "headline": "NYC student screen-time restrictions don’t go far enough: Council members",
+      "date": "Tue, 15 Sep 2026 22:52:58 GMT",
+      "source": "New York Daily News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSzVMM0EtVzN4TExGbDRYeDdMZEp0eFFXXzR4VjVEWnhNN2JDQ2dKT243d2FQaExmLXpPQ2dQTk1rWlRUVnZnejhZbHVmTm1NTnMzYm9qV1c0OV9PcHZyS0w5NG05Qm9qSkdkWHVfc21WZHhkR0hEX29iZ19nbk1uWjRESGJSYlFEVlJsbkRsV2dvc0JRQ1FvVnNybmlDYVlCSWZCc3dCV0prLWlvNFppVQ?oc=5",
       "type": "scrape",
       "free": true
     },
     {
-      "state": "Connecticut",
+      "state": "Michigan",
       "district": null,
-      "headline": "Connecticut School Adds AI Threat Detection",
-      "date": "Mon, 14 Sep 2026 20:14:11 GMT",
-      "source": "Campus Security Today",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaXBqYkxwVWZuRHBUemVzRFEwVFZNWm5BVHZDVXRub3ZZRlNYX284RjZsU1ZFcTh0alBHZnJoWjBLdFRfQVUwMVdobGlBSmtDMjBQNTFhcVBfY2tqUnRlZG42ZE95d1Z3N1Q0U1ZuRXdENDQwVXBhbGtrdU5qSms0QWNwUThySFdRRVhlUnpxY2NORHN6Z0VIYWRUTFpCQVFQaHc?oc=5",
+      "headline": "Michigan students head back to school as concerns over screen time grow",
+      "date": "Tue, 15 Sep 2026 20:31:50 GMT",
+      "source": "gandernewsroom.com",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52TFhRd0NjUHVSRjJpQ096LU1iZEhaODNvRGw4XzlYR1ctbmJiM0FNeEM1bGdITEdLLVZvbEZlV3Y0VXc1cjA4SXZhN2VHRWJSX09vdjY3eHE5R1g5YjdMNWU0TQ?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Arizona",
+      "district": null,
+      "headline": "Policy vacuum leaves Arizona schools, districts to make their own tech and AI rules, expert says",
+      "date": "Tue, 15 Sep 2026 19:57:00 GMT",
+      "source": "KJZZ",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcGRqRVNWNkRpZWJCMExLc3F3ZDdaX05UeERnTXFYaS0xVmZRLUI2TWxOMlhicmJXbXlEZzNEMGQzbEdnSWxMdG5kVVhta0VKQjVpVDA0VWRNb2w3d3ZYRzE3Z3BtV2hERndwWlNVYXBxQ3BCdFRYU0FDd0F3S2wzTmFKN2Y1UjlkSkhHaDhFX0RmU0E1aktwNExVN0pkVnVIZURnMGVtV2l5blp3dWFUczdUMW1QSzBnUGl1RDYzS3NiTGdwUWx1UEdfT0gtOUNn?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Washington",
+      "district": null,
+      "headline": "How local school cell-phone bans stack up as Washington's Governor plans to give details on statewide policy",
+      "date": "Tue, 15 Sep 2026 15:48:00 GMT",
+      "source": "KXLY.com",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPaUZaRjV4UzhLQS1oWDdwdXRSS2dBb29IUEhsOXc2VUZEYm9SMlFuUEhwTHlsb2tVVW5hQk5ndHJBejBYTEg1b0dhb3hrTXp3YzhzaE5kU196MXJEdWRabTMxNk4tV3B1Y1hRaUZVQlFueGlPM3ZzbGNnWnVBVEdNN0RZS1FvTW9pLXRKZ00wQ3pxMnJuUHpCTjNqQnZEaEx3dzZXaWZFZGNtUG9wZl9LVy1ZelEzRm40XzVZMTVVLXNvZzlSdXRRNWpOMVpOdU43aDM5Z0NZV0NkTDJTUWVpWU5UbHQ4X2p3NmJiUGUzRE40UDdv?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Wisconsin",
+      "district": null,
+      "headline": "Meta pays record settlement as Wisconsin bans phones in schools, advocates want more",
+      "date": "Tue, 15 Sep 2026 12:46:54 GMT",
+      "source": "Up North News",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96U3pEbWpLUEFGWWM2VTFQcnJXNzFEaUpKREt5WFNmN0N3QWg2WXJwR0tZR3Y0X2RRdmRnZmljVDNfR0JXMnpNMkRoR0hhU0tSdmtpakhRQzBSNmdNT3o1Z05FZ0piSFVLN1NfUjIyaWlLOExO?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Wyoming",
+      "district": null,
+      "headline": "With lawsuit pending, Wyoming school choice program’s durability remains in question",
+      "date": "Tue, 15 Sep 2026 10:15:00 GMT",
+      "source": "WyomingNews.com",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNa3JnM2lQeWdSZWtIN0tSTUxWWlBSamhRdWRBTEZmb3J6RHh0V3hyYkpXaW1oTXlCbktWT3Fua2xmWDA3ZVVMUHZRZnVha185X0R6ZjRaSDZTTnhlRHF1eGpnYjBaT2lmVnBnN3RHVWlNS1gwWnk2cVVJUkxsaE8tT05RVG5ldVdiXzNQZjBMcHRVdlllZWs2S0hnU1BOSXk4ZnlFd1Q4aXBfOWNrajVLSkt1LWdjOW1nRFM5cjdqaElHbElybXVodHZYSWU3eEo1UmlkcWhjNGhxOEZUY2xENXdSNjVKVmRvLWFJQzBrbTZvQnJFY1BTLVFUbmdLc3dKQUpJ?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -37,7 +77,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "High school coach arrested after students find phone recording them in locker room",
       "date": "Mon, 14 Sep 2026 04:13:00 GMT",
-      "source": "Hawaii News Now",
+      "source": "hawaiinewsnow.com",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUXRJZmZ2c0FlX1RGell5X3ZqZmhHWFh4ODZEZjlDZ1FOb05pTVZCRWZvTmd2ZWVpTVQtUXpGYXNaOG9jNXVSSEswc3VDNnBVX1ZWT3lTOUFCVVhDSXRUMUh3eVhIQWlRYzZXRnM4cjFhSmc5YXg1T3JNS2lzRUI4cDJEeHBFSFJNUXZZdXpCdkdOVHZNc0Z2NUl2WjlSTjdFeE1MQnh0T3JsYXJiZWI2Y2x4TTdydkZoYlo5eFhR0gHSAUFVX3lxTE1HaWI2akN3TlBWVlhVeFNZSmNiS2YzalF6dnhEcDNncms2aVdaMlBNeHpOeV82NGlHZVZzc3lvbFBMc05qV2t6NGlBZzk1M21SQkhNTERXcXZ4cjhGTG05a3ZwVk1aNkhzSGdqcEFSZlpfU2lTaExiM3llbGVvWFl0QnltOG5PQmtrYmdxNHptMURvWTZaNkh3VF9VM3FhbWFNY2NLNFY1eDRXT2lnM2paWWFXejJZMHBuNllNREctMVN5MXFqN0U1UUZXUWZkakJ3Zw?oc=5",
       "type": "scrape",
       "free": true
@@ -47,18 +87,28 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "High school coach arrested after phone found recording students in locker room",
       "date": "Mon, 14 Sep 2026 04:13:00 GMT",
-      "source": "Hawaii News Now",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeHF2dUt2NFY3SzNzNkFETFduV0d4cUFzQjZtLUsxbjB3ZkpXSkFGRWdxYWZ5ZzNxZTZhbm9vVGM0eWZBREg4b01pRHdKbjUtTjMxbnpzdFhHUFRNbkhObG1WTzhCTXpSQzJyelBla25JbW5yczlncFBPU2t4bHhYREFPZ2dVYWpRcnVTX1NhWmhiVE80bFNnTHRhQXJwcXVWNUxlenNtWGlkNGg4VVF3aGdQUzFOZndNdFFsX3pjQkY?oc=5",
+      "source": "hawaiinewsnow.com",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWWN4bDlLaWp3eUdFaHg1Q1MtM2hRZ2J6QmZIMHJvaVdHMHVGaFhZcVFpS2ZlV1Y3RTNZU0hWOWVTNWFxRkJPMFdYMWhMajQtdTBEbzZTRWNydW15Y01fSjduMUJ2aEhCR1BKSnliMVl4a0lwdGxnNW91Zi1Bb0VDb1pNdFdFWjJLdWNad04zUUo4WUttYVpwY1AwbGc3aUVHa0lCRktLc25vUUVaZkdXekVYeDRyT0wxT1BIY2xyOFJBRnJqbUhMUEgxaHNGaTIzLXlRZA?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Montana",
+      "district": null,
+      "headline": "Mt. Juliet High Enforces Tennessee Cellphone Ban",
+      "date": "Sun, 13 Sep 2026 15:41:24 GMT",
+      "source": "hoodline.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPampWeGw4OV9jR0htOXBuV3Yyc1BnSUd4WnNYUnlCUjJEVVBVaWtrWDFhZlJPbnRRT2NTSjdfcURjR3BhTkJ6N1ptdkhYMk1Eb25DV2dOdnpaTEFQSllzOS1DdzVoTG5wUGpkWGZlODk0eWEwSlBjOEk0TG5sRmZVRnNkc0g4MS1Cc2lzTEE3OHJkaFR2U2xyUEs2Y3VKNkk?oc=5",
       "type": "scrape",
       "free": true
     },
     {
       "state": "Tennessee",
       "district": null,
-      "headline": "Better not hear me now. How Tennessee schools enforce cell phone bans",
-      "date": "Sun, 13 Sep 2026 10:01:13 GMT",
-      "source": "Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNDJHaktMNnVhbTVncGNvd1l5WG9CQ0lHME9RcWQ2T0pwRmp6MzZRdlFoSElvblgtLXFNbm5xcmwwdGpSNi1PYmoySlJQNWFEcDQxbEtGRHlMY0gxZ2RXWFNhX2s1aDBlaEpURFRPRlNiX19SdEhEcXNsVUROOWFFajJUcV9FV3Zyb1lJ?oc=5",
+      "headline": "Mt. Juliet High Enforces Tennessee Cellphone Ban",
+      "date": "Sun, 13 Sep 2026 15:41:24 GMT",
+      "source": "hoodline.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPampWeGw4OV9jR0htOXBuV3Yyc1BnSUd4WnNYUnlCUjJEVVBVaWtrWDFhZlJPbnRRT2NTSjdfcURjR3BhTkJ6N1ptdkhYMk1Eb25DV2dOdnpaTEFQSllzOS1DdzVoTG5wUGpkWGZlODk0eWEwSlBjOEk0TG5sRmZVRnNkc0g4MS1Cc2lzTEE3OHJkaFR2U2xyUEs2Y3VKNkk?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -97,7 +147,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "N.J. lawmakers caught playing fantasy football, Candy Crush during votes? Legislator wants cellphone ban",
       "date": "Fri, 11 Sep 2026 18:42:00 GMT",
-      "source": "nj.com",
+      "source": "NJ.com",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQndfb3BxeWtMYWxjX3loRklZdlFnSV9MSXE5MUJ3ZUtsOXZtTENTLVFWbGZjQzJSSEg5d3JSTFN6YTA1YW50MHNoMnNrTHY5dzlqOXM2UnBMVjUxRl9kMzFFUGxpQ0VqQWNRT3piTFhTMWlKc1BybFBDTktQMTF5SGkxTzhmVjRsTU96d0N3VEhfeWFmRGJIMi1DVS1Ka1hyOTdlX2N4SFV5NmJLUnh2RDZ5LThlUDM4Y0ZDdE5RLWdOUkRVbVc0YnYzUXJXTmJGUkJPMU5ZU18?oc=5",
       "type": "scrape",
       "free": true
@@ -107,7 +157,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Minnesota gubernatorial candidates Demuth and Klobuchar share their education plans",
       "date": "Fri, 11 Sep 2026 15:21:26 GMT",
-      "source": "kfgo.com",
+      "source": "The Mighty 790 KFGO",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRHVtUEVZNXJWSkZfcWpvVnNrbmZBMkQ3Z3ZWaGxzaUxmZm81YzI1amxHazEydDd0VExkQ212elVmRTV0bVJ3cURxYmJmQTJnc0IwTVVhTkhocVAxZ0NCTnRab0ZLRGxnS3U5YmduMzNCWjZqQWttVmpYMy12NkJXdGw3dC1tNFJRd0l1dm1MVjRWQUJVUVk2SjcwWTg3VU4zTDF0UzBTSUtLdWdNRzJoZjNn?oc=5",
       "type": "scrape",
       "free": true
@@ -127,7 +177,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Kearney High School receives swatting call, no threat found",
       "date": "Fri, 11 Sep 2026 14:52:07 GMT",
-      "source": "centralnebraskatoday.com",
+      "source": "Central Nebraska Today",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTUVWajhQZ3puUUZhYzFZTncxdkQ1OTdaSWpQVVZmZUpiTDhOcTgyay1sT2g2em5Va1F4STJjYWY0dUJ5UkRnSlRQZ1JjWkJLak5PdG9hdldzU2U5WktLOG1DMU51QnNsRDBCMnNPNjRCbjVCcHpRNFpwa25qVGVHOUlMVHk3TTJoZHJ1REh4WUt3Vm83cmtlbjdzaUZSdkdlMzh6ellseGxXdUU?oc=5",
       "type": "scrape",
       "free": true
@@ -153,16 +203,6 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "New Jersey",
-      "district": null,
-      "headline": "Bill would make NJ lawmakers ‘practice what they preach’ on cell phone use",
-      "date": "Thu, 10 Sep 2026 21:42:33 GMT",
-      "source": "New Jersey Monitor",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOUppbmRDeTNGUklwa0lYLTlIbTlXeDNBOGgxZE01eGNkY2VKVUZNNDhhcTk1OU0zNGZyemY1MzNfMHB5MkM4dWdoU0U3aFc1US02Rm1VY0t3T1NmaHJMN3pMd0VRWGdtc0R1MjZqamVuaHVuOERNUXBQdGZGNXdaZG5qSlBOaVFjTlRaaG1uS2hNelBHOWp5djRWQWNlUUhuSzBLMm9UenpiWmJjd0x2T0dmRQ?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "Illinois",
       "district": null,
       "headline": "New Illinois law on cellphone restrictions in schools reinforces NT’s policy",
@@ -177,7 +217,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "NYC students head back to school with new AI restrictions and screen-time limits",
       "date": "Thu, 10 Sep 2026 11:03:26 GMT",
-      "source": "News12 | Connecticut",
+      "source": "connecticut.news12.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWFZtSUN0dUdUTldxbG9HbkltSnZWVEpPOTBqbjRKVDRSMmtOSkRob1FQQU91NUhkTXBLbHpFNVY2TjRyaElpVlRjcVlSNHlneTVYY19Ib0hnQnZPUGxTS3lVSGhkTFh1VnJQYVdoaWVjQ21aTUpLS19kTmM2Z0dLVUJ3RjhiVkpQWjRELVh0VkNPSldCaHpzR1hLMEZ3dUo4RG5qeWZCMGEwZkUxWllUcA?oc=5",
       "type": "scrape",
       "free": true
@@ -217,7 +257,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "N.J. just banned cellphones in schools all day. Here’s what it means for your kids.",
       "date": "Wed, 09 Sep 2026 12:31:00 GMT",
-      "source": "nj.com",
+      "source": "NJ.com",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSHQ3SXpzRVF1dlFBQklfSVRjaTVFc2xzcFJtUFYtX2NVZVZ2VnUtQ0tPTTQ2YjFxR0xyRjM5b2htUWNVaUNqWXJEVFRuVGpGYUVRbmRub0w5OXRMbWVnQW1Ydk9LSnJQb3kxczdkV1lTQWxBM25oT2pkMWVzM2ZKYS14QjQwRHhQVFZuZjhHRm9QbkxpcW05QmZmRUNobWlvZWJMLUFuampvcjNHRnhPNnpCVkNIVU5EWWtDYXl5b2R1YzJqQ1gyZg?oc=5",
       "type": "scrape",
       "free": true
@@ -237,18 +277,8 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Pennsylvania House rejects amendments to school phone ban – 28/22 News",
       "date": "Wed, 09 Sep 2026 04:14:23 GMT",
-      "source": "2822news.com",
+      "source": "28/22 News",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTmZ2SkhWMVhUbHF5dmg4YjdCWWphclJBSGpINjNTdzIzNkdScmdfY2xVc3VfbzZRYXRyT0p6VEctWEd5YWUxOV9hOG5VWXlKczdkV1pMc0d2b09Oc1lmS1FiYmFsX2dua0FTcHZoalMydWU1Skx5UUhTbDRBdTVhckZoYkk1MURyU3cwVE40MGFwNHJ5eGxZRWl2RVBRYWc?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "New Jersey",
-      "district": null,
-      "headline": "Classroom cellphone ban begins for NJ students as classes begin after summer",
-      "date": "Wed, 09 Sep 2026 00:52:53 GMT",
-      "source": "NBC New York",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVnpTaDFxeFhZWnpJLWhSU2gzc3hNNU5MTTlSQU9DRko3c1kyckNiRm9PZTA2NEc2OUU3YWRWb05ac2Z3VWNKUWZRaUYxeE5vWUhTSGJlQzJSdml2b0hLSGYwV0sxNHFYOEE2MzNfdWZ2NU5SeTR0cnZMSFBGbXk0R091bUZxOEpBOWZkUy1KeDR5QkFnc0J0SGlrUnFsM3YxSzJUdlJTNWVUQlJYc0xQTFVIRmpYcGxZYy1qVkRPYUdHQ2RlbEFoX0lFSGRYTU9BOUHSAdoBQVVfeXFMUFdiblEtU3o5VUtxbGVWZVFwY3hpTDN3bWdPemVHdVM2SGs5SU5JMmdvWEEzbk5DTERyS3owbW1UYW1hcWo0Tno4RHhiU3p5OHd0M19PZlNGT1ZKUzBTeFM5bmtKWXdwNGRpTUpfdEZrcXA2UkpDYVNTdW1DR1dsU1o3SWY4S2tKM1hVdm5OSEM4aTV0dHhBdDFQSHNCRmdnN25DTzU2TXRMMW5ZSkV5R085RFhpUFdDQWpVaU42SGsxQTlGZzdvVlVjWmZ3S2NSQkI3Smw3R1J1TVE?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -267,7 +297,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Montana schools accountability update puts focus on student results",
       "date": "Tue, 08 Sep 2026 22:35:00 GMT",
-      "source": "Fairfield Sun Times",
+      "source": "fairfieldsuntimes.com",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOU1o0ZGcwM29ReFBfbkNIa1RmWnZMT2hYcXczMnBWUzg1Q1JQcHlYSWtCOGpCMGxQQzNrdjdsTlhHU1ZZV2hMcnpiR191dW5kS3NGYkxZNU9oWjI0TXh2blhwWm1PYXhFNkhteklwV2VkTFFtVGhLZWNJR1lGdjNGVGFDZFQtTmRwbklQOV9CdGpDbUxWajEzNExSM1dBcnRkWm1OSjNScUZyZHhyVVJjeXJ5TGVmTjhQTG04MkN2SFNCMV9DVElVdmRSRGZ0ZkFIa1hTSEpac2tJUmktUTBJZWhjSmtWQ0poM0xxQU1yNkVGUHJL?oc=5",
       "type": "scrape",
       "free": true
@@ -279,16 +309,6 @@ window.NEWS_CACHE_DATA = {
       "date": "Tue, 08 Sep 2026 21:34:07 GMT",
       "source": "FOX 5 New York",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Jai1uVlE5aUFoZHV4Vjl3RzJPODNEZmVKdjZkczlyQnpDUnptR0tNQlNYSzJ2c1ZYck44ckg5UDk3eDdmZkQyX2VlNEtQZkRCN21VTVZRc3NuLXNMQlHSAWNBVV95cUxPRVVkSVBDRkVZYWtvU0Rmems4cm96eldpUHo0WHd6a3k4MmhvUkdtUEhmWXZpdldNTnIxTkdjOTZGcVJUTmN2Z2JfZmlYLTJnaC1pTXNrUWRSTkhmazBaUTdmNU0?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "New Jersey",
-      "district": null,
-      "headline": "NJ school cell phone ban goes into effect this year",
-      "date": "Tue, 08 Sep 2026 21:34:07 GMT",
-      "source": "Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82eDFxU1BZM3FOUTBseWhhXzM2SmVxSk8zdDUtZ01iY0VRZFVSU3JBUDB2cml0SThPZ2tDbWMwUEotbmp0djJZWEctdzdKdllJVVZZRkRDaGJwT3NGVGZTVk9RTkZmWWpnZ2ZWRWt2R0xvNzFLb0xESW9YZ0Fvdw?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -309,6 +329,16 @@ window.NEWS_CACHE_DATA = {
       "date": "Tue, 08 Sep 2026 16:12:10 GMT",
       "source": "njfamily.com",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSWl3cmVIelhHN0p4UHdGckFvM1I3YTY2b1RROFB6RW5IR2s4RVRpdjg3MVRRa0NlMUxBaUo5b05hM01UdlY3aWxUV2l2TmhtLWR3OFZOYnh1NnotZWZPZm1PVFlKUkJ3OE5nbHpBZjdMOEFPSW5GTVprS0RpMWU0Qi1DTzR1ZmVkbDJ6ZElDWlhfMVlmb2drZA?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "New Jersey",
+      "district": null,
+      "headline": "Students return to school as New Jersey cellphone ban takes effect",
+      "date": "Tue, 08 Sep 2026 15:16:22 GMT",
+      "source": "6abc Philadelphia",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYThyMXJBYkRCeE5oUWFPa2ZZQ2gwOTRrYllzb2RxbjdFZWJieTZGNzBkRW9oQXNpWWlJSFVQMWxJeUtmTmJoalZ2anJJQk1McmxuU3RucUgxRzkzX1JHeVVmdS1nZjlsNmtPWXctTV9ZVjMwYTBXSF9TeFBCSlcyX2h4X2U5d1V1bmZuT2tYRGo2bXFLUk1Z0gGcAUFVX3lxTE1jZ0ZQbkF5cHUtdVVNZVVTcGcwZmN2Z1B0bFdzamxYR0dmdUR5THZnZWYybFctQ2ZJNkFLaXJsYnhaeWtFcDU2clZYdmMxWWpkam11RmtsR0NCQ2FGeEkzTXpaX1ZucTh4bWJjenkwemgzNU1lN2ZFVGQ2VEE1aHJXbWU1MEl4ZEg1WVM4Tl9PMUhmczFBbVgtWjJSOQ?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -335,20 +365,30 @@ window.NEWS_CACHE_DATA = {
     {
       "state": "New York",
       "district": null,
+      "headline": "Newark students return to school with new phone mandates",
+      "date": "Tue, 08 Sep 2026 10:16:16 GMT",
+      "source": "NBC New York",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObWYwcGhrQ2I2dmpNTjZQZU5acDB2Q0N4cWc3aDBLN2p5a3ZsN2NZTmt0Z3lCUHVfUmR1UjVEWC00OVJmZHZwdUthcTdkY1Y1OXJhd05NeDJyeC11aERFaFN1elRmZGxBQXBoVnFJVzdvbFBmNGRpNFhTU2xsT2hYcXZnczV6YzRwdGpCUzA0eEM0UlZpSWhLVEF4bHdxalJHNHAwaFFR0gGuAUFVX3lxTE9mQ1NGY1Vvb1JESXo0eXFpa3hQbkFWaElmYVM2UGRoaV9FVU5JV0ZrTkNObjlfVzhHSG0xbGFKaHoyZnBXcmZMU1lWZm9pQVpzeEpPUHNSWHZsM1dRNkhnOTVOWTJlM1hmcGN4OFdzVEp1YVdiQ01OQTB1NWJWOWViUl9iVHdYZHlCX2wtZDdEQ1h1UmFvZjFia1FRTFY2ODhkR0VWMDY5RVpHV1lmZw?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "New Jersey",
+      "district": null,
       "headline": "Newark students return to school as New Jersey cellphone ban takes effect",
-      "date": "Tue, 08 Sep 2026 10:28:57 GMT",
+      "date": "Tue, 08 Sep 2026 09:52:44 GMT",
       "source": "ABC7 New York",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX29PUFZubDh1MTFJZGpxR1I3WVhEUjQzZW8xeHo2WHhjM3JPMUFOdTNqZUNzYkZYR1lPcGg0b2lHcFFzZWhyY3ZiekJKLWR0ZHFuNjNwN3lyWklXSUVFQzJ5aUM0ckdDNWxFNEI0Rmd5LXF1bHQxTGhMWFIwZ1RPZlhwTndtVUduS3pRZWNGM2xoUWkzbWhDZEtVNEhueU9iWEZj0gGoAUFVX3lxTFBpVm9mN3NmeF9QOTVxR3ZPb1NwT01SOTJaenJwZXQ1QkdPcF9veEcybjJWdGFLN3cydnhnenUxSVVaUmp4UldiUE5jUmxiN3BfdU9HVGp4WVBVaG1lQW43d29kNjBzSzJoLVJYTVZDMEQ4aFZyMHdQRGhaTkgzLUNtVjg3UTg4dzhsQTBKWnRLMmIxQllKMk9FYjhxMHVpbnotY1NncGVUOQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9MU0hDdURQOGhHdVNqZ2RFX0pBemw5NGFfM2pPc0pVTC10R01lcXh1MW1WdWtvTERUdEpsX2VtVXRLQdIBqAFBVV95cUxQaVZvZjdzZnhfUDk1cUd2T29TcE9NUjkyWnpycGV0NUJHT3Bfb3hHMm4yVnRhSzd3MnZ4Z3p1MUlVWlJqeFJXYlBOY1JsYjdwX3VPR1RqeFlQVWhtZUFuN3dvZDYwc0syaC1SWE1WQzBEOGhWcjB3UERoWk5IMy1DbVY4N1E4OHc4bEEwSlp0SzJiMUJZSjJPRWI4cTB1aW56LWNTZ3BlVDk?oc=5",
       "type": "scrape",
       "free": true
     },
     {
       "state": "New York",
       "district": null,
-      "headline": "Newark students return to school with new phone mandates",
-      "date": "Tue, 08 Sep 2026 10:16:16 GMT",
-      "source": "NBC New York",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObWYwcGhrQ2I2dmpNTjZQZU5acDB2Q0N4cWc3aDBLN2p5a3ZsN2NZTmt0Z3lCUHVfUmR1UjVEWC00OVJmZHZwdUthcTdkY1Y1OXJhd05NeDJyeC11aERFaFN1elRmZGxBQXBoVnFJVzdvbFBmNGRpNFhTU2xsT2hYcXZnczV6YzRwdGpCUzA0eEM0UlZpSWhLVEF4bHdxalJHNHAwaFFR0gGuAUFVX3lxTE9mQ1NGY1Vvb1JESXo0eXFpa3hQbkFWaElmYVM2UGRoaV9FVU5JV0ZrTkNObjlfVzhHSG0xbGFKaHoyZnBXcmZMU1lWZm9pQVpzeEpPUHNSWHZsM1dRNkhnOTVOWTJlM1hmcGN4OFdzVEp1YVdiQ01OQTB1NWJWOWViUl9iVHdYZHlCX2wtZDdEQ1h1UmFvZjFia1FRTFY2ODhkR0VWMDY5RVpHV1lmZw?oc=5",
+      "headline": "Newark students return to school as New Jersey cellphone ban takes effect",
+      "date": "Tue, 08 Sep 2026 07:00:00 GMT",
+      "source": "ABC7 New York",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX29PUFZubDh1MTFJZGpxR1I3WVhEUjQzZW8xeHo2WHhjM3JPMUFOdTNqZUNzYkZYR1lPcGg0b2lHcFFzZWhyY3ZiekJKLWR0ZHFuNjNwN3lyWklXSUVFQzJ5aUM0ckdDNWxFNEI0Rmd5LXF1bHQxTGhMWFIwZ1RPZlhwTndtVUduS3pRZWNGM2xoUWkzbWhDZEtVNEhueU9iWEZj0gGoAUFVX3lxTFBpVm9mN3NmeF9QOTVxR3ZPb1NwT01SOTJaenJwZXQ1QkdPcF9veEcybjJWdGFLN3cydnhnenUxSVVaUmp4UldiUE5jUmxiN3BfdU9HVGp4WVBVaG1lQW43d29kNjBzSzJoLVJYTVZDMEQ4aFZyMHdQRGhaTkgzLUNtVjg3UTg4dzhsQTBKWnRLMmIxQllKMk9FYjhxMHVpbnotY1NncGVUOQ?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -366,19 +406,9 @@ window.NEWS_CACHE_DATA = {
       "state": "Michigan",
       "district": null,
       "headline": "Students and teachers brace for Michigan’s new classroom phone ban",
-      "date": "Mon, 07 Sep 2026 15:09:26 GMT",
+      "date": "Mon, 07 Sep 2026 07:00:00 GMT",
       "source": "The Oakland Press",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaXE1Qm1hQ2kyWi1pam9fNXNGdHFsTnBBTUZpR3RzR2x6NEJlQ0FCRDduVFdOMTBOVl9JNHFCaGxycE5qOVV1RXl1UWRpNkxBcDlJNDN1UVpMRVpfX1UxbWtDanQtVFNlY3FlZy02ZWJ1MGpOLW1zTjJSbDRhTlI3bHBZR3h3YVNGME1xNXJxQ2Zuc3J6d3JMTmhBc090aGhRYjg2cUVUUnRySnQtc3c?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Indiana",
-      "district": null,
-      "headline": "Indiana Schools Begin Full-Day Wireless Device Ban",
-      "date": "Mon, 07 Sep 2026 13:04:56 GMT",
-      "source": "State Affairs Pro",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5rWUtweFd0M1VBWS1GMjNVS3QtcWV5RjdTMFBocWI3VTg2NXhuTk1HLXV3R2lRQ1pQWlN6UHdZeno2MnJoWTBoXzc4cjVZa3VLSmE4SjdpMUV5Um91WnhpVURZWm9JR0psTi1Md1Y3UHVKMTFvaDJISDU1QUJ5Zw?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -407,7 +437,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "A ‘bell-to-bell’ cellphone ban looms over Pa. schools. Where does your school district stand?",
       "date": "Sun, 06 Sep 2026 07:00:00 GMT",
-      "source": "lehighvalleylive.com",
+      "source": "Lehighvalleylive.com",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWDRGMTVyQlZVLVU2dHVZYkJNQ1F5NENkZ25qSjJRZThGSUhUS3M2VXNzamFxZV9TMTZuSWpBR2ZybnRCRHM5dHd5MUZOWHJkeE5GT0piRDZfTTQ4U3k2cVpGQWZaR09PVXZfbEkzb1lVQ1hVcHVQQ0c3WkM4SWVxWUlHVnQyZWxTVFVsSkdJWUhDclFNNldOcHotcjQ2YnlKRWEyaEtQbi1USFZfeDIxUlhsQkFqME5RS205SUFoTEJWSWNXSmgwLVpQZUlyOWlFVG5nTWFuUUo?oc=5",
       "type": "scrape",
       "free": true
@@ -417,7 +447,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Wisconsin Bill Would Ban Classroom Screens Through 2nd Grade",
       "date": "Sat, 05 Sep 2026 18:05:56 GMT",
-      "source": "Hoodline",
+      "source": "hoodline.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQajV5ZmljU0Z5STd5YXo4RWdQWHYxNVYtb3BXWlRMN0ZFb1oybUg0U1NremUwYjN6QzdNTjhqX0NySGlDSmtMTG0zb3BvcFdYQkpOUnNRd0hPYVhDd0FPckNRbnByb0dQNHZvRHBjYVQ2ell0d3Z4TXFJemFVeXY3VS04SmJYQ3JQYllZMnNUOTJDb19zWmh1Rkt6aWp4UQ?oc=5",
       "type": "scrape",
       "free": true
@@ -437,18 +467,28 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Will federal changes affect free lunches to Montana students?",
       "date": "Fri, 04 Sep 2026 15:43:00 GMT",
-      "source": "bozemandailychronicle.com",
+      "source": "Bozeman Daily Chronicle",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSnNqcTdIalRmek1zdnZieXZHVFhBT3dGUDVZMjV0LVJGMzVGQ29Ia1BqN2gzWXAxSXRCaEVJcDZIZ3BtczlCa0NNSDZEdzNmUlVjNUMzdWlXUEl4cGIxVlY3SjVXcFdlNmgwSlJZY251eEl2TnJVNFVrLTBxeVVXaWZRMXU5VHpRMGJENWdkNDlBa3otc0tXRVJvWkc0ZjczWmpCYzRGRjdRNDB4b2VqYUdjRWxHNmpoU0pkcUJZQzZYakc3Y3FfS3VWUEpWN1J2RHBxV3otWjVXYV85RWExYzFRQWJwTEoyeVhaLVljTVQ1dXc?oc=5",
       "type": "scrape",
       "free": true
     },
     {
-      "state": "Mississippi",
+      "state": "Arizona",
       "district": null,
-      "headline": "Opinion: Details of cellphone bans in school",
-      "date": "Fri, 04 Sep 2026 03:24:44 GMT",
-      "source": "tallahatchienews.ms",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS0NaTVpGVXE0T2Foa3MwZGRrZG1UMjY1ank1QmpaTHJDeHkyY0NyM210ZUNIVm1VMU9HSHZ5bklqOFJRYVByOVhSRUtoajdxVENHNjYxcnUweUFYZWR5NExsSHQwQXRuTzdQNEJBSEVEOE82bndMZnNXUklyTUdHMU1WMkNnbEk0b2s4?oc=5",
+      "headline": "Nation’s largest districts ban AI in schools, could it happen in Arizona?",
+      "date": "Fri, 04 Sep 2026 07:00:00 GMT",
+      "source": "ABC15 Arizona",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUjg4TExUTnBuNk50OG1IUGluRGJkZlVNM0xSenI1RzlDRG9aNDRTZkhnN3hMSXhwWE1yZzVmSWJjckxMdUpxbF9fR29XRXY1N2M5UG9HQzFtYXFQSmdCOHdIZUZyQ19SUkttNHJDWkpvbkpnZ05McE1JTWlyVzZqMUFJQmFMTHBTT3Z0VGVSWXdiZlJDUjRucXNQbnRZTkprNE9MNjFDWWt2ODg?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "New Jersey",
+      "district": null,
+      "headline": "Celebrating Sauce Day, NJ Schools Ban Cellphones + More New Jersey News You Missed",
+      "date": "Thu, 03 Sep 2026 15:05:41 GMT",
+      "source": "thelocalgirl.com",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WOVViRnpfVTVoNVFrVHBIY1RBa1QtMnVhcWhyOXdrdTB3WVNrcm9RcGY4QmZDZlRkLVJRdHViVC1fY0ZDUm9IWkdVVlc3RnFKRHpkQmRLc1FnUUFwWnJRNXBBRkd4ckgyZW9PZTVaNzZwdkpteTFB?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -493,32 +533,22 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Louisiana",
-      "district": null,
-      "headline": "Louisiana launches ‘Buckle Up, Phone Down’ contest for high school students",
-      "date": "Thu, 03 Sep 2026 01:35:00 GMT",
-      "source": "KNOE",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNnNzZXQ5MEV2UnVNUmQzNldTWmlRSURCNzc3aHk5YXlHLW1uaWxXZ0FoZU44VG5MekhULXpyUEFaNkRSR2lKeUpwSDJrT043MV9pNE04NWZXV3hEYVNOemR1U2hoTXJTWDB3NHNGS0FQUXZzM0pIdi1vN0oxaFlCU1l1Y0ozZkduSWh4N2w1R09zUlJQUERfV3VxT1lSWTJhTmsyaXUzdk8xcWc?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Hawaii",
-      "district": null,
-      "headline": "Mamdani announces NYC schools are banning AI for students through 8th grade",
-      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
-      "source": "Hawaii News Now",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWFJRZVFQMWcybnFHTS1IeHZLYnZ1WGl0S0V4LURIa01mRnBkaWpEdG01clhvNldwclhLbHFEUkctazFaQlVLUUtnVnFoQ0NnXzZlcEE2bDYtUnZ5cGhfOHZrSzVZaEhrMnRpRDVnNVloaUJDaE1tSTVSTW5OSEVTM3JUdzVMc1NXeHF2cldoV25WdkJKeVcwbEExU2huSzVWWVhJMC1yRTN1N3BXOXNQcUhhNNIBxwFBVV95cUxQVkJYQ0NPQ0xJd1JVZ3hWeVpaTlJjam5fWDFYZDcxY0FJNElnSjJNemRXdXRLWlcwYzRrTldQWlRaRXJkcHA1Z2tRdUpsODFIU1lIbG9MTEtoaXNZRFNtai1NS1d4VmVXQ0Zldlhjbm5vRUpVaVFZeUE5MkpMYWFxSERrTlQzTFJnMDN0OFVXM1RtX0ppS0JPOXVfVlVsMndYUHhUM1BiTjBpeEtpZzRhQ1ZvZnQ4WnAzYXUtcjl5SGdLaW9sTjJJ?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "Oregon",
       "district": null,
       "headline": "Lane County school districts report early results from Oregon school cellphone ban",
       "date": "Wed, 02 Sep 2026 07:00:00 GMT",
       "source": "kval.com",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVpUQUZVbXZQb0hNcjI4cEZWZDNXa3ByRkpSckloZHE4Q0lqU1RfUTlIb3ZMa0ppLUFnc2k3TGtNUGdmQXFvYVhBV1Y4MVlkSE1pSThvVE9zTHg1eTBvM2dsZGpmT0V2WjBKOU5vZmU4M1FvQjJrbmVnZUZSYnFZTkZSRmpMcW1vWHUyZkFvZ0RZNFUxYVUyZDdEUUh6S2g4ZTdONlR4RkNDNEFGTlBJ?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Vermont",
+      "district": null,
+      "headline": "Vermont school district considers potential closure of 5 schools amid pressure to consolidate",
+      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "source": "WPTZ",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY3hnZncwckJMZThTaUJVczhOLU5uTXg3MC1kV2dzb255WTA1SnhCbmdaYWdCT09YUkdJQ3YtV1VPZFVCRjREZldabG9pUkc5R2JjRlZIYl9LTWVIanZwTTllcTlpcjh6WkJiRkZwTXpHeVQ0YmR0ZENPcE15X2ZfbkJSU2I0T2xSTHZTNUprRTAzRVNWd0RYR2t3ZXQ5M29jQ1JoZXlBTEZCeTBHN19obEU0OVlIMjNx?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -577,8 +607,18 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Minnesota principals navigating fast-changing technology when shaping cellphone policies",
       "date": "Tue, 01 Sep 2026 07:00:00 GMT",
-      "source": "mprnews.org",
+      "source": "MPR News",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRzVYVVJZWDJfUkQxb1RqdzBJNFNqblpvVE1CMHJvSXZVOHIzUmtpWmphRTQtNEtJUXNvWG8wRF9qZkNfaG84YTZvY1pVRnBrQVM5YnF0Y1A3OV9DaTU0QkpkWUxEQy1XemtNRzBnV2dQa2xmcXc3VFRybExXQXRJdk1fTnFmSUtfRU4yT2g0cWNianFMUURxWnQxUWRTa3hRMkhHRDFHcVhzZ1VpTi1EUjFHRmh1QXF3dHBldWQ2cEgyMHIxQkdDeFZR?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "New York",
+      "district": null,
+      "headline": "New York City Public Schools banning AI use through middle school starting this year",
+      "date": "Tue, 01 Sep 2026 07:00:00 GMT",
+      "source": "abcnews.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQVFUVERKNGMyTDlwWUQ2Z29SYldYc1pyRHZvZHNFXzhsRFVROWE2T05vZ3lfLUE3Nm5tYWtxbU9fZVhIMUNXWFZ0aktrTHBUNHlFQll2QW94ZGdBbWFUT0tUcElMT1NMb2VkNDM3NkN4ZGYtb3E0eThhVHhsbkZkZEJLM2RSM2d1M3piNThHQWp4QzRDZjJfdl9qM0nSAaIBQVVfeXFMTl9KZ3YzOW9vdV9PcWhjTmV6bDZxTjZZYmRtZmNKdXRaenlXbEhETXZrRXVPdFJFZFNlcUM3WTZwRl9KS3VMWndXZS04NW53Vy1rUlFiWlkyRThhamNiVEg5bEdrOFBGYXFpelNnRUtLN2hLUWxxZjZoekhueHRjLUJ4aVJrNEFqSWtDUnNTVDlJSkxXM043R1lDbFdBME13ZHJ3?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -597,7 +637,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Bozeman School District requires app to limit phone use in high schools",
       "date": "Tue, 01 Sep 2026 04:58:32 GMT",
-      "source": "Nonstop Local News Montana",
+      "source": "montanarightnow.com",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOMW44dk84MS1VTVlQR2lIWWtIdmJJY3hSVXhIN1FRWkl4Q3FkQ1VvTnJyZnUxdDlRLTdweTdMWnQ4dG8ydjZiaFcxRms2UFl3akxrZTg5MldZb0ExNnVTYlFmX3g3WXc3aFNGSW9oTUVTNXZNRVlnRGJzbTJHQmpIdEVHREhCWnhvRnZYWUFrUUVBQzlVdTcxa0NBU05iLVNOdHgydGJMaXZiVmkyNU84aTdIOXY4SWFKNGllcTYyemNpNnk4Y0dHWVRXd3BjSV9XYV9hT3BRdHFnYXFwTnJtZENBX2lfeFo2TnNCNGR4d3RQNEk?oc=5",
       "type": "scrape",
       "free": true
@@ -647,7 +687,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Racine Schools Lock Down Phones for K-8 as Wisconsin's New Law Kicks In",
       "date": "Mon, 31 Aug 2026 13:56:19 GMT",
-      "source": "Hoodline",
+      "source": "hoodline.com",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNy1mYlVyWWIwS3BYUHRKMjhINFJSanZQTXEtRFlpc3NOWVNabENTa1NhSTloZldJUUVIZUZRVWZhbW9EcFJFUDd1T1RFdC1Cel9VMnBmSjJvWklCekVERzBLeURwN0dwdkJGNkVQa3ZVYXNwN3JUbElKM1ZJZVk0anZrcnJJczFHWWFfMXd5Z1Ruelhsb1VvN0RoMlhXbERZazlF?oc=5",
       "type": "scrape",
       "free": true
@@ -673,16 +713,6 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Indiana",
-      "district": null,
-      "headline": "Indiana said no to phones in school. Now parents have to say it at home.",
-      "date": "Mon, 31 Aug 2026 07:00:00 GMT",
-      "source": "Indiana Capital Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeTNTaDNRQU4zRVBXTk1tZHVWNVQwX19LUFY3VXpsd0FLSE9OYTh3dzZvYmFDVkhOdUJzN2dpZU93TFNWQk1QNnh1dHRya1lZQkRIUG5qcEY2bjlHMzdHMTROZUl3TDF1YjZxM3pkUVV6OHlxZHZONmsxSEJqLTk4WTRFdVBjc2dIbmFUTGdENU1wRkpRSDBwdzhqTGRMbklNNzF2Y3QyVFRaTGlMN2pLMU5JdS14bHB2NFE?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "Maine",
       "district": null,
       "headline": "Portland students head back to school, react to second year of Maine district's cellphone ban",
@@ -697,28 +727,8 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Study: Texas cellphone ban is reshaping classrooms",
       "date": "Mon, 31 Aug 2026 07:00:00 GMT",
-      "source": "KVUE",
+      "source": "kvue.com",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNajhTMWN3bW1oQjZQeExvTzRxX0REYXpCMUIzQXUtLWdwVjRRWUM5Z0NaZ1ItaFVKVTZFdGF3QlY2SW52WVE2Rlo1aC16ZkJPbk9TOVlmaVJ5RVp2b2I3RWlzVXRSQllHQm1XNjdHTmJjamFLUzVZWGJjX1h3cTg3Ym1KZVY3N2hzQUZRVk5DYkdvRHBBTzRXM0dON2oyVFplWEtEUVM2OFdtcTF2ZXFuZGFTa2E3bTM4SWJWZ1M1a3hXX0s3ajFCaVEzdnJHelIwZi1J?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Wisconsin",
-      "district": null,
-      "headline": "Wisconsin limits cellphones in classrooms under new law",
-      "date": "Sun, 30 Aug 2026 07:00:00 GMT",
-      "source": "FOX6 News Milwaukee",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMkFtamlCeVpMNFJrakozVTRMQWFxMWVBVE4xemNvT0lrNGpIZUJueFZwRzM5MVpJaVA4WWc2dWJHeVpCaDJDZy1HSkhRV3dtSnZKeUtSV3MyV3kwUTR6Q0R2NEc2ZVgzVlJZRmFrQVl1ajVaRmtDd3pEai1DQUtldWJqVWlqTEJw0gGOAUFVX3lxTE5OeVJqUU0wa01wSW9LTmtjT0h1ZU1xeTBPZ3pvSmNXdW1MMWM1YnZmUllBTDcwY3BIUTZqenl3MlBXUG5vYURqN040S2k4SGJzR2c2czNRYzJHcXREN2IwbllfbVgzVVd5Q0E2emRuUjF3NGxGNURuVU9ONEhNVTIxakh4dGFPeVdtOG1TSXc?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "New Mexico",
-      "district": null,
-      "headline": "A middle schooler said she was raped. Then she was suspended from classes.",
-      "date": "Sat, 29 Aug 2026 07:00:00 GMT",
-      "source": "Searchlight New Mexico",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaWN1Y0xRMDRvWGtRMFlIWnh1Sy1KRUVPYjl3UjI5NTdPV1FMNzRqWWpLWEN2aktlZmdHWWNvcXNzSnpVSWxkdHVyTlRqYkRSbU1iMTF3R2Z0WDctUEJZbzVzVzhSMlZmamIwX1BPbXhlU2I1cTliR1NDTDhmNjFvNEln?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -745,9 +755,9 @@ window.NEWS_CACHE_DATA = {
     {
       "state": "Connecticut",
       "district": null,
-      "headline": "Fazio wants to end charter, magnet school waitlists in Connecticut education plan - News-Times",
+      "headline": "Fazio wants to end charter, magnet school waitlists in Connecticut education plan",
       "date": "Fri, 28 Aug 2026 07:00:00 GMT",
-      "source": "News-Times",
+      "source": "newstimes.com",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYUZGUFQyQVJId1FSY2JjUnQ2Ul80Z2dRc21aLXFMZmpvdkM0dW8xNUgtN1dqXzZCcFhvb1B5OVhyZE96ZENUcm91d0FfSzVOemV4TEF3OVlZM2ZnR1dpNWs3Y1NYckFjSTVjMks0QUdxakpZTy1JMzFWb0FKZmhCaVVxU01WWHZPd0dMVjRMVTY2cFBzUlpLZF9GYUNZQWFGYm4tV0c2Ulhob0E?oc=5",
       "type": "scrape",
       "free": true
@@ -833,6 +843,16 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
+      "state": "Maryland",
+      "district": null,
+      "headline": "As students head back to school, Maryland enforces Phone-Free Schools Act",
+      "date": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMjFtc25CNVNYTjF0VG1FbXI1TVBFa1BtUlpXbklrSmN0T2F4VGlIcmJPT1RjMDJBTzAyT3JvalZVUnhnbkY1bEc1dm56ZnNsWjRkY29YN0w4X2xaQ09fVG9nb1N2VUVlUFphd0s3YnAxbzVtTHVuenFhQXRSRElrWGlMOGxMV1Z4Unhz?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
       "state": "Oregon",
       "district": null,
       "headline": "Washington governor lays groundwork for cellphone ban in public schools - Oregon Public Broadcasting",
@@ -859,6 +879,16 @@ window.NEWS_CACHE_DATA = {
       "date": "Thu, 27 Aug 2026 07:00:00 GMT",
       "source": "Oregon Public Broadcasting - OPB",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZDEycEZTRmVucjFFMVNrRzdTdktVZFJjQTUtZFlIREFQZnNhRlRiY2p6d1ROZjhZVkVMbU0tbUVLcXpPaVNmb0FqTnlDa3JrNW9qVlczRFBCWURvWUFuWjdoYXB3ZGJCS2h3RFprRzZhWXhGOUxEN0hyZGxTV2l3SFlsRTJnQQ?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Washington",
+      "district": null,
+      "headline": "WA governor lays groundwork for cellphone ban in public schools - Tri-Cities Area Journal of Business",
+      "date": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "source": "Tri-Cities Area Journal of Business",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYzJQcnJNV1JfMzhES212Y0ZaZHhuR3QwVjlfbzFWblBfcXc0TFlFbXNQRFdZeWhDTERKaERTOTJvNDVtcVlOR2UtOF9oalU5dkt1elhORzBKY0pyc2xYdkZmT3MzcDlZNHNPcFB4eW1YNkxlWWlHZnQ3dTlJU19Yb29zMFNYUTZPZVRNYll6S1hXQUZLTGhSaFVmVDVudzhxcW5yVEJsaHMtRkZVaVhqYnRsNlU3Zw?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -927,7 +957,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Ohio schools begin first full year under total phone ban",
       "date": "Wed, 26 Aug 2026 07:00:00 GMT",
-      "source": "AOL.com",
+      "source": "aol.com",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CSU9UaTQ3TmE3cE1VN1NILXhFTGxzUzNkaHhHQmphV3lWY1JtWFdrd2tWeHg2YTV5Q3Z4bF9heFFWY3BVTzJ6X2hCTEpuM0xrbjI4YVZiZ0xZOHNuaXhrQlZ0Vk9HclNnVmRWcTNWOE0xVW1UODY0UDhhYmg0dw?oc=5",
       "type": "scrape",
       "free": true
@@ -935,10 +965,10 @@ window.NEWS_CACHE_DATA = {
     {
       "state": "Washington",
       "district": null,
-      "headline": "Washington Gov. Ferguson gives update on proposal to ban cellphones in schools",
+      "headline": "Governor Ferguson visits Pasco to discuss key legislative priority to remove cellphones in schools statewide",
       "date": "Wed, 26 Aug 2026 07:00:00 GMT",
-      "source": "KOMO",
-      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPeldFeG53UjI3enB1WERacDdpakQ1aGVESjBoaExFaGJGZGR2M2RHSU96TEZCRFZzZ0EtcnlGR2s5MFpGbm5BSUJyWkxWMHMyVnNGUmllV3NIei01T3ExbzJZZlh2YWxoYmtIQjRNX0NtanlFX3c3dG5ac2JPNE1iTWtaSld0RThTaHdtakFwU1gySmNkUTVwTUduckYyZ0FVNi16cEFzWV9LNzJSVFVlMWlVWGpEeGN0dEJlZlNpZ1EzaHFlalhmUmNTMW5RS1I4MGZ4OXVLUU9VZkFKcU9OclBwU0FvMU9Wd1FvMjYyU1VwUUIxVEhqUm9pcVhwMkpvN3h1aHg5LWhDU0YzeHZzQndLM2F3VVBqZnRXZFdXMjlIZ05BM3lBMnBFRkhfdU1WYkZlelJFd2lpdjZsaXNWVXJ1dnNWenVRdDJUOWFlRDZiNlMtSUtj?oc=5",
+      "source": "Washington .gov",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYkdyWkhzbWxLZTVMNFBaaWpJYmExMEQya3JKWXMzSGJQQng4TEM0dWFrZE9TWEl4R3BXVE9MRl9ubHZORUhZSVFtQTdRc084Q3RDdXNHVUxCN2M1TFZIQ2lPZDd3a2VMQTBCLVBPOEQ0RE5heGlZWWptZ3didGlveV80WVFnZjAzSnBiSmQtcXBUdlRwRDVSMEFGMGdNclV2TUpsUUlTaUZmYVlnYkkyUzFTQTNmV2toUDk4N1lZcWhBZERCM3VZVEpETEcwUQ?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -953,22 +983,32 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
+      "state": "Washington",
+      "district": null,
+      "headline": "Washington Gov. Ferguson gives update on proposal to ban cellphones in schools",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "source": "KOMO",
+      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPeldFeG53UjI3enB1WERacDdpakQ1aGVESjBoaExFaGJGZGR2M2RHSU96TEZCRFZzZ0EtcnlGR2s5MFpGbm5BSUJyWkxWMHMyVnNGUmllV3NIei01T3ExbzJZZlh2YWxoYmtIQjRNX0NtanlFX3c3dG5ac2JPNE1iTWtaSld0RThTaHdtakFwU1gySmNkUTVwTUduckYyZ0FVNi16cEFzWV9LNzJSVFVlMWlVWGpEeGN0dEJlZlNpZ1EzaHFlalhmUmNTMW5RS1I4MGZ4OXVLUU9VZkFKcU9OclBwU0FvMU9Wd1FvMjYyU1VwUUIxVEhqUm9pcVhwMkpvN3h1aHg5LWhDU0YzeHZzQndLM2F3VVBqZnRXZFdXMjlIZ05BM3lBMnBFRkhfdU1WYkZlelJFd2lpdjZsaXNWVXJ1dnNWenVRdDJUOWFlRDZiNlMtSUtj?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Illinois",
+      "district": null,
+      "headline": "Illinois schools will soon have a cell phone ban in place, local school officials explain impact on students and...",
+      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "source": "WGEM",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZ3kzWG5uOFVJREZFV0ViV0J1emkwVlhIcm1LNlVWREpySVFpaVc2Sm54V3Z1MjNRSjFwUlE3dGRvX0VacThlOWszUEdpbEEtelpmTDE0RExxSXNDOFdUdjJTdDFlOTd0V0EtRTNiNUwwREJvbHdrRFpfXzVLS1lfNGwweXcyWjhWTUdROXZQZ3R5WmJlNC1IX2d3dWU1dTcyWmJUQWZ4cEcxUmxsZnNySXRDcXFORlp6YTdWS3dubXVaa3FtMDd1cWdya0hGa0tUQ0U2cWFWMS3SAewBQVVfeXFMT3ZFcVFDLUxuMjM4SDh4aDhLS1lGdHBhQnozVXV0SXZVSHU0RnAteWZlcWJTZTQtR1p6OTFyLVU4TF9makVfMFR0YnQwcTZCaFJ5U2FucGVGZlNnUUJ0RkF6Wll6MGktdFg0YkVLdUFJOUI4cmVFU2JNRW5Dd3JOODloTWdzRzdqSkJuaHBlQ0hPSnl2TzJZa05YUmFQLTdpaDFqYmRFMGZGZGE3Vkk0dDBLM2tjOEpmTUd6aFNmUWdZaHh1c2JWbVk2RzNkd2JSNjQyY01vR2pLdG5aaGZUaS1HbkxFWDcweFIxVC0?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
       "state": "Indiana",
       "district": null,
       "headline": "An eastside school embraced cell phones. Then Indiana banned them.",
       "date": "Tue, 25 Aug 2026 07:00:00 GMT",
       "source": "Mirror Indy",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWlZnSDRmUXdkam5rNEVGeHRnSjdfaFlVbTBaS3pDREkwMlV0MWVRNk1kTUJlT3FlbU1YWjZzcU1Ia2NkY1NmTy1RUFpFWTBHLTFyN0EyZXhTcnpTdlFicUttekZjU1pEaGtaS2ZMZ2lXUXNVTzg4TU82aVFEbktTZnBHQVJzdmI1UmU2MVdUUnpKSzlITUVZ?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Kansas",
-      "district": null,
-      "headline": "Kansas high schools adjust to new cell phone law",
-      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "source": "spectrumlocalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSGY3ekE1Ml93R09TMWZuMEptOGpzZHMyX0pVYVAwaVZqelhpcTBHYkVEUVBJdXF1MWFuMi1JWmlRX1UxNDZxWXB1VXZybi1RVmpvRkpjR0l1ZlV0X0dIZnlGRTZDQmd6R1AtMkt5azk0dlJuVmh0WUpTQ0dqMDdBOTV0QVFJbWtqbkdGRGhzUS03dE5pd2g1ejJvY3g2c3lWb2ZaRTV3QjdhZFE0Mmc?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -1093,32 +1133,12 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Michigan",
-      "district": null,
-      "headline": "New school year, new cell phone rules for Michigan students",
-      "date": "Mon, 24 Aug 2026 21:39:16 GMT",
-      "source": "Arc XP",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPS1ZzZ3RQeVBkYklGYUtnWjJMUjZHSXdNRWxyQUoxaDJMRHkxWVBPTm9UODdXa3dzV3lQcG45VFVpaXN1UE5oWWVxTVl1Z1RYZHpZbnk0Y2ZOUl96WHptVG50UGl0RWNpVVAta25nNFlVU2hNWGY5SExOZFQycFF4Ry1uYy12NFVfbmQ2UDJDQ2ZjMVB1SEV4ZTNWVUdEdlR1NW4xTWFleTBIS2d1S2ZtdXFad05Qc0NIUmxLSGsyNHJGSVZfUWV6YnlhV0pZQTdrb0hFS2FlMHRpZG1WTmk4bEhtNndiOFpTZzR5aUdFdw?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "Connecticut",
       "district": null,
       "headline": "Free breakfast, cellphone guidance and more: What’s new in Connecticut schools for 2026-27?",
       "date": "Mon, 24 Aug 2026 07:00:00 GMT",
       "source": "CT Insider",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdUpnVDVzWHdaQkRhRmRtTVVEaF9yVWlQOVZGM3VBTXBFRGZ3NUFNRW43WDlIOENyWVUxdWo0dGhqd1dFdC1Za2JjQkdWTFEzd2ZaTVhMdDEwS0E0UFlIeTBhOERZR043ZWdEQU5uV1I1b1dJSTRzb0M4R2FqcllwdnRiYUZrX1JNMEtuLVNqcHZuamd2WEhwaXhkN2F4c1RwLUtTV2hKYzNyVDlI?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Connecticut",
-      "district": null,
-      "headline": "Free breakfast, cellphone guidance and more: What's new in Connecticut schools for 2026-27?",
-      "date": "Mon, 24 Aug 2026 07:00:00 GMT",
-      "source": "Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOanoxYmZxUFZCS1Z6ckljZ0JGbnZCcU9WUFRzVk9FYkxTZWVSUkkzYTFZSlFkOXBMOVBranpWLVZ0OVJDQmVIX2ktVzNNRVpyQTFWVkxpZ2lYM01Zd1k1X2lYbC0xYVJrUmNFQVhmLUlzV1AzUmYxV3VfVFg3bmhtOVNqV05TaVBBWU9yZWU5LXhEbXZTVk80?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -1149,6 +1169,16 @@ window.NEWS_CACHE_DATA = {
       "date": "Mon, 24 Aug 2026 07:00:00 GMT",
       "source": "WOWT",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONjBrVm44Y0xpTlg1MU5jVWNST25NMHcyOXNwR3kwWHl5dUYwMnUxdUNnWXRSZ1R1aGNGWEFrbzM0THF6MHhwRDQyM2FlVjJzTDVZQ3VsVEFLY3dIenR0SjZ0Y2RiN015OS05a0IxRkpRV3R1WVFxemF5SnFtUE13MmRucHdRaEFD0gGcAUFVX3lxTFBaSEo2MHB3SUQ4TGRxSElTWU5INV9qVlliMnlNSDZOSFF3aFlxQ0JreHFQVFdkMm9BUlBGcWozXzdfdFh0Ump3TFNMN2JRWDdaNndrMjNad19ZbVBvUFpoYm5EeUl4ZHlFVUk0SFAwZWFPb1M2VVNnNFZMdTJTSkE2eEdhOWwzYU5BMDBXZ3FKcnJyZXFVc093dTVmWg?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Iowa",
+      "district": null,
+      "headline": "Iowa high school sees positive impacts of phone ban",
+      "date": "Mon, 24 Aug 2026 07:00:00 GMT",
+      "source": "WOWT",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcUpUYkNDSFJZc2szcndXZlRGbjFpNjktcE9hc2hnLXpuRGFKMTVpRVVkSDlCUWszbTR5SjB3S3ZPNnN0ZGRST2l4S1JBNWJfQzE3ZWQ1UlhBazZiZ1N2cmFOQVdGWDU1RUFESm0zNUdISVlwZi1GRGhSQmRGV2hZWHBOZlByRnpiS09WTUUtbTU?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -1243,16 +1273,6 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Nebraska",
-      "district": null,
-      "headline": "Nebraska's Largest School District Asks Police to Not Use Electric Shock Gloves on Students",
-      "date": "Fri, 21 Aug 2026 20:57:10 GMT",
-      "source": "Education Week",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWHZNNXJzSFlaMzJ2SFBtMUhTRFNZYU1MS0FwZEhEM0tZSFg4Z3VCYWlNZUJQb1NINEliX2FxYjNYb3JTY0tKN2NxU0FDX1VZaTlxNVNkWHpsQ245WlJUVzlhYk5KM0ZQOXJYMFg0bW9wdHk4cWV4YmlyRjlLREkxbDdTLWpvWEhoOEtPeVY4T1lVWG5YLXFnMGQ4VDE3SXZMdEItZWwxOGpLSVhUR3MzMHJtV1RxbFEtRmgzSndsSHZUU0kyUnpIWE1nS0U?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "Idaho",
       "district": null,
       "headline": "Idaho Schools Move Toward Limited, Intentional Screen Time",
@@ -1267,7 +1287,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Great Falls Public Schools placing ban on e-bikes and e-scooters starting next week",
       "date": "Fri, 21 Aug 2026 14:45:02 GMT",
-      "source": "Nonstop Local News Montana",
+      "source": "montanarightnow.com",
       "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQc2NHM25ESEs5eGQtX25zd01YQllDNVpaQ2hQbndKTnJ3ZFFhNHEtODU3eWNydU5reVVnb1ljVjRMa25Bd1RYd3BXSEt5TXZPNzI5RnYtaUVEdkh0TTdscVZZRjVJM0VTUHdNUkVQQzZsZEVNLU12MldIZ2NiZFU3WDU4andXOWxNN0J1Z1ZrblJaTkFDMmZsVUotbnJfdVB2clFyR2J2LUJpQ3hFWktLcDVzeVhudlJjOU00R3g0U3hhcGFRQ3NuaDVfaDQ2UGVLY2l2dVc0QW5UUVl4ODB6Vmw5MHE0MXNCT0ZaR3czcF9LWVdPMl92OEM2RXozZUxxTUQtb3l4MlE?oc=5",
       "type": "scrape",
       "free": true
@@ -1347,7 +1367,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "North Dakota education leaders, lawmakers look to limit screen time, device use in public schools",
       "date": "Fri, 21 Aug 2026 07:00:00 GMT",
-      "source": "Valley News Live",
+      "source": "valleynewslive.com",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcndMTXNPaEZYQVZNM2YyRGpObUd6RUxkcndlRUVCbHhNTUFETHJkTUxmNVVxSHNLQ2d3VVV5NlVia0w3Z0VnbEVfeURwemJESEY5SlFkR3pCU2tpZXZJVlhndGE3WGRsN2dWUlFfSXJqLUFwZWpGd3N5OUNZVC1OSi10U1hubmRZNVhhSXU5QzVOWVdQQXphcTZ1Smo4QlhrODdMZ0hsemlsVDJ1cURvY2l0SWlmVm5VSWk0bW9lR1RiUER6eVZpeExPRmrSAeABQVVfeXFMTWphYmt6V3h6Z3NKM1lLcXR1aVFiUFdZTFpCX1lSNGRxenVJVHdjUTFKeWhuRG5pTkxkenA1N21XUE43aTJNR2ktZ0lpazAzOVV3Mkt3aWxZVHZUMnRUNVFhVFZJQkdURXFjNUZteDBrVjQ3empzWVBIcExEcVltczdPRmp5UFNDSUY0UXl2LTQxT3hCakc1VlIwdmZyaml5dUdUUG9oYjV4a2RFN1NaNTlNNWRwWjNmaUtiZGlnQ3RicVJwUHZZWm44Z0lPU3NNcU10NkRGZ2V5djhVMWhfdWc?oc=5",
       "type": "scrape",
       "free": true
@@ -1367,7 +1387,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "North Dakota education leaders, lawmakers look to limit screen time, device use in public schools",
       "date": "Fri, 21 Aug 2026 07:00:00 GMT",
-      "source": "kfgo.com",
+      "source": "The Mighty 790 KFGO",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTzhIRU1lQUUzeHcyVlFBOUpyMFBReWlRMEQ2TUVRcF9ZeHFDVXA4eUNrNGJLUVFOOVFWemtXTU9zR20xYW05UlRXZHZ6UG1YUkxpR0VQTGloamRXRVQ0UmNNVGNieVk3YjZKQklmMFVSNUxaWHo4Nk5yNC0yVXp5a3VRb295Zi1ZT1NTaTFHWVl0eElaNXgyUjZZNHk0b3FqZHE4RVlDdGo1NjVmbEhSa0pGVVZVV0tQd1FhQ3pocFM0UQ?oc=5",
       "type": "scrape",
       "free": true
@@ -1377,7 +1397,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Inside the room-by-room battle to enforce Maryland’s classroom cellphone bans",
       "date": "Fri, 21 Aug 2026 02:54:34 GMT",
-      "source": "Technical.ly",
+      "source": "technical.ly",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbHc2bzJreDFjcHBveG5WLVZwLWp3TFBRWjFrR1JXZDZoazRmZjF2NVBNeWQwYWEtRjdnc0Flek1HLWFZaTZsakZSdzY5Zms1bE0tS0V5eGJfSEp0d1BKalBpYnhmdU1LT0lmZVNlUm5sZXhBQlRrUExuYUVjY0FwX2gyWVBCbFhhNUlhcFk4MDJ0UlNH?oc=5",
       "type": "scrape",
       "free": true
@@ -1395,6 +1415,16 @@ window.NEWS_CACHE_DATA = {
     {
       "state": "Minnesota",
       "district": null,
+      "headline": "Minnesota teacher calls for statewide bell-to-bell cell phone ban in schools - FOX 9 Minneapolis-St. Paul",
+      "date": "Thu, 20 Aug 2026 07:00:00 GMT",
+      "source": "FOX 9 Minneapolis-St. Paul",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Gcll6ZzBxbHRXMkk2eEowdzJ3R3Qtc1VYSzVtZnBidDZiVlhUQ0plUlVCaGE1VDJ5OUl0Y0RYZFlEalFsS2Jha0FKNWtwRzB4OXVGaTFYYWxIV0nSAWBBVV95cUxPS18tU3dEQWxDTnpIbzduRjVsNWo0WDJ1bmVvellrcEM4NGJnN1dWMkoxQnFURWRCUFJCNTlSSVBhc3RjSEFLc3Vfam9NTWhXUFoxQWVtN1ByOGs1VGk3c1E?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Minnesota",
+      "district": null,
       "headline": "Minnesota teacher calls for statewide bell-to-bell cell phone ban in schools",
       "date": "Thu, 20 Aug 2026 07:00:00 GMT",
       "source": "FOX One",
@@ -1403,12 +1433,12 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Minnesota",
+      "state": "North Carolina",
       "district": null,
-      "headline": "Minnesota teacher calls for statewide bell-to-bell cell phone ban in schools - FOX 9 Minneapolis-St. Paul",
+      "headline": "North Carolina schools enforce new cellphone rules",
       "date": "Thu, 20 Aug 2026 07:00:00 GMT",
-      "source": "FOX 9 Minneapolis-St. Paul",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Gcll6ZzBxbHRXMkk2eEowdzJ3R3Qtc1VYSzVtZnBidDZiVlhUQ0plUlVCaGE1VDJ5OUl0Y0RYZFlEalFsS2Jha0FKNWtwRzB4OXVGaTFYYWxIV0nSAWBBVV95cUxPS18tU3dEQWxDTnpIbzduRjVsNWo0WDJ1bmVvellrcEM4NGJnN1dWMkoxQnFURWRCUFJCNTlSSVBhc3RjSEFLc3Vfam9NTWhXUFoxQWVtN1ByOGs1VGk3c1E?oc=5",
+      "source": "ABC11 News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcWtFT01fQVBWNmlzUHF2LVYtalNHREhhZXhDVHVnUWd6eTdYWWFHQmZMRHRyM2JPRzJjVGJxVVJWZ1JubW50Qm9pZGQ1ekJlSFdIMEZVTEQ3eEZWbDA3N1N0UE01cUFPTExVTzVKRTFkUG1KWUtOQzZpbWEzbFlELXJfYjUxNHRla1Vz0gGQAUFVX3lxTFA4bE14T0lUZHVvTjZJNGU4Uld5SnVKTk5ObVI1WUIyeDVRR2tDMXJXM3RyMTNJQlB0MDg5UktTOUZobTlJYTcwYjdsbnlyOGcxX2tfd0R1U1RJbm1tM0lOc2YwaWdpS05ZWml6VVVYWXNEWGpSSE1XaG9ZYXNaWmpDVUkwODc4VjdHSFhwMlNwRA?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -1448,7 +1478,7 @@ window.NEWS_CACHE_DATA = {
       "headline": "Frederick County, Maryland, students face new phone restrictions",
       "date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "source": "WJLA",
-      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPUkZLaHMxOHVhTmVkQWZySHFjM3FpZmhTRXc1QUpxdmp0cEVPMWZhc3ZzdVUxVUd6NlJNbGN5Z2djNl94RnJZc1EzS0RCLU9MRzFaS3VWYWNqVzZKQlF6YThtMHJGd2pZV0RXUFVIODhrbVM5RzlwMVZ2Tmx4Qlp5R0J3VFp0cjhXMmlfUlN2RmM0aEJVazV4RFllNS1EUHI4cmtVandyRnVka21sOFUtUEFXYmkxTnF5Zm1jdkJoUEFXNW9NcmplbGZkUEFMaE5jRWo4UjhFeFF0dTMwd19GUHRsUDNVeXBUbWhhdlRvdFBzTlRDb0dMdkd4Z20tbGVRdlk4T2lpT3htXzdrSlNpbXlXdHo0UVNnTkRkZno0ekFVQWE0YXl6bzdBcHd2alcyQnc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxON2QtWnpjenZTcWpwbjBHWENhWnJQd2lfakl3Ylg4cWJUNVpVamZqbGpHaXlKV3NzVmVtaDhMQWl6YlB4YmxwamgybUtOSS0yWkdvZGpncWpSWVJMblY0bDJNMzBvX05HZTA4dS1pWnlWT2ZKcEZpdTd3TXoxSHUzRFFhb0ZBV3prSzFvTENIMHNjZ3BEUGFwM3dMY3pRaXZENDE3N0dSazRuTk1KcHo2SGJpQ0p3MldiblBfRDhqZmVuMzBrNFV2bVdiS1JNLWdlZlJpLURsS3VfY0NsejZtZU1fb0lwN05PVFBVVnU4YWhhc1dSVFp6TUFkMTdvZzZQeUhGSWU1YnlUZ3VrblRMMkFsUVV4M2NNc1J5cEtULVlWVGY0WFdrTEFCY2J4akk5QkJDdXZ3UEJpdkVmRGc?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -1487,28 +1517,8 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Hosemann pushes for bill to ban cell phones in Mississippi schools",
       "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "fox10tv.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbGgyVHRiWlVnNjQtdXMzdVlGcWx2bjhVV1g2SG41TnBDblVUSmdBMjhPNEhZSmpsNVZpVVVoVDlKNThRaEhaMVNKaUEwZkdOcDFqWks4UWRjNDIwc0pjZFZudFEyTURTMmJXTXJYME1YWDM2Vm5uUmgtQ1ZWOHZOYU9tcWdVMy1VTVpPdG5XV3lZcEJ6ODZJdjJEaGpubHM?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Mississippi",
-      "district": null,
-      "headline": "Hosemann pushes for bill to ban cell phones in Mississippi schools",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "source": "WLBT",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ3lreGFvc2NVaWprWjJGcU03RDQ0QU5MSkJ4bkNPNUhkRV9sTnVfa1pkZ2x0bWdadGQ1NUt1VTZNaW1MeTZXTlNhWjktUndhWHVOdG5iMVlSN2pXc1BUeS1PcEMtUURjQlREUHlxNkdXdmUydU5LWUc2OE12Z0liUFhaSXNrVzY0M0dTMDZJZE9uS3g2Q2hwZU45UQ?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "North Carolina",
-      "district": null,
-      "headline": "North Carolina schools enforce new cellphone rules",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "ABC11 News",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcWtFT01fQVBWNmlzUHF2LVYtalNHREhhZXhDVHVnUWd6eTdYWWFHQmZMRHRyM2JPRzJjVGJxVVJWZ1JubW50Qm9pZGQ1ekJlSFdIMEZVTEQ3eEZWbDA3N1N0UE01cUFPTExVTzVKRTFkUG1KWUtOQzZpbWEzbFlELXJfYjUxNHRla1Vz0gGQAUFVX3lxTFA4bE14T0lUZHVvTjZJNGU4Uld5SnVKTk5ObVI1WUIyeDVRR2tDMXJXM3RyMTNJQlB0MDg5UktTOUZobTlJYTcwYjdsbnlyOGcxX2tfd0R1U1RJbm1tM0lOc2YwaWdpS05ZWml6VVVYWXNEWGpSSE1XaG9ZYXNaWmpDVUkwODc4VjdHSFhwMlNwRA?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -1527,7 +1537,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Pa schools debate responsibility of who should enact 'bell-to-bell' cellphone ban",
       "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "wjactv.com",
+      "source": "WJAC",
       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQcHVZQ1ZHdGJZUWRVQmJjeVd1dkRXNmVsRGxZZllxeXo5LV81UzlVaVhVbVRZXy1aYmstdGw3eGZEYjlzSlMyZFFPdjFSbURaQWtnWFVoclp6cU52WVhZTlIxWFdBQW9vYTRoMGJzaEtXdXFqR2ZkQUdIMW9USDFaOXZIaEZGYThfdmhUSzVUQ2dCVkJvZ2o3YmstSDMxT3M5dmdibllHaG56YXpTVjA0c3BELXBveC0zOXVsdERSZkRGQ2VuMkN0X2hWS3MtYVVXV1hELV93a0l5UFhBSE1yTzdBVzBKR18xa0V4TnNLR0RXdFNWcGxPVzVSRl82V1F4U2hRQmlLaw?oc=5",
       "type": "scrape",
       "free": true
@@ -1543,12 +1553,12 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Illinois",
+      "state": "Kansas",
       "district": null,
-      "headline": "Classroom Phone Bans: Missouri is Already in Full Effect as Illinois Prepares New Restrictions",
+      "headline": "How are they adjusting? Kansas schools begin new ‘bell-to-bell’ cellphone ban",
       "date": "Tue, 18 Aug 2026 07:00:00 GMT",
-      "source": "KMOV",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQR3JNSDlmd3loODdyV2RIZ3ZZZENqR1hiTVhmV1VjeHUyVUtyalVIVjJWVEZQZk9LZkp3M1o0YTMtY1ZkNkRqVHJGc3VPdGo4QVAyNHh4d090bktxV2lzeVcwaEt5U2FmcTlNTEFLTElyMG9DaDJkVjVNd1hQYWt6b2hQekxBOFF3Q2VuSDZkZ1YtbGR6Vkx6aU1DVlNOaWpZMncxRFlWNnRNLXlOcGh4NGlMSGNkMXczWFhHNWRNMUdzOFZtbXfSAdoBQVVfeXFMTkZ4cTdoVXRFbEI4WXN0S1hGYWFKVzhsZHU3dnJQSlhpc1JxdFc5MmE0NnBBS2VjWFE0Sy1VSm16NlZvT2VnVmZHLUdFQ0pVcFEybFExVDB2b0hubFZ0Wmw2QUdkUFUwNWtacXBiM2lyMTVYN1VDcE5sMnotUFdjMlFvQWVKWGlHSGFBbjZBa3o0NmhwT0QxQkNvXzNVcElIUTF3SVpXVXlJeTc5VEFzYXBrX0hrQVA4Rm1mNV91SmhETEJtUFgtQVQ4SEN6N3h4Ymc1TVFXMkUyUVE?oc=5",
+      "source": "KWCH",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMjQtbWNXektjejlCUm85Zk1JYlpXNzFjNVpqWndUTjRCd0tMdUdnNGcwMmRmTlVKajBxTm5vZkZRM3otblp6TUNKVnMzelpWaXpyVjBqd081WTg3ZU81UkpLaVdmUmVGNUJBZGk5TXA0WjR3TkJyX2JQQkNyN2F5Q0NNTE5DaXJldEFYd1daOVl2RHdPN0FFLXpUU25ZOV92alIzRTF6VVdpQmPSAb8BQVVfeXFMUEpRUFpwSTFPS0hIeDNsRUlXMTJYaXZzdHdSTmFueU1UMGE4aHh4eFJ4WU83RUQtanJzRVV5NjJpOXBaUjZQUWgxenRsN3hJdHE3cm5qb0NNS0ttOFpLMi1FWmUzU3IyVXF5WERaVFBkU3VrRnFnSFM0emJrRkRIY2Z2LXM2NTJwSUpTUVFtR25CZzFCMTFRZGo1UnlVRkFMdlpkejJuSk5SRTg0dDNYZ19kVlg2dTB4YnMzQ0R5dVE?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -1593,42 +1603,12 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Florida",
+      "state": "Kansas",
       "district": null,
-      "headline": "School’s Back in and Here are Florida Student Phone Rules",
-      "date": "Sat, 15 Aug 2026 07:00:00 GMT",
-      "source": "The Boca Raton Tribune",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaFB5TkVQSFpzMjFWcFBCUEtTcFJhcXlxNzlWUXpFM3hPcEtXSERZaWxqUHdXLUtuUldNSWZzQXkwUFg2UE1LT192ZU5LQkhKeVhzaU13V19TMjJ2am9mVGtRVGYwcG5CalR3TVkzTV9teGY5ZHRYZGs5VDg4cjFNMUZ1NXNXMFg3U1ZoNHFFYXMwNmstMm13R3FBM01LQTdwd1V2VXZ5MjhLTlM5TXZvWjRn?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "New York",
-      "district": null,
-      "headline": "New York students enter second year of cellphone ban. What to know",
-      "date": "Sat, 15 Aug 2026 07:00:00 GMT",
-      "source": "Lohud",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMWNjd2o0dFNWbERfaUVfZVlaQkM0b1BjOFZhV1JiWGhGU1p3NWxSMG0zaU9UMEEwbUsyVXpmRUNQSjNuTkhockl1ZThqMVR2eHFqa3ZTbHI4Y2FiYXpXTjlRa19JMGpNYjZxYjRISUpwLU9qRVFnbE9ZZjZrOUdoSVUwZ0dRZjBVQVNpNnQwcTJaTUVqRGE3S1p5YTh0a0V1OG5MNFEyYTBpVC1jbnU3dUlmQ2dYcVV5UVpURmdhdmM2ekJxNnEwSnVVUkJpZFk5?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Alabama",
-      "district": null,
-      "headline": "University of South Alabama, University of Mobile welcome students on move-in day",
+      "headline": "Kansas students forced to put cell phones in lockers before school as new 'bell to bell' law enforced",
       "date": "Fri, 14 Aug 2026 07:00:00 GMT",
-      "source": "fox10tv.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNzQwMmJ3UzJYSENtaVZuUmE3RlNHX2xuNm5MdXdFMk9EM1pDU09IeUZ1NDZaM3p6RW10NnpWN3lSUzlGUnZmNDQ5VFRESnhfQldIT2lYSnZ5QlRMOGNoekM3OGVvbFZFbFpsbi16a2JIYnM4ZUlHdVZQRmJRSDlTcHh3YlJ0WGg5akpoRUNBOFgyMThfbmNrb1JQU2VxaUxURzF0c3FlZ05vX0nSAb8BQVVfeXFMUEhmdXdobVUzdzBYek4yRnItUl9KS3NNT3g5cWFmV0JTZWNDYmNNREZOSE5uZjBqX0RFcnp2UzQzVGtEbmtBaGhZN1NILThZMjBCTExVRmF2eUlnNnpHVWRzeDI5c3RhVi1NcWl4dF9IRTZEdlhTSmViaXpKazF6Rm8yVl9XV0xfR2ZQOVRUc1VRTUZJdlQ4bUNVQURqek9RbEdUWkxkbDkxMjBMeUNzUV9EMjRrNFJkY2Q4ZkN4NkU?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "California",
-      "district": null,
-      "headline": "California schools are putting students’ phones out of reach. Even teens see an upside",
-      "date": "Fri, 14 Aug 2026 07:00:00 GMT",
-      "source": "San Francisco Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZklMQW52bm9NRHVWZXBxS2RLdldKM2IyZnhrOGJJdzRWN0tnRkU1Y1doVkdQOU9GT25GS1ZfcXpIa1d5dFAxZ00xLWVmdDJnUDFjWm9rSlpidWY1VXRfb1dKZzQ3Y0lYYlZRUXVEczRDVThvdF9YQ3BJVnBZU1pLSlZETE43NEM5YzU4alRoTHo5eFFCQ3NTWnRiMA?oc=5",
+      "source": "New York Post",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZ2JWeHdNMXdsbGJwYlY1X21IVFAtc09rOWQzMmJpRU8yX2RyWU1YVy1oM0JoMmdLbXItUDBpVHZ4aF9XMkJ0Q054bjVfWlc3MnR5NlpUbEozdmh5ZXFuYVpIOVBrYXoxT1lQTFNzcTlIQWk0WW9CTTV4a2ZzMjNOS25QTzRGaVpOMEZBdU9wTWptbktTcTF3ODFYXzRWYnlPX3lPSWU3QnJURnZ0dmRvaTJYUThDVE9oMXFRMzNvUW42S1BPdlpsa1YyNXRzZTVGdk51Uw?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -1645,9 +1625,9 @@ window.NEWS_CACHE_DATA = {
     {
       "state": "Kansas",
       "district": null,
-      "headline": "Tech plan for schools under review in Kansas after cell phone ban",
+      "headline": "Tech plan for schools under review in Kansas after cell phone ban - The Topeka Capital-Journal",
       "date": "Fri, 14 Aug 2026 07:00:00 GMT",
-      "source": "cjonline.com",
+      "source": "The Topeka Capital-Journal",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWnhPNEV3UzdfYjNEcjVWVHF3clhUQTJYRjdDdEFLc0UzemZDdlNlZW51Um9CYV9oZU4xa1NVY1d6MHJhdWFOYy1nUEZJMUU3b3hjeEpUcFZVQ1RxLUhxaUpHQUFiSU5rcnRRS1B2bms3bUVrX2g0c0JXZ0RnUjRFbGlWeG9BQW9YaVBudlE4MVV2RzlIVkl5R3JaSEY4MmFhN2p5bzFteHdzeVZSQWxIZ1JFeDUxc0pCTGduYUFaVDhscE9icHFIWnd1dzl5NXlkaVZkMVNjU0t0NFhqekZkTHB3?oc=5",
       "type": "scrape",
       "free": true
@@ -1663,12 +1643,32 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
+      "state": "Texas",
+      "district": null,
+      "headline": "Another change could be coming to Texas classrooms after cellphone ban",
+      "date": "Fri, 14 Aug 2026 07:00:00 GMT",
+      "source": "KHOU",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSUwwUXZoN1VSN000OXZIUl9RWEFDWDRFemJkNENvcFFvS0xienY2MEFqSzctdC00LXRvWW1DZDR6aTY1Ykw5YnVldmM0QU5qQ1hiWEtfT242XzBmaUR4V1BhVXo5LXZIUzNNNHpGZ3hZSER5NFRYSy1oYVVIQ0J6Qm9LS19rTEdTdWUyM3U1N0JvUjh3YUxCRkRpR05GNlQ5NnVRTmhneEFMaWwwLTJEcUlUTUlzQjRLRVZrMUxDSmZVY1k?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Wisconsin",
+      "district": null,
+      "headline": "Wisconsin school cellphone ban takes effect as districts prepare for new school year",
+      "date": "Fri, 14 Aug 2026 07:00:00 GMT",
+      "source": "WSAW",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdmo4bHlTYVJSVDhNT0t2WV81SVdlaU5rOW1Zay1CcVdqZ2xJQWdWVEV3SnBWWk1rbkVXeWtwQXdjMnN3X1ZUZnpTNktwNlRtNENrM2dDazNlWHhnQTliLXVSb1BoSXpGNDJaUldQY3F4QVRDU1I5Z3JKa1QySmx6b0RNdmVDYUFMWVRoWGxDbGw5VFJ1QWlzQ21SSnNfYVVRdTlOVGYzSE9vWGR6WVNF0gHDAUFVX3lxTE1rMkM2RE5nTFpsVVlRUTI5OE9zYmVtS0ZGTFpxUFZoUW5KeC1VZVk0SnVEUE5Kc2dHYjA0elZtSmlFcEhxR1NwYjU3VFQ2SDdfcVlFU0h0Mmc5UGYwNU5HU2swclVJbmo2SmN6WEx4T0ZyOHRneDRVSFlJQURvY0Z0TzN5em5XblpETUl2N3pzYzF2d0xwQnhiZVg4VDhTSFZLZk5BMEhKLVRkeXNvRWFYb3Vnam1IVzNlZ2ZKcU13Y29xOA?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
       "state": "Wisconsin",
       "district": null,
       "headline": "Wisconsin school cellphone ban takes effect as districts prepare for new school year",
       "date": "Fri, 14 Aug 2026 07:00:00 GMT",
       "source": "WBAY",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaXk2aTdFN25uMlg2ak9ld3EyTkRRWm1NTU93dGVMNVpzcHEwLXdtc1ZaYnRLY0RGdVIteDhWendOTlNGRWRZUkc4ZVpVZGo2ZjFNWTBxR1AtNElqRERCWHlVLVoxSWZ4MVUxLTdJdzRrWXpRQVpqOVZUQU9wUk81YzRIdnZ0S2tGYV9OUWp2M1c3WkVzYUxtZXA3VWxNMVdiMFNzajR3aTNETWVRYVdv0gHDAUFVX3lxTE5QbHF1YmJmMm45R1loLVFtVngyMDlTMTRna0xyQXlVVV9aUUo2aVdmbGRYZE1QeE5WemlFZjkyeEE3eTZrY0k2VzkzZl80MWJBdmlfeTh2dUxudURBN01zYV9kN0VHQ05zNG9JaWRYc3RSelVkdDhUR2k3OXh1d0ltWC1YZTQxMUJJSlc2ZlRVSG1NR185bUNuVkNnLXI4OEFCT0k4SUswOEI5UVJGNFZxOEs1WXVqV2xHVG9DaU02UUEtOA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOEFJOER2SVk2QnFBZTdLX2ZEa3EwbmFwWmNaUkxsZW4xZVBOemh2RkNDT1ZMZGl5OXUtUGV1UUVtbEwzMmQ2ckhyZkRTNm1leWNVeWtmZzJDMTFBc2pDeGs1eExTY2Q3OC1adWxDLXFTRkJyNGNnZVpUYlZpM3ppa2RIejJGWWF0cWVtRmtOQWN0VURjQXpxeTZQZW95YnZTR1BhSGhjZmxTZ3NPSkZXVWp6bUhHdFU?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -1683,12 +1683,22 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Wisconsin",
+      "state": "Arizona",
       "district": null,
-      "headline": "Wisconsin school cellphone ban takes effect as districts prepare for new school year",
-      "date": "Fri, 14 Aug 2026 07:00:00 GMT",
-      "source": "WBAY",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOEFJOER2SVk2QnFBZTdLX2ZEa3EwbmFwWmNaUkxsZW4xZVBOemh2RkNDT1ZMZGl5OXUtUGV1UUVtbEwzMmQ2ckhyZkRTNm1leWNVeWtmZzJDMTFBc2pDeGs1eExTY2Q3OC1adWxDLXFTRkJyNGNnZVpUYlZpM3ppa2RIejJGWWF0cWVtRmtOQWN0VURjQXpxeTZQZW95YnZTR1BhSGhjZmxTZ3NPSkZXVWp6bUhHdFU?oc=5",
+      "headline": "Arizona school district removes 3 books from classroom curriculum. Here's why.",
+      "date": "Thu, 13 Aug 2026 07:00:00 GMT",
+      "source": "12News",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNQURfVHpfRDdjUHhWYkNBMmMxTnRLQm1yQ29LamIwbmtod1JGSDFSMVVFQXNWMDgxYUZEWGc3dWs1Vk1JRmdmdmdONWc0QmtQamhkSjZhUllQcTVuQ1N0SDNocm5UemE1SjVPaW9kWTU4OUtjbkc5Q1hwTTZKeVJOemUxMl9YaHFRR0wxV3o1bG4tbnphTXlvazcwZlBDc2NQZmVsN1dIMy13LTVkdVI3YlhEQm04RHdRT1lzR2VQdTd2aGplbHNFSnlDZ2VfaDlZU0hoZVI2cjJoTG4xbTNIYTFPODdnd0xwUmY3UzJ5bUxoMXdvSnp3cl9KMnM?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Mississippi",
+      "district": null,
+      "headline": "Opinion | Cell Phones Are the Distraction in Student Pockets",
+      "date": "Thu, 13 Aug 2026 07:00:00 GMT",
+      "source": "Mississippi Free Press",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ19Rejh3LXpqZGdsWUs4UmxrNTh1NDlNSjVmTDNPQVI3T29OM0pxWmk4b19UVkFQM0R3UkFFRzJGa2liVFdJWFBHLXdRN0UzOWxjVk1Sb1lmc29TYzVZMURpQkNPSGQtOVpjTXFkdUdQTk9QdDdvSWdyRFgwYUZTR1RkbkZMUEY4cC1zUnZLT1VuOUEzWmhSUGp3ZU0?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -1753,26 +1763,6 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Kansas",
-      "district": null,
-      "headline": "Kansas law says no cellphones in schools. How are KC-area districts adjusting?",
-      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "Kansas City Star",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85SkQyeXBaMFRyWjgtTWItNndYSXFBTFVLWVZyWTFhNXhRWEZuaGVZUG9uQVNoMUpDb1lvTVZ5NmlybDVzRWt2QkpxYkZyTjlJcGczNlExVUVwaHZ3cHdXaGdtTWdHYXdyUlZHU2FhS2JJdEdzTFZmX9IBeEFVX3lxTE5wb25zbHlOUlkzQ2VmZ0l1Q2FwR2ZYeXQxZnpzeEZ3UjhIeGEwZTk5TnFuNWFERFV4b19RQ3lZdGp3LVdTcmY0aDZsN2ZvUHM2aEZBdHJTcWI3QXZQb19DNUo1bW5mOG5VVUdDZTV3YUVyZ2Y5VUhjcQ?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Massachusetts",
-      "district": null,
-      "headline": "Massachusetts lawmakers debate bell-to-bell school cell phone ban",
-      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "Western Mass News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYVFFWE1DQnNhTEludHctYkxCYWNRdGlNcWVMRUF6TUFONDlJNlVFekVyQzI4QnhYc25vakpvQVZEd0tlU0pYRkVwaElBZFpXajRkNXRJR3hOa0QtLU9OcWpZejFBUnpUamZ6enRVcEJjR0IxV3AtMXlwY1lFbzlEZnRXTlpfSlljYzgyc1d5QXFLX3M2c1A4UW13SG05aGU1dHM3Y2tIRTBIa3U5eUHSAcIBQVVfeXFMUFA0OFAyQ0x1NzZaN3RCSHVlX3F2N0dGUG5MYXF3MkZHVnRFbTFVZTZzWTJaZ08yRnpIV0owV1p2UUFkVXNsYXdhT0tuaERURTZ0eXJJSmtjbVlMTjBSWVQzRFVvbUUwUjd4aG9lWHRvS2h3ZkVqRm9mQjlnb3d3UThhSXlDSWktOTNSNjJ0MkF1VTg2UUNBN0pCSnJuNExOVzNpcW9BaXVYRTRwcjFYdElRSFFoQ3Q0WGRjRktTbWM4S1E?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "Missouri",
       "district": null,
       "headline": "Springfield Public Schools enters second year of phone ban as Missouri mandate takes effect statewide",
@@ -1783,22 +1773,12 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "New York",
+      "state": "Montana",
       "district": null,
-      "headline": "NYC students call on MTA to upgrade OMNY cards, claim they are too fragile",
-      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "ABC7 New York",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbU02Z3VyTUxZSE9RMTNiUTNQVWNUSk0xLXBuaktoQU94ZUpCR2ZEa0F5UjJOV3NZakY4aTZMcVJXQWVkVkFJVTlVS00tWXVBNlFtbWpwdF9HVmdOZTZUSVJIUXAzdkhTTkF6NHVzM3RIcFlZMU5LWS1SZHRad2FnM3lRSDJXYmMwM0VwdWltQndHNjlqMnZZ?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Texas",
-      "district": null,
-      "headline": "Texas schools begin year under new cellphone ban as students return to class",
-      "date": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "cbs19.tv",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcnRkRi12dTVqaml3QVVVX0ZYMzhrNXNKMkFkRHg0X1lBWC1LV0ZNQlM5MGxrc003VXpyOEJSU2ZqOE9Pd0x1MlV0VXMzR2VpOW55bkN0Vy1mUEFCdzh1TW9DWmFJOTdFQVoxU0UxZG9KT1NtbHlZblJvbV9nWkZiaWNXT3hxek5uaEhsYnVTQmpvRURyOVE4V0NDN1pNT0hMM0VhWTNRQ1JkYjBMNFRDd3pldk1vbmVTUHdBY2d0LW0tWkgyQWtSejI4OGlKOEpCeVItMmpnQ2pqZkNET09LcC1RVU1nTk5mWGhr?oc=5",
+      "headline": "Smartphone Use by Teenagers",
+      "date": "Tue, 11 Aug 2026 23:21:33 GMT",
+      "source": "Montana State University",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JV1NTNENETVV2SDNWQWQ0UjBtS1Q1dFZRcmRyanU5R2dKQzQyVXVRRU53aFFJenVoeWx6RkVFb3FOYkJ2N0VhaXFaOFlQNDI3cktIdTREdjE3emdJdGh0T1ZzV216WWhxZ29hX2pYcjhJUmRoc2RocERWNmhLQQ?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -1883,16 +1863,6 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "California",
-      "district": null,
-      "headline": "California Phone-Free Schools Act: Bay Area schools are enforcing cellphone bans on campus amid new law",
-      "date": "Sat, 08 Aug 2026 07:00:00 GMT",
-      "source": "ABC7 Bay Area",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMF9BMndIY2E5eWo3S1diTG5GZHA5M2ctS05YQUQyOEE0dko1eW8xTjNlVUVDSlFVU3NVbjdDejIyWEx3N2p0OUduRHlObTZPTEtUVGRBSWpKc2tuelE1MmE2b0hhM2tiS1hXN09XR0daUXk3dFNXZ1dCYXJXdVlkZEkyUTFMRXJUcnhMajVFZW1lVTNIMVVEY3hRdzAyTnNEempwem9LRTQ3WTUwREFOendfeWtVUHA3NWk5eVJjVdIBxAFBVV95cUxQb1I3UlJMUzFVWWtackhlUHdhSWc1WmFMRGlrNzFrNkV0R0xsM01OTF9mNDNEU1I3d3M1cXlDMEptN3U0V1piTWZCNDM1R1VveGRwSEZaa2hVaGFsVERydWR1TnFmRDF4akVXUGh4djhNNzJBYWI3MmhvOGVfSXNJZDRhT2NHSzFhRU5iT3Awamdmb0lBdHFjWU1rOHFQSlhVbFJmbElhV1NNM0pwSkItOUNGRWlVSGxPWXhHVi02MXVEVTVt?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "Connecticut",
       "district": null,
       "headline": "Editorial: Windsor schools are right to limit students' screen time",
@@ -1903,12 +1873,32 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
+      "state": "California",
+      "district": null,
+      "headline": "California Phone-Free Schools Act: Bay Area schools are enforcing cellphone bans on campus amid new law",
+      "date": "Fri, 07 Aug 2026 07:00:00 GMT",
+      "source": "ABC7 Bay Area",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMF9BMndIY2E5eWo3S1diTG5GZHA5M2ctS05YQUQyOEE0dko1eW8xTjNlVUVDSlFVU3NVbjdDejIyWEx3N2p0OUduRHlObTZPTEtUVGRBSWpKc2tuelE1MmE2b0hhM2tiS1hXN09XR0daUXk3dFNXZ1dCYXJXdVlkZEkyUTFMRXJUcnhMajVFZW1lVTNIMVVEY3hRdzAyTnNEempwem9LRTQ3WTUwREFOendfeWtVUHA3NWk5eVJjVdIBxAFBVV95cUxQb1I3UlJMUzFVWWtackhlUHdhSWc1WmFMRGlrNzFrNkV0R0xsM01OTF9mNDNEU1I3d3M1cXlDMEptN3U0V1piTWZCNDM1R1VveGRwSEZaa2hVaGFsVERydWR1TnFmRDF4akVXUGh4djhNNzJBYWI3MmhvOGVfSXNJZDRhT2NHSzFhRU5iT3Awamdmb0lBdHFjWU1rOHFQSlhVbFJmbElhV1NNM0pwSkItOUNGRWlVSGxPWXhHVi02MXVEVTVt?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
       "state": "Connecticut",
       "district": null,
-      "headline": "This Connecticut school district is bringing cursive, classroom pets and more play to K-2 classrooms",
-      "date": "Fri, 07 Aug 2026 07:00:00 GMT",
-      "source": "Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ2huaGJlYWdyd0ZIbU1ZdDBGUzBQQ3FlazBVS21YbHV4Tmc2ZXMtMmw2QXJoTmlDUTlHU1V6QnFqOXFydTQzaFRxVmFPTE5QV1NuY3J6Nk9GWUVpVUxCT0gzSl9hMGFmYzdzM3c5ODZSWTh2cmZmVVpEaDNRNHpRa0ZkRE9fdnJ4UEZKRklCOUVMUEhuajU3YS14UDJpWHM?oc=5",
+      "headline": "CT Board of Education urges bell-to-bell ban on cellphones, other technology in school",
+      "date": "Thu, 06 Aug 2026 07:00:00 GMT",
+      "source": "Hartford Courant",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU3MzTmNnVmxkT3AtMmU4RmREZUdIdGZWeEdSQ3RBSVhrYVF1V1p3VUdicWRjNVdOU0ZCWmc3aVI1TmpEaXo3dWh6VkdTZVlOMEZWR1kyb1o0MG9qTDQ5ZU1hdHc1ZDdsUnhseU1iWGo4amZvSTNQdWxGVjhycnRNbmRzLXJuREhNbnAzVnFCWlY2bERaZVhWckw2WFR1bXRYM1ZsckUycE5lbXY1aGI5SVZ0Y0g1T0o1YzZwUUZB?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Connecticut",
+      "district": null,
+      "headline": "CT Board Of Education Backs Bell-To-Bell Cell Phone Restrictions",
+      "date": "Thu, 06 Aug 2026 07:00:00 GMT",
+      "source": "Patch",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdlNVOFpBS2t4TzF2Rllpdzl2QXNfVDZfUmcyOW5QckxnMHYwVVgwR1oxbjYzc0pBb0c1SE45MDV4VHpZaUhBQWZUY1NJaVFBZW9fYV9fVWgzb2MzQjJjbkdTR21ONDhqa3EzM1haaEVTajE4b0xRdE1DOGtXVC1fbGRMWUI2MEVvV0EyTmVhMUxlOW9Ud0c1SFlIMHJHZ2M?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -1929,6 +1919,16 @@ window.NEWS_CACHE_DATA = {
       "date": "Thu, 06 Aug 2026 07:00:00 GMT",
       "source": "The Oklahoman",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSDNpVVAtZDF1Sng0TU1oSmNNVzRqRlR1Q2I3N1lqWV9XWWNxWDBWS0tqVkxKZ01OeWdPb191cDl0MTVwODA5X2hldUJlczlydmRFQjRGZ2ZGdHVIMnl2YkgtR2FITmJfMmZSN1hDTllqclpMaFJjSHdPdkpzbmlSbnNpQWxCblBFYlEydmx6ZFRPVmE4aEY1a2hEQTg0Q3U0anpnc1NRcV9IM0Y1NnFncGEyLWtXS0k4QzM0?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Connecticut",
+      "district": null,
+      "headline": "Connecticut Board of Education recommends bell-to-bell phone restrictions in schools",
+      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "source": "NBC Connecticut",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOVBhUFlsNk4zOUhqdk1nUlppSk5PNW5xUDkxQ0ZzeGlSNXFpRzFOenRYaHhlYVhiRnlxaVY1cmlXeFZVenJIcmg3WE95ZEREX1djVUtLeDhQa2dYdUVpblY5TUhGXzJnUTFkSm54Y0dhVGVTUUo1RzM3NzBNRnQ3T3d6cVlTb0JmQklTbFRrVWVVN0dSTFlQN1NId19GTURBc3diQ1dSenQzZVRBMk8tYnpJX2NVWVVSNmlVYWw2SDlCVUZSRWhr0gHPAUFVX3lxTFBZaWlVajI3dExTMkVoZlNKclBxX1NpeUdDbWpuNlZfSllRcWV2US1ZRzVzQ0Vhamp5aTZvVUxqc201X2FDRmNGd0UyYzF5WFpVQWdXUlBSZzVTcHRleXVDdEdla2w2TmNQVkJHQVlNNXhlaXFGY3ZLSU1xLW9Nc2dYOUlOb1owaTE3OTJJaVJad3lEZnJuelJramxaeVg5Vk9IbUxrbzIyQXp3YkEzV0pmVjN5QUZMMDVKQXB6ZHZOOWdhX1JBN3BCdU0wVTFXWQ?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -1957,7 +1957,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "New education laws in effect as Oklahoma schools prepare for first day",
       "date": "Wed, 05 Aug 2026 07:00:00 GMT",
-      "source": "koco.com",
+      "source": "KOCO",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaVNDcWNKVjVEd185SVljZU5JZFBvVHZaMHczVUNYN2xPU0dWZWhsZnp5RVhGeFpqMkwyMzZpV1BQeEVtRzlmUFMwVVNOSC1FbzdRMXNwY3pPNEVXUkxLTUxYU0ZBNXRiMDAwbTRCMHdtWngyNDJHY1ZXakRUSUhIckJrdzExcFgzSHNZeUVUY3E0MmM5?oc=5",
       "type": "scrape",
       "free": true
@@ -1983,12 +1983,22 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Minnesota",
+      "state": "Indiana",
       "district": null,
-      "headline": "Klobuchar vows to ban cell phones in Minnesota classrooms if elected governor",
+      "headline": "Indiana schools implement new 'bell-to-bell' cell phone policies",
       "date": "Tue, 04 Aug 2026 07:00:00 GMT",
-      "source": "Northern News Now",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLTYtUUs2OFlyTTBhb0lvSG45eEgxSUJXTXZRYUFXZ18wU3pLTFV1dWx5WUJtdUxmTzNiR2NPUXViT2djT3hNRXpER1pmLXlJazRfck4wN0txQ1JEU3o1RXhMOVRLMGc5UjRoeGw3TldPdHFyT3d4LTI4Y3NWOHRfWXVCRGRMZUNCb1dwOWphWGhxd0hPOXhwSnh1TzZzcThJRzhSRUtsM0xyOUZQSUE3RHAxUFBLUdIBygFBVV95cUxQSHpkeGhXbllGckoyQVRJbllwUkxpNVNzQ0Z1RU1NYTM0NG5VckEyRnZRYmNqbDc5WHFQT015SkxtTUNKX1FBN2tFZWFkd3JwSkVkeEdfMURwSGNkWEs0dEppdXVxYnRKUG9OUjRCUDdYLTVBZkZWQTNUczNic29ocnBQRjdLeGxkeVZvLTJPMmFhWE54dHNPd29vLWF1ZjFkUmdsek1keVpqcWxaREFseXJudVVidzRPWDk4NmRTWVJkWXg1MkE2SW1R?oc=5",
+      "source": "WLWT",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQb2hSNlh0U2ZiX3JNZnVCYXExNHNCdTlBeGl2bDBITVhOa0l4Q2l4b1EwUFBPM1YwZElRZzRESG9GWTlDYTdNZUd2RExINWUtMDVSUnJhRmNhZWptNlJDZzNxV1dTR0pWNUw2V0JfN2E1b2JUOUkybUlERlE1c216Zl9rREVsSnZ1WURMUkpqRjdBcEY1?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Indiana",
+      "district": null,
+      "headline": "New Indiana law restricts student cell phone use during school day",
+      "date": "Tue, 04 Aug 2026 07:00:00 GMT",
+      "source": "Dubois County Free Press, Inc.",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT3NtR2xVNVNjOEY3UjZ2VTRDX1E3Vmk4OUs4bEVKMU8zY005RVlPSG9CaEpfaTk4cHRDUm1qY0kydHJubERxejc4SkNDaExPcUxTWU96X19EbnZhT1ZfVFZIT0p5LUhBNkpuaGpWTmlrVnZWUGRTaEd2UUtza0NkZEpRc2l1eFVyWmpDYlNvU2xhZERuOUpIRGY5aDJHN25tMjlB?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2023,6 +2033,16 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
+      "state": "Hawaii",
+      "district": null,
+      "headline": "Public school students return to class under new statewide cell phone policy",
+      "date": "Mon, 03 Aug 2026 07:00:00 GMT",
+      "source": "hawaiinewsnow.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa1NBRUg0Zmx3SzhFZmVNR3R1dXU5Ymd1T21zbm9aOFQxcFEyTkp0MUQ0X0U5ZTJIdDFUVFZWQTdxWnl0T3RwZmVLRVBWWktkRjcwSXFXdWNkWjVNX0lFaHhiTUFlT0JxOHVZQWRzNUZ5X3F6T3pzX3NGUVdXNV8tZTdHdDNFLTVoVUhZQ09QdXJibGQ2NWczYVZfUGkwOWlJVTUtQmYxa1h4clhsNVdFTWkyMW9tQdIBygFBVV95cUxNNDRCS0tsS0NtTlQ1aTVHYW1KcTlMOGozV0VxMzhNbWowOTBZUnlFcGF3YkxsekZfZzg4SjlVWWVXb09EczBNNnZDbGJ4c2hGYmFoVHdsVG5VRjdTQVB1c0IxSGZ5YjgwdUhkVkp6TUpoQ2JSajJMVDVrQXNtVzF4YkU0S0MtYjd1S29lYndwWWpmRlp3RE02OE1vWC1fMkd3dFM4TlQ1MFhPR0ZXdGxmeVFtbk1SSGF6ampHVWk4a0RaWmlfc3p6eHd3?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
       "state": "Minnesota",
       "district": null,
       "headline": "Minnesota schools put screens at the center of learning. Parents say kids are paying the price.",
@@ -2035,10 +2055,10 @@ window.NEWS_CACHE_DATA = {
     {
       "state": "North Carolina",
       "district": null,
-      "headline": "North Carolina students say cellphone restrictions are helping them focus in class",
+      "headline": "NC students say cellphone restrictions are helping them focus in class",
       "date": "Mon, 03 Aug 2026 07:00:00 GMT",
-      "source": "FOX8 WGHP",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObnQzaGZhZkZ3WmluczhSaTViMUw1bjFMS3VtcFBqT0tQRU9ZQjlMRGcwY0pHNFNPNXJXenlWSWZsdERvd0pTTURkWkFTUWRHN1pIMGdNNlZVZmNYM1ptTVNTaGdnSVZLbGc3eV9DTHVJZVVXTEdmck4xWXB5MHhIMmMySFl4cUd6MlcwalpHV1hmVkxMcjhTc3pyVU5sWGJESUJ2QzU2WlJ3dkxYaTVlbjAyZmUwRFJkcFVfWFo2WdIBxAFBVV95cUxQMTBodU5zZTBOTzJHNmQ2bUV0RFF4WWNjOHl3eEg0R1UtUDZEbTI0RDFneW14TTc1V0VHVjJYNnA2VjRlaEpsdE8xbVhEYW5fNGs5Mm9zZmVjZkh5a1J0MGM1TGlYblpOM3VJNS1WcHh2bjBnMEtKOGRQTHFEWjF1Q3EyMUZDY05sdm1aQTM4OHUybFJOak1wSkV6dXZtcEpiemZua0RQS01CSDVBY2pwZTB3TkhBR0JlNC14VE5hQTBSMnBi?oc=5",
+      "source": "CBS 17",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNellnclp2dXZkX1Qzb3RCME5NQjFhWGs2MzJiWTdvT2p0Qm9XUHkxTmJkcE5TME5YaEJEQ01GSExjQ3pOQXdGT2VGVk0yUHJMTzVvMnlMLVpBc0hpVTBQUzlyYjhDTy1GcE5QYlBUN2IwT2h5Vmx3VUZMR09XQXNVdTJhRkdEV2ZGVWktSzN0Q2FYOUJxTmg2SkluLVJKMFNBSmIwUTAtWmMwSEdkU1k2RXo5QdIBuAFBVV95cUxNMnFlQzhtb0JkVTY3M01zR29TSFA2QWl1U0tDWnhvWm43OTdzcG9Ed0FIcm8zWUhMV0plN1BjQ0lDRzdkLTVQYkNIRHhObWlXUlpFdV9mOHlXbkRrOV9ya2pSU3JrSjRKWmlmd3A2NGV2bW9yUHZzVDBQZXZJTGx2QzJJRlVycF9rUkdzYUZER3c0VFkzcURiQmdfb1loYk5MNnF2SF9MOE1KOVhtUnNBUWt2ektxQzdG?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2077,7 +2097,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Grady Co. parents weigh in on Georgia's new student cell phone ban in schools",
       "date": "Fri, 31 Jul 2026 11:36:08 GMT",
-      "source": "WTXL ABC 27",
+      "source": "WTXL ABC 27 Tallahassee News",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdDJwMXc5UTJGaHQ2OXpodGhrZzlFMU5vYUxsQ2VwaS1JMmNqMXg0N0drTnBjM0wyUmRpX3BrWWVuamRHWlFrWld5MG1PSGRqTS11MFVYS2QzU3d3b0tvVm95c1VXS015Wkh5c2plQjB0aVdUbkh2UVlMQ0ZfUHoybWRQYzhLcmVGUG13X1F2ZmowU0Q4VWQ5Rlk0ZW5vMzNaX19UdEhtckIwVjF0UGxObFlVWmNtT3EzNGZUdVBGMXpOaElHWjhQdXhvLTRBbk1XbTlTMmVjS1VuUkpfUXFNa0lR?oc=5",
       "type": "scrape",
       "free": true
@@ -2087,7 +2107,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Midday Update: LCTA signs teacher pay increase deal, parents weigh in on GA school cell phone ban, & more",
       "date": "Fri, 31 Jul 2026 07:00:00 GMT",
-      "source": "WTXL ABC 27",
+      "source": "WTXL ABC 27 Tallahassee News",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQN3VJR2VmTHlSY3JtTkxJYWdNeFQtTkQ5ZFhLbWpnNFBnd2VpTGpILWFTUVhHNi1uek8zaDAyOTZPbWNNT2lWR0NWS3VQcERMckJMQTZiZHF2bE9QUHFzVFNYMHRianVRSHNXenNvYUVrWFpRU1ZQNGc1eDVSSmJGRUVhZWZtRm5ENXdid3JZaWV5al9jLTRJSmhFWXVHVWRwaVBGNlczTFJTQUk1cm8xQkItV190b09oWklLSmJmZjBOZ016VXRiUGlzcEhESmNJOWtR?oc=5",
       "type": "scrape",
       "free": true
@@ -2097,7 +2117,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "NH cellphone ban helps students build social skills",
       "date": "Fri, 31 Jul 2026 07:00:00 GMT",
-      "source": "vnews.com",
+      "source": "Valley News",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DbHJRbzB5a2MxN3MxWmF6eXJJVTFYbEZGWHZ2c2NZc25KeHFoZ2hkTG9sNzZyWHE0TnNPV3dEMU9NV2lYeXllVXFKak9DMGdwVjN2OW83d2hGTEF0VjFQU3J4dE0?oc=5",
       "type": "scrape",
       "free": true
@@ -2107,7 +2127,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Arizona law now bans 11 ingredients from school campuses during the school day",
       "date": "Thu, 30 Jul 2026 07:00:00 GMT",
-      "source": "KOLD",
+      "source": "kold.com",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUVdiMmtaWmxoTkowcXk2LVBkQ3dTQms4bnMweUlKQUtoeVpLNE9qQTFmb3l0SzZWMkEtNUlhQ2lsLVhuMWVrVWFYdHIxcGk0UmwyTzhvSUs5bFJvVzNLaEVLV2cyVFVoMHhvSTEyenBPTmdpZWlZWGtGSHFPVXAwaUNvZ1hCM09IQ3pINHl5bzF4Vm5KZ3RWbm9rT21lQkg5OWZvR9IBuAFBVV95cUxPbWMydTZXMV9XYURiTnFybG8xelM1RnpGbEFNYkRxeVV5MU44ZTc4R214N1hRbzVzZjRfNWF3YzQwZXpxUU5acG45Y1hEZTRiS2FsYng2Y3VwRDFFVXdwRnZ6dUtDNDBDblJWOHNXRUdjRTN4X1FLUmtBWHhNd28tQTB0UENyRHloWFVLam1JWnQwVVhGSnZiUXQzTDktWllrNC1YeGVld3U1MEtSMFpwOU1sem1jdTIt?oc=5",
       "type": "scrape",
       "free": true
@@ -2117,18 +2137,8 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Back To School In California: Check Your District’s Cellphone Rules",
       "date": "Thu, 30 Jul 2026 07:00:00 GMT",
-      "source": "patch.com",
+      "source": "Patch",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPS2dtdEhZNnFlWG5OYnUtUEJxSl9uV19jYTViQ0w5UFlQeXVNQXMzSmdhT2ZIRUhxVFBmcDBGWHpvcU1zaXBSY2FUWDR0MTIwdzNvU3dVWGFvRG4yblhYckFJRW5KSnhGUFFhMHlRN2l1SW04Z1RSRkhaUFUxM1E4Nk9mOFdpZ2RDYk1MR25mX2JtOVk3Wk00cVJ4QWVpc0FR?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Georgia",
-      "district": null,
-      "headline": "What’s new in Georgia schools? Screen time limits, tuition hike and more.",
-      "date": "Thu, 30 Jul 2026 07:00:00 GMT",
-      "source": "AJC.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN0lZNXFnNGJVUFV3TnpnNlI2LWhiRnFYVE1zVmpXT2lmdFJocGpYNklra0FXY1RUTXd3NVJqbVdkZUpjcTBjZnRQSVNBMDBFbG0tbW12cXZUZDdmbHlVNVJHSWlyZ0psQlVfM2NMUFlHSEtpY1B5RTVzZm9maDljYXVkQkFIMUtpdnpMWGhoVzBNYkxsc1pDNDFiNHh5MW9qc3duUDlFZ0NsVE9z?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2147,7 +2157,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "MA School Cellphone Bans: What Parents Need To Know Before Classes Start",
       "date": "Wed, 29 Jul 2026 07:00:00 GMT",
-      "source": "patch.com",
+      "source": "Patch",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdmpIY29iR0s1a1FLelJXdWxmUTd4VVYyZ1hyX1dTdS0tSDRsYThOdEp4dS1tWFUyaTdSbGM3X3Z2UGdlblEyNVh6VlhzMXJjSWxwWDl2ZExnYzQ3Z1pPUFNna0dxWWQtMjl4VWdSa3dycVlnNzRaNXNmV2tmN2h4TVotbm9RaHZLZk5RUlNSa1hWYXZjZzlmMEpmVVQ1aDBkN21heWVR?oc=5",
       "type": "scrape",
       "free": true
@@ -2157,7 +2167,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Butte School District warns of scam calls using school phone numbers",
       "date": "Wed, 29 Jul 2026 07:00:00 GMT",
-      "source": "Nonstop Local News Montana",
+      "source": "montanarightnow.com",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQak40X0Q5NlBydUNZYk9KbTdpSXJZX2dJLTR4dHRGZnR6eElOTUlNcmMwalBBazhqUG1uWGRxYnkyN05lUnUzdVlVQmJkS190RDZDMDh1QUFfeFFPVEJKWDNERFNueGhkaTJtdC1LQUd6cVViTGlULV9Fd3NHc0pwcnVWbXdVai1FTlh0ZDNxSkZpeU9uS3ZJTUhTYUlDTEVsQ3RodThHT1hYOW5KQ0xNS2MxWi1fdWRSLWg1V1E5eHVfbjBSb3R3M0E5ZzFWZlAyZUV3NFBBWHdmb2IzRzdXS0Y3YmgxWnVFMzliSA?oc=5",
       "type": "scrape",
       "free": true
@@ -2167,7 +2177,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Rhode Island School Cellphone Bans: What Parents Need To Know Before Classes Start",
       "date": "Wed, 29 Jul 2026 07:00:00 GMT",
-      "source": "patch.com",
+      "source": "Patch",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMy11RWZGZXRDUFM5aVJHQTZyLXkzcThRWUFhVXZXcDF2ZDJWeTh5Y1VzVGNmM1ptSXpEdU1xS3FUQkZvd0lnd2NYa0Iyb2laOXNyclNDNWtBX2dnemd3ckVSX0tyeTJDbW9zWkJkUXFuWXNMbHlEeEdNODU2X0tqUExGOXo2T2x4eU10amczUWtoX2N2U1FJT3ZxS3F0ZTRQMnFMbm9sRC00MTEzd1htY2d3?oc=5",
       "type": "scrape",
       "free": true
@@ -2189,16 +2199,6 @@ window.NEWS_CACHE_DATA = {
       "date": "Tue, 28 Jul 2026 07:00:00 GMT",
       "source": "New Hampshire Public Radio",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR083WENKcDBTZERTZU5KWHdmejQxMEZRWVBPcG15MTZmY1pTRUtRb0lucW56di1YRG9mdE9ydUVncmFDN1FPRmt5RF9TelZxMFdZd0FiUko1dHRoM2RNQUxxbGl4S2FlXzEybzMxa08yWmhib3JrWnc3cmI4MmZ4bkcxTnpMMmJoXzRjRUthOC1SeFVjMGcycVBhendyN2FmdXNzcEhFeG5UOS00b1FsZGV0cVpOZ1J5UUJWUDhyci1ueFQ4?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "New Hampshire",
-      "district": null,
-      "headline": "NH Teachers Give Passing Grade to ‘Bell-to-Bell’ Cellphone Ban",
-      "date": "Tue, 28 Jul 2026 07:00:00 GMT",
-      "source": "NH Journal",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNmhYeDhsYmNIR21sT0ZKS25rZ2VvZmlJZ0NHNzBxNkZwS3RzRExPaEhVLXptYVRFaGdMSThSeFR0N0xVcUJ4Wi1QaFBBRkpkWHpSeFNHc1JJdVBNbnJRa05ORmpPeXlCenk3SURjZkV4SjVMaUFxWVgxN3dRV3BieURnc05uU2NwdWs0?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2229,26 +2229,6 @@ window.NEWS_CACHE_DATA = {
       "date": "Tue, 28 Jul 2026 07:00:00 GMT",
       "source": "thefederalist.com",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT2hJTjlkRWV5R2kzczFhMGE3SHQwWk1vWWtYbV9PSm5PZXY0dW5hM25ORGw3N1NrZDFiMUwxQk4zQ3hRdVh2OElzeHcxTklaU2xYRzFVZmdiVFgtX0tMTXBNcmt3U1V6RGFzVk0tYzJaeUZBaURhaUlRbWxGcnJsV3lrSlcwbXhzNW9uVFVVcTlOMzVBVnVlQlVzdkNfVmJRQ2QxeTl4ZFJPZw?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Washington",
-      "district": null,
-      "headline": "Do cellphones belong in schools? Montgomery County moves toward bell-to-bell ban",
-      "date": "Tue, 28 Jul 2026 07:00:00 GMT",
-      "source": "NBC4 Washington",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSVhEcmtIYklfOWY5RWJTSnN4d2pPYXRXcTR0Z1B6dnFSSzVFX3pocHg2cnNkOTZ3MW0tVTZRU09OVGd2TWJQSHk1cmhobUhBX0tUVlhZX1BYclE3VUlCWFVmSUltd25EdHFVTVNtMTg1RngzNjVoTjVDMUVpcF83dUt5WF9YbEJHUEFkUFRwdERIU215VnZnUlUtXzVKRnZ3WHJaek14eUpvdW5xcXlvRmhBeFN4bHRReUduMVZ2Rnd3TmN50gHMAUFVX3lxTE9VZXk3aS1iWmd5Z0VuRWRjLXczODMyazhZeGFUQ0F2cjRCejVrUG1DT3ZFNloyb09wVzZ6R3l5M3dJMzdNREgxRngzSWNSM2MxMTBLdng4NUVMVHdCOXQxSXYtalpSQ280UGZaTTJzZ2U3a1hIYm9XUnZiNEYzT3R6d1p6VmEzcE1rYnF6OTR0b1JkTVI5Yjl2RG9kNkNSdHZQVVZBSjY0d1dIRTNBRTNVWnZqNV81eFdxNDBCUjBFR2ZKVkhxZzdPeVFocg?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Washington",
-      "district": null,
-      "headline": "Montgomery County Public Schools plan to enforce bell-to-bell cell phone ban",
-      "date": "Tue, 28 Jul 2026 07:00:00 GMT",
-      "source": "NBC4 Washington",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcHd1cTRnR2tfbE9FQVZXMHRlSC04anMzdElZMEpsaW13NjBsTEFYcDlfVmxJenRuNFB5NHh5ZGxpN3VDckZYWnBYOHI5cFdRQzVIcnMzaHNib2x1TDM5MkV3Y3dBQ292bzFxQ0tMVzdRVUZneTk0b2Z2WTFfRDJiNXc2QkRrX2JJMktJMmJfQm1UNjZXOHkxLWM1V0NwaEc0RHM1XzlwbllGeUh2MmN1MEl5a1BLQUx6LWtEOHRSYUZvQnU00gHMAUFVX3lxTE5NSXIwS3lHMEJhN3hwaHhod2ZNMll1NnFfVWNxb2d3SEZKWlVPZjJFa0FSRGhxVWR2ZHduTi13SVVvR0tRVWhTSm5WVGVVMmVXV2ZheE80Um9kWTlGendENlRDZGVCbllNRXZjUlk5cXFtSjVXLURJb0VHRXY0OVZmakVkLWNkd1k5andJMUVCWC1rd2pYNjQ3a2N4cHJIc3EtSDVXRV9VdTY3RzlxZEthVnp2TU9PZExQRm5ON3ZGcFRla3c3bEcwM05pVA?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2313,12 +2293,32 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
+      "state": "Tennessee",
+      "district": null,
+      "headline": "New policies to know ahead of Tennessee’s 2026-27 school year",
+      "date": "Sat, 25 Jul 2026 07:00:00 GMT",
+      "source": "wsmv.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGdVa0VlTy15VkZUZE5CYm5VT3Y5eE5mSDNncVFMbWVsT19veEVIbmo2U3JiWmZCeEwwVkdPZHhTcVRyNWpBUWJqcjY0dU5XdU1SLTJfWmlBQkx1eDZOY0R1LTAzMU94OGxJYVlEUEdTTlBrV0M3QUQ1SG1IM1Fkdmh5LVRqVUhRVEZZWnRMSkw?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
       "state": "Alabama",
       "district": null,
       "headline": "Parents, students react as Gov. Ivey orders study on screen-based instruction in Alabama schools",
       "date": "Thu, 23 Jul 2026 07:00:00 GMT",
       "source": "WTVM.com",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN3o2ZkoxTlFCdHhVdzNRNHF1MTJUN0Vnd2xVZU9odVIwSUNuQnlWMkFtdThSa3oyZTQwWThBdXdzV2pva21RTnlLY1gwVjE0OGl0STh6alc3eC1ueURjLUZKR0pObGN3YWZlSEVOTDNpM25WYkZWT1JLNTVfX2MtblJkMzJZdGFVdUU1akdRcVNVV3NkVjBaQV80eTV3Z1ZiVWg3TDRkbE53a1VEUVVNbkVEQlNSRmR5OWfSAc4BQVVfeXFMT2JOb240U2phazhkcGQ5QmtTMGFScnROUnR1Vk51QnZaZGVaNTJweHp0aG4xWXBfUkFIcjUxV25pWWx6bHlzSVN4clBWVmI4N21YdTQxcTlOM2tnLW8tRFdLLWZRbnpNeDIzdUVmRWRYRUdhU2U4S2NJYlZ5UWN5R2ZrUWZlNThIQTlSMVZTS1ZaOTZtRldZNXlKYkg5a3d4R1NaYm10WGhWQnUxY09qR0M0M0M0TXBQSHRua2VkQjRoVEtVRTZtQXVCR2FhTlE?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Hawaii",
+      "district": null,
+      "headline": "Back-to-school success: Attendance, cell phone, bus and meal reminders for students and families",
+      "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+      "source": "hawaiipublicschools.org",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CUDNqR3JIWFkwak5CeGVqSXJ4amllWF9JTkI4a2plcml2QlNRYXJyNnhaZkx5czhxdTBKWEtobjhNQjVDRnMxbFBIX2xfVTZFeUo3X2ZBdFFjX09MdGNLZk53?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2333,22 +2333,22 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Hawaii",
-      "district": null,
-      "headline": "Back-to-school reminders for Hawaii families",
-      "date": "Tue, 21 Jul 2026 07:00:00 GMT",
-      "source": "spectrumlocalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdG13cmVsbC1OMTZiajZfaHZjWXFObWFYVzF6WHI4Nk4wSzY4Yi1tTFQ1eXhnNTZRSE1ILVMza0l3NkJBLWNmQUVHcXZQLWstS0NWb1ZTT2xzbEsxQzVIT3RQaFBJNGN4NjE5MnhHLTEwNnI2dlk2SmdFSldTdXgwMG1oQm9oU1cxNWJnTEd4VVFmdW1kT1JQUnprcUE4VVlQUFE?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "New Hampshire",
       "district": null,
       "headline": "New Hampshire schools rank top five in the nation",
       "date": "Tue, 21 Jul 2026 07:00:00 GMT",
       "source": "nashuatelegraph.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbUlHMUhLWXlqdjUwbERZREtUQmdzNjRBOFp0eTF4S2c4MFgtTGRjSjlYdzd6Qm9oaUFzT1FsUU91N0phZDVPX1NJM1pZUWc1ZEJWS21BaGh0bm1LNk1reVRsdW5fVXktbFRWNVJNZVhvZnpUUDZ1bG02a0lZZGZ0dzY5T0VWSTFVYjd3bkl6ejE5ZTNDQURZS2VGMlVjRW1pVVlVckdZcVlkZ21PUEE?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Wyoming",
+      "district": null,
+      "headline": "Candidates for Wyoming superintendent of public instruction offer opinions on school choice",
+      "date": "Tue, 21 Jul 2026 07:00:00 GMT",
+      "source": "WyomingNews.com",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPN0trbWVSdVFTVGFmdTVSMlg0bnRtNkhkNDdBOExBSThPWjZidFNtOVozTjRBejB6R3U4TDc3U1VrRTd1YU8xclNNOFJQZzNNOVhfVi1DdHRWaUdfNHp4djItb0cxcWRoNmZiT21ZSUlJalpqMlBSdF9OUzZZM2xwYkZNdy00NzhiV1BPb0x4dldmVEtNNDdWblFHRmoydVdOTDkxX3lsT2tqNXBLTVhONFlxU1ZwbWl4Y2FPbFN0NjllVFJZLXByLUNhM25lRWZ6NUZvRVMtaV9LZjNxOVQ0aUM2aGloMmZLLURCYWJ5TDdHSDdPR0VFRk9NOXJKbnVzMXNoQjFodFNhWkpNZVdqNkRJOA?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2373,16 +2373,6 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Washington",
-      "district": null,
-      "headline": "Many WA school districts have no cellphone policy. How about local districts?",
-      "date": "Mon, 20 Jul 2026 07:00:00 GMT",
-      "source": "Tacoma News Tribune",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RLUtmdU1kdUhXaC11Y2NOQzJ2SmRNM0wtMzZCcExsOE5hdXFuN1ZCTFZXcm5VLTNad05peHhDbE1kMWVLRF94NldYWDFUS2xMa3VNX3VjYXRPczNrRTdQYXhXcHhldVQ2YmtGc2lFbFXSAXBBVV95cUxNOUpWOUQ1WDF0dkh0TWpVMFc2M1FPV3BFQ3MteEdXYW5iajlkOFBfcE1mOG5TSG5nNGl4WGxzVjlBY082a2JGWEZrSmVVX2VTekdqYzVHOUtuVG9pTFRtMkF4Yk1mR0s3ME9hLTlocHdX?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "West Virginia",
       "district": null,
       "headline": "West Virginia host families needed for International Exchange Student program",
@@ -2397,7 +2387,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "North Carolina’s ‘school cellphone ban’ was supposed to help students focus. Is it working?",
       "date": "Sat, 18 Jul 2026 07:00:00 GMT",
-      "source": "wfae.org",
+      "source": "WFAE",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWjAtZVJ1THR4Z0wzdlhZck91dFZWektpRktyeENSTy0tWjd2a2M0SkV3SWhMTUJtQndZcEtjeURfa0hDN0NIU0VCYVZ3SnJQV1N4ZWtuMGdnSjZJeHhMckktazRVVnBlRFFhR3VURG12TDNDa2g4U2YzaXpCQk9mbTZ6WWh5R0FGbDhMcU5IaXgwT1VMd3h0S1J3TFFuUkFhVkdnR25PNGEwQ0MxY01URUJNb2I0ZjhNUW95dmYxYVhkSXpPMEJB?oc=5",
       "type": "scrape",
       "free": true
@@ -2423,22 +2413,22 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Nebraska",
+      "state": "Minnesota",
       "district": null,
-      "headline": "Shelton Public Schools Implements Cell Phone Ban During School Hours",
+      "headline": "What LA’s sweeping new tech policy can teach Minnesota school districts",
       "date": "Thu, 16 Jul 2026 07:00:00 GMT",
-      "source": "centralnebraskatoday.com",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBOTF9iRWNVSThRdHp5a08yTkl1T2hCZ2xhU1c5aU9tdzhRZnY3YUN0MjZOVEwzT3hiTVQyNzV5UkJBRVVhbFZuM1pDS1RWOEVNa19JVzRsd1NOS1RlR1oxVUJydWwwZw?oc=5",
+      "source": "Center of the American Experiment",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeXFqSTMxQnRtT0pMUTk3WHFHZmVnXzhvdUh6Tl9ueWYyZTBPc3Rnb3B2RHRXaml6ZE5tOUlTNXJ5YjFTeW9qTkJ0TmUtQjNxT2gzMDgxa1BKakRPeGc3Si1oQzlaa294Y0QzOU1oRTF2SlNMTjMxNnFhQ0FhVkt5S2dEdU5LVWktV1liXzMtSllzSHBMSEJReV9KTEFjSlc3SjV3MUQwWnZFZW8?oc=5",
       "type": "scrape",
       "free": true
     },
     {
       "state": "Nebraska",
       "district": null,
-      "headline": "Nebraska CD2 candidate Denise Powell on AI, cell phones in schools and why she says she isn't a politician - Oma...",
+      "headline": "Shelton Public Schools Implements Cell Phone Ban During School Hours",
       "date": "Thu, 16 Jul 2026 07:00:00 GMT",
-      "source": "Omaha World-Herald",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX2V6d3VWVWJTQTdFQ3NZYVJJekJUelh6U0dzR1hmSUxzSk5rQllOSXY0akM5eldPTDFkblJoUGl4c2MzOXhETHJZaDV0cGZRYmprQlBXQ0ZUYS1jOUZYMmZxODBKNS16NFRJQkRQUkdyck1DbVJsMUhJZEFEbTl1QU54cFFTU0hGc1NaYkVIbkIwbEdBVUpoQVEyRWJSX28?oc=5",
+      "source": "Central Nebraska Today",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBOTF9iRWNVSThRdHp5a08yTkl1T2hCZ2xhU1c5aU9tdzhRZnY3YUN0MjZOVEwzT3hiTVQyNzV5UkJBRVVhbFZuM1pDS1RWOEVNa19JVzRsd1NOS1RlR1oxVUJydWwwZw?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2487,7 +2477,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "What do West Virginia’s students want from their public schools? Here’s what four of them say.",
       "date": "Wed, 15 Jul 2026 07:00:00 GMT",
-      "source": "mountainstatespotlight.org",
+      "source": "Mountain State Spotlight",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWXJJamVZVnBkTkVCNmtzZW1LdExLQk1MczdQZWNUR1Z3X2xWZTE2ZWNMYzRvTHhubFlOX005bER5dE9YN1hBeFRJejAzNlZJM0RNWEJocXg1U21JWkJBU295Qk02ZzNSemlBV181S2ZQVXg4a01rM2dVTmdaa09HWHNrMA?oc=5",
       "type": "scrape",
       "free": true
@@ -2513,12 +2503,12 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Delaware",
+      "state": "Mississippi",
       "district": null,
-      "headline": "DCCE Leaders Host First Delaware Civics Bee | IPA | Biden School",
+      "headline": "Mississippi mom backs 'Wait Until 8th' to shield kids from cyberbullying and screen time",
       "date": "Wed, 08 Jul 2026 07:00:00 GMT",
-      "source": "University of Delaware",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMXI5dzZ0cXpQUjVXeWZMRlVReld5dW5MT2JwaWRfSE1zT1ZOaVFzU2ZOd2ItcTBWdXZITVY0OWQ2ZmtTa3JpZlc1QmYtdHlHR1AyOWUtblVTeG5HbGJZc1o4eWVzaHI0TGZZanlmaWlFUEt6cXo3WVJqRlNRckhuSG52VE1XVGZuVk5oRnkzYXUtTUtYRXlwdVRXNVk4U2g2cGtQWWdJMA?oc=5",
+      "source": "WAPT",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeE5iTlJRYUVLbWl1ZEZNM3htUmdBUGVqdkRNZUxfQnI0RllPX2I5VmJvdWk1blIwX0NHSmpBaklJVWhUMlIzNVBKNVpMd2I5YXpkYVhuQTJrSkJvMVZvOF9Bamw0M1BYVUswUE5kQy02em93Yjlja2RNU0wxWmw5REVwUUE?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2543,6 +2533,16 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
+      "state": "California",
+      "district": null,
+      "headline": "California schools must follow new cellphone, bathroom and safety laws",
+      "date": "Mon, 06 Jul 2026 07:00:00 GMT",
+      "source": "Abridged – PBS KVIE",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IRF9YM3JTXzNidVFUSEFNRlZTbU52bmlmYV9waDRqTm0xRTh2b3RrLWs4MXA4VW4wblg2ck5ZZFE2bWpWSVJNVTlwck5DQVBmZHFnM0tDaFJWM2lZcEJIa3FscU1JSW1W?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
       "state": "Maryland",
       "district": null,
       "headline": "Streeter: Cellphone bans at Maryland schools make sense — until they don’t",
@@ -2557,18 +2557,8 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Overton Public School ask parents, students to prepare for updated cell phone policy",
       "date": "Mon, 06 Jul 2026 07:00:00 GMT",
-      "source": "centralnebraskatoday.com",
+      "source": "Central Nebraska Today",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVWhKNmJpVENteUl4U0gxMDA4TlBqSzBVUTFqREV6REo2b0FOWUNkZVVJbXlxLWtPeXRjNXYxUjZQcmpSQTYteVFxUVBIbU1KcDlDZjFIZzBxMjFUSGM5Ri10NjRLaUh4NWNOWUdYR1BtTV92ek9EOHFYa3REQS04bkI2Vml2c3JRN29jNnlFVmlIbjE2UDNQMnF5dEZMb19DUUxneUJxMUNUUklTNGJ2ZkpWZnMwMVpoTjNndV84VmR4TlpNS1QyNXZUZHE?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Maryland",
-      "district": null,
-      "headline": "Maryland schools prepare for cellphone ban",
-      "date": "Fri, 03 Jul 2026 07:00:00 GMT",
-      "source": "DC News Now",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeHdqbW9JT3hVdEZoa1lmZUVaU0JkM2pLQ0VxOU8xbVRPWERrOFBKRUNkTGpWM0pBNHpJbmhfcENkZFBQNGFLdVJqem5iNEFzejkxNml6Q19ya0tjM2J1YmEyNzJNWXdPOFRyVkl4MllxcEd1NmVacUF0NG1qWXpieEZoeTlkY2MwZmNYTWJrRW5kUlpwejNyVXpR0gGfAUFVX3lxTE8tN1RSaHNtQmt5M0kzM3BmSnlQaDU5YUhrYV92VUREcWEzSUNWRGFRRDN4U09kRG8wQlV1aEc0NHFCdXEyUGwtMFBpWUpVZkp1TnpUZVlfRUUxMXlLMjlwMDRxSnlpbzh2a2tlcGRjLWxnSm80and3ZDRiUW9oZDVSbXVKS1FXSlVOU3hCcHlpRENZVWhrSWc2MFo2MGloaw?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2599,16 +2589,6 @@ window.NEWS_CACHE_DATA = {
       "date": "Thu, 02 Jul 2026 07:00:00 GMT",
       "source": "Carson Now",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLUduMkZqQzVSUTZua0w0YU5iNVhEWFVuSmZSdzlTYzdhcXhrSXduTEdDMVk5Vm4tTnVtN00ta3JZRThhdzJMN2ZlUDB0eHVqbEtncTc5b2RySEQ0UG9YaWUyZnNfbzBqdXdiNDFSOEw1X0F1dTVnSk81SW5oQnVZOGprMC04b0xBODN5WWtWV3ZyQzRreWFFY04xYWVmQlF2cWM5aGhCRVBEclA5TURYN2RnbFMwMVdFR1hJeHR2VXZCVDAzOG5fM2xRYV9Gdw?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Nevada",
-      "district": null,
-      "headline": "Nevada schools face new rules on cellphones and teacher hiring",
-      "date": "Thu, 02 Jul 2026 07:00:00 GMT",
-      "source": "Las Vegas Sun",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVjVpMHg3bkhUVjYzLUVKR2RELTQxV0llTTlQcElhYmdROVVLLXFoSElrU2tSYmxGd1hUQnh6VUJ0cHVBSUYwWjVlbDgyZFVGRTdTVElMUkN3U2V3N0dQNFhXVlA3cEdEUXRxdThRUmNQdzVNV2p2UUNNTzZKYmlzQlkzM3FJMjQ5MHc5aXEtUDJwWXNONG1Z?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2673,11 +2653,31 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
+      "state": "Idaho",
+      "district": null,
+      "headline": "Idaho education law changes: Moment of silence, AI standards, social studies curriculum",
+      "date": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "KMVT",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdlc5ckZGUkdabDgwU3Z4Sl9rV2JMeHdYazdYWDhOMWRvTXZ1ZzV6cGo0ZzBpM2FDY0N1OUVYc0NsMXdGMjZlNWRTS0dwa0hfblBOMFVkdkFIM3dFNTlIekpiVl85Qmx3VGQzMERZTlVmTlB6Q3hSTkwzV2VOZVU5TGRFdzlVbkgwMVlONy1BVHVSYkRScF9YTkNlYXlGU3FDbkdtdEVIN0ExaU1GZG1fZ1BVV1fSAcgBQVVfeXFMT2FFRlJPYm4xUFpqWWlWSzlIQUcxRHQ5c0ZscmViZDRHVndtNmZzT1oxVXp4dTNDRFNSMWd4OEk3WnV5anFZZnpJMnZURXViM0dOSVhicm5qX3hZM2ZnaXVMOWIwb1l3QXlDazFpOW1kQjJ2X1k4bVBuamhPVTIwek1wMXBTUzhXbGxCVUlQR09vWENNcDZWTGNNemhaWFNQY0VJSk9ka3NKNm9TUlVqWi1mTjY5bzUwOGFNZHd0ZHdJT1RhV3pkdUk?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "New Hampshire",
+      "district": null,
+      "headline": "New law allows NH voters to veto school administrator pay increases",
+      "date": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "New Hampshire Bulletin",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONjNxdUcxRlJBNlRDRXVXX09WX0JRN083NmV0amQyYjJvUUpYaFhhalRORU93TVVqMXIyX09abHRxMjFLX1RfOWVYRXgtcDFpYTV6MTNvRy1ubmhHNVFXWTJBa3h3Wk1lSUtaTVJQQlZYQ0JaWlNFZEh0cmFfaDdGY3FiV3dwZmExYVZ5X25RUjd1XzVDbm8xdnMwM1JiM2h4amFYalB0RFFOY3lKQ1EzQWlB?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
       "state": "Oklahoma",
       "district": null,
       "headline": "Series of new laws impacting Oklahoma classrooms to go into effect",
       "date": "Tue, 30 Jun 2026 07:00:00 GMT",
-      "source": "okcfox.com",
+      "source": "KOKH",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUjZGVHVtLWNlMVo3YUZmbHdGZzNsVzhiS0ptOElTVnRTbGFBRVRwWDROLVJMZktwNTQ2Y3hGb3h4WE95bFJDdVZRX05XeF9fUzRCNVVIX3YxWG5RRlVxYXU4ZUZOVUc0Q2s4TnBodldSc0lJZ2xIMUItb2o3TWpSU0x2OF84cjJGT3hPekptOUdJZExGZDhoOHdvMDg?oc=5",
       "type": "scrape",
       "free": true
@@ -2687,7 +2687,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Limits on cellphones in classrooms, path for foreign-trained doctors among new laws taking effect",
       "date": "Mon, 29 Jun 2026 07:00:00 GMT",
-      "source": "nevadacurrent.com",
+      "source": "Nevada Current",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVmh4bmdWTE1FSzNJcklXVlRtdi1NQVQ0alVVQUg0MWNJNVpqUUJSaVo5alR5STZDZWk5RERPX1VpSFYwemtkQ05TTTltYnMtaUc1S2txVUZ4b09xeVNkS0hhaHZpRTRLcktMQXVJQW1vdk5EbzVEdUlQbWpSS3p4THJMVGtSaDZpWTJZNVREblZpSmppUUpyWkdPVVVUUzlVX0ozQkc1VDhUUE9QZUszeVBMWng4ZFo1aWp2Mmg0YWJfLUoxcjBvUUdESXdrcTQ?oc=5",
       "type": "scrape",
       "free": true
@@ -2707,7 +2707,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "KY3 Digital Extra: Missouri schools remain divided on cell phone ban",
       "date": "Thu, 25 Jun 2026 07:00:00 GMT",
-      "source": "ky3.com",
+      "source": "KY3",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOFdrNFdvYm5Tbjh2UzFNaEJHVGFhMHhYamlNb21KRmp3ZG16QXJ5bTZXTjF6U19PS1JGV2JyZnVuVVkwRlVzSDFNMk8yMlc5OE5nZ280N21ZeDFvbDF1T0N4dzdFb3VKbHZEU3pTMFNoMm85c242SGZnTkU1aTVzYnYteUVNNUFQeHZPVl9WUmxLWWtMcHM5TmNaRUjSAbABQVVfeXFMUHM3UVFlazc3N0xuOEJjSDd4UkdwcklDVWdRZE9lX2ZESUlkWWstcWZwZ1dEMTFxQTNEaXpqSk9Dczl0aU82Mld0UVBRUlE0eEl3MXNpOFJYOFhRSHV3S1QwNFFscW1uajNvTWpNTkJxWWZHUzRib1JEdm9aYWE3d3h6eHVPVThjYVRlY25UM0hBRFpyZm1YNDZsaXBuMmk5eFVMRU9yYnpwZjQxOTFxa2o?oc=5",
       "type": "scrape",
       "free": true
@@ -2717,7 +2717,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "KY3 Digital Extra: Missouri schools remain divided on cell phone ban",
       "date": "Thu, 25 Jun 2026 07:00:00 GMT",
-      "source": "ky3.com",
+      "source": "KY3",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNU5tOWFJOWtLRUk2Ml9CV1JxMUs3eDZvdGNGYTNZUE9XWFRQb3NqVklId0JmWG5OSkcweUt3TjBjay03d1ltZ3RUM3JHNDhhaVZ3N0hZdVdTZHFuWFNuOEZLS3psZkpIUTJScE1oY1NRYTB5WnJiSmZ2MFJuM1BWY0d0SnRyODN0OE93OTUtZFlqaVdvSFZHNm82THVTX0RwbURQbQ?oc=5",
       "type": "scrape",
       "free": true
@@ -2725,9 +2725,9 @@ window.NEWS_CACHE_DATA = {
     {
       "state": "Louisiana",
       "district": null,
-      "headline": "LA school district approves new screen time limits for students - ABC News",
+      "headline": "LA school district approves new screen time limits for students",
       "date": "Wed, 24 Jun 2026 07:00:00 GMT",
-      "source": "ABC News - Breaking News, Latest News and Videos",
+      "source": "abcnews.com",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbzdPY2NSc1VOVm5LVnEyRVUwM0xuejFheEg1WUNET2g1clNXTmZoXzVmZWJJWlYzb1BBNHJsMWRRclNfQ2Q1OWJQbzZsWUNlcDRKallJenFxVHYzYkU4aml2VFF3cXNtbkJfSEpyQ0ZWQ1JwV3YtUDlWZzlkLVBKT0ZaaWRoR1oyeVhTb3NzNjhYYVp4V0ttM2c5eXRTMkHSAaQBQVVfeXFMTmU5bWttTEYyQ0ZCeS02bnltV185Y1M2cG14U3paVkNHcG5Qd0U4YnUyUllycVgyU3lFYWRYWExoZHBkRi1IaVI2WnJBR2VsNU1mQ3ZqLU5OemdibVpyWlpIVnd2OXhaWThNLVlDLUdzSGd2ODZqUzdyZFFxRTRZUTlyLTdHOXZxQ3hGRG44aUFWZEdLeFUzNllMajF4QzV0UU5lUnc?oc=5",
       "type": "scrape",
       "free": true
@@ -2737,8 +2737,18 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Central MA district's answer to cell phones in school: There's an app for that",
       "date": "Wed, 24 Jun 2026 07:00:00 GMT",
-      "source": "telegram.com",
+      "source": "Worcester Telegram",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeWRhNHJtVEVFOGxMak1tbUdxYTFrQ1JDQ0RPN1ZSa0pJd3F1UC1fWGJvMWZsTC1udHF5UVlGV3pEcWU2SEpyTS1wbEFyaVgxUHRGT0t2NGNDenBObmo3Q3NDYjRDMUQ5NVZoU1BLclJvU0w4Yjh2U1VVb1Y0dHBPYUdTYzkzeFcyRFFpajYyaXg0RGtrYUo1Q0ZaVkRNSUVKTURTS3RTeDg?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Florida",
+      "district": null,
+      "headline": "Florida high schoolers stand alone in exemption from state cellphone ban",
+      "date": "Tue, 23 Jun 2026 07:00:00 GMT",
+      "source": "Tampa Bay Times",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONUxJNzRTOWltOUtROTJ6NEMydFZpTEdvX3JYRlFWTjhJLXdoNDZlSFdOYV9URXNtSHZ3ODF5eHVhNWxpRzBzZ0NrUEd4Z3ctaC1TeC1ScVRiTDAwN0ZzM2xtbTBubEpxcndaWjRPdWRqcm81VDVlemY2bUNUMEtBTG85NzVqNUc1a2JkbmVnYldXd2VfcmdMMXpkejBxb1haNWhTcF9ON0RpeXVwcUdNM091VzBkS1U?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2749,6 +2759,16 @@ window.NEWS_CACHE_DATA = {
       "date": "Tue, 23 Jun 2026 07:00:00 GMT",
       "source": "Idaho Education News",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTzJ3azlrci1qU2dkWklZVGtGSzQ3c3BjNGZ4d3NXdWRocHVUMno4VDVoOGd1MWM5b0thaHRNelBJOTI4SFRXOF9JWF9mczJfLTgyaXRSc2NpeDBxLVpDQ01DMFlVTFhORkZ6TG1ETkZiaE9ib0hpdE0zelZPRmtmTmxqMmdjZEFFQnEybkZuUVB2aXQ2SlVURXlJZHQ5aGRaNHM1YzVzbnhtNHNLX3I4?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Mississippi",
+      "district": null,
+      "headline": "Petition notes school leadership issues",
+      "date": "Tue, 23 Jun 2026 07:00:00 GMT",
+      "source": "Mississippi Today",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBQVmZ4ek1JUGJjYWhEbTVqTGZGdmtzZjM0YXRZY2FtaUk2R24zRDVrelZiekFQRHUzSlpSbXUyMFk3dzB1amVyeHA4Uy00djhqRWVubV9VUHJmd3RhY2x0Y2ptbHVfb0dSdVB5UVFZSWtjTC1vZFlqSWlWS0U?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2883,22 +2903,22 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Idaho",
-      "district": null,
-      "headline": "Former Ridgevue High School teacher charged with sexual battery of a minor",
-      "date": "Fri, 12 Jun 2026 16:23:21 GMT",
-      "source": "Idaho News 6",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbVZpN1BUSlY5dnpmRUZPd0NZNC1SV0gxMUpuUEhkdXNNNGtXWHdhVzhoRGFlUHUyN3IyUzEwZklKSmNlX05FUWJpWjMzT2FlUUxwNXNiNmh1akt4R3VHVkZwdHVlSnRvdVNqZTZ5QXVOQ29vMEV1UlVXakNwZnRvY2JmQUdXRElVWlBjQlp1X0tIN0xQellwN0xvNC0?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "Delaware",
       "district": null,
       "headline": "State Police Arrest Magnolia Man for Pointing Gun at School Bus",
       "date": "Fri, 12 Jun 2026 07:00:00 GMT",
       "source": "Delaware State Police (.gov)",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUkNCY2RyX3A4VEU3bXFEQ2dVQUQ2MHFXR1hPLXdpdWJWdkUwb3hSTFFucGJWQnZRREFWaXdzRFBnNjZ5RTdYaldNUDYzRUVDNnFjZWhoNG5GdDBiNFVkQjhjVUhyd2J5RFRwSmFvVzR6aGxrSmxYa0N1bmZNdVY3cWRFVGNkbllVdDdaX2VZOHY5LU9VWjFCeTBCT0lBRks0TUE?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Delaware",
+      "district": null,
+      "headline": "Motorcyclist aims gun at students on school bus in Delaware, police say",
+      "date": "Fri, 12 Jun 2026 07:00:00 GMT",
+      "source": "nbcphiladelphia.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSHFVUDVpNzJiZEl5Q1FmVkd1TVFCSVNSZnhSbjZma0FFR3JsXzhuczFjNkY4Rjk1VUhSQjR4b0hpaHZwSW5SaGhkRXpDUHktVDlzeXh5UmFmZndTMEw5cWw0dnZuM0N3Y2lvTHBJRlBySWdEWTJrb1ZMcDlGenh1QnQ0YnJVMFp5SzZ1UEE1ZUZubkc2bkYzY0c1SVlLeGcxTUlSUllqUEVBa2drcVM3OXF3MXh3dU0xTnFfZTZJY9IBxwFBVV95cUxNX2pQZ19lZDhWSmdYRGJsSUV1eHNGdzUxRUFnS2RoN2RLN0VCRERmRGxYejJuYlBRdmhDQkJGdGFEUTdDVWkxZndscnl6WEV1RGhsMkdUWHdkTjg2REQtUno3dzc3a2luc2o1ZXFNeUZZQkROZExBRFNXeEZrWVZQTUdNQ0duZHBibE5rZ19Tb0x5cGZsS193enFZWkNrMmxIWDF4TmQzLWpsRndOekwxVXRFY0p4dzZLMC1kLTdhMVhUZDFIWklB?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2913,12 +2933,12 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Rhode Island",
+      "state": "Alabama",
       "district": null,
-      "headline": "Charter school moratorium passes RI House, awaits clearance from a favorable Senate",
+      "headline": "Alabama DHR SUN Bucks program to provide one-time issuance of $120 per school-aged child",
       "date": "Thu, 11 Jun 2026 07:00:00 GMT",
-      "source": "Rhode Island Current",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOLVRteU1wcmluSDBuelZZODRZVXVVMS1Ha2RmanIxWXBxTGRwSDJ2NjVxbWRwYnQtUzJTbjgxb1QzVWFhbVB3cGxCTFlEN1Z6VGlHMlR4MkFXTURzcktBWUJlYXNURjF6UHJlRW5QWlljRUljWE8yS3daeXhBZE96eTZ4ODdDcmFQT2h4dWJfMGdlb0hOd21OX1prcDFMdC1mdlFCU3c4MkZrZi1kOXVoVjNZbTl1aGN4NzRzUHdjWllfaWc?oc=5",
+      "source": "mynbc15.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY1JGeWtNN0JZbUJYdVRkeHJqRGxGbWFPZXdwaVlzZ21TUUFocjVmekJpSURmX0I4YlVsQlZtQlFhc0U3bElERnZnUWlkRjZyd0RnQ3lCUVExcWZzZXAzM280ZjBybVBrWXdXSktvamdMNVRReWNaMklNVGRXeUVkbl9ELWdBbE13bEducWR4WkF5c052dzYwZlpXdThqX0Z3blhnd21USVdHaHBZVlRBUUlwVkFyNGF0V0E?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2943,12 +2963,22 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Iowa",
+      "state": "Georgia",
       "district": null,
-      "headline": "Iowa teachers back new classroom discipline law aimed at disruptive behavior",
+      "headline": "As Georgia high school phone ban nears, schools weigh enforcement options",
+      "date": "Mon, 08 Jun 2026 07:00:00 GMT",
+      "source": "13WMAZ",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcWNMbXpNRVg0cXhfenZFcC1tdlNza28yLXM2RDdVMUE5ajFQamsyQUJ0UndLN09MNjR4ajYzSUdFYWZ4c0w1eXAtcTdJX1dCRWUxb29Pem5DNDB6NjJWbVBtV1NyNDhwWFI1eEpzTWpaQ05VaXcwR3RJWWhQQUxnbDBDX0wtaXQtaHY1ZHlkbTNuUFp3ejJrbEh5NXJHYUxaQkdwa256OXlaSkVYVEJJQQ?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Missouri",
+      "district": null,
+      "headline": "Missouri schools see better grades, engagement after phone ban",
       "date": "Fri, 05 Jun 2026 07:00:00 GMT",
-      "source": "WQAD",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZ0lsYlRDQTBIdjEyZ3YwcGxSQmRKUDkxUlRXSFN0ZTlfRWl2NWZKZkNwazY2d244Q09taGxLRWxrSGd3V0hKdDVydndVWF9Xa1NMLUxCdUtqU1BwbXk2VGJxaFNHOXpvaDFmUjRBNVJ1OGpVc1VoMk5qamJKQ1FuV29ybFpJeVFhUUxlTThPZjVKaUZUT1J5RkNCVS11T082OWNxanh1R01aTy1fNkNXQURUaEsxT3BRbXQ2UzdYV3JVaWUwTVh3T1RPd0cxZVM0akZES1VHTnYzVFRRQW5pWWVrTUtwN3FOTHhwRGFR?oc=5",
+      "source": "FourStatesHomepage.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcjJLdlloZWtORG0yY0cxVDZyMGNVN1oyT2NKYTlIdVh6X0Y5eUcxS3cwYUYzVGRZTU1rQXVaNE8ydFE3SnVwc3g2QXQtQnlieTBabXNrb0dnUU1wRDA5ZTJBWVN3dTdGM3RpS2lYWWUtb3IxSVoteGo0SDlZNGRlS0JZSUQwTHZVWmtZZ0VUR3NpSk5ReU5YUl9HX1VwMUlKc200NElxSVNEQ1Rm0gGyAUFVX3lxTE1TLWFsd0ZRbXVLbzhtdnVOOXNWY2NhUXN5MUYtUEgwZmRVSzhBTDdPQUJHeG11cWRTZklVRk8zUXRZSGJLWUFUaFYtU1M5clY4VkVJQVB0ckhucE5OUXB2MmNqWWpEcUFoMkhITmJRNVJ0cUJrM0wxNXg5MTlNbkp0bDgtWHRaRk9rR1hSVG5IeE51dktWTDgtcTVMVWs3U3JWbHVybDJyMUo2RFNwdWJpcmc?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -2963,22 +2993,22 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Missouri",
+      "state": "North Carolina",
       "district": null,
-      "headline": "Phone down: Missouri schools adjust in first year of phone ban",
-      "date": "Mon, 01 Jun 2026 07:00:00 GMT",
-      "source": "Sedalia Democrat",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ1A0RDFyZmJtUzZrTmZua2pXSUFJSjNBMUhlbzJtLXRyUWQ1Y0VnVFA2Vk43SXV2dE5aSjVsWElnaVBEY3VIMmtkV1FNcXEyanFnU21JY1d6c3RRZlpIakZIUTU4bFlkVzcxMW1BU3hvS0R6MXVpbFBIRTRUQkpBbGRtNDFOWVlpcDd2c3hsUi10R3BTREJSdkQySEVTTWMxQWlKcDJmb1o0VkE?oc=5",
+      "headline": "Cumberland County Considers Tightening Cellphone Policy for Schools",
+      "date": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "source": "CityView NC",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY0xXOS1zRlZvNE9SX1lWeWZ1dHFEZXdJaDNfUmFRekNJdm9tajNNTVplbGxlQ0oxYUZIYXRGQngtNkdzb0VpZWo4NFNsa1RQRXVta19sWUZ5MHFrQnk4a3VsdWlHTUl3OUJWczlFTG9kNzhiYXpZbW9GeWs0bkFlQ1VVZW9IWGFLR0NSY0Eycm1tNDQ5a2trOTlXem1aaVN3Q3BZX2Vn?oc=5",
       "type": "scrape",
       "free": true
     },
     {
-      "state": "North Dakota",
+      "state": "Wyoming",
       "district": null,
-      "headline": "North Dakota Launches Statewide Survey on Classroom Devices",
-      "date": "Fri, 29 May 2026 07:00:00 GMT",
-      "source": "GovTech",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT29JWlZEOXIzNEJUZk9XTkdCYmoteVNBQlJhZ1FtaVhrUmc0MHo4REJSUmJ0T2JHeDF3LTRoMDdwV3lkbWJwZHJHRUtpYktfS29IUDVLMnVwMjFvMXRrRkQ1WktKVzBnX2dMM3Z1Q2dMM2luazBWUWRkb1ZGSTEwVW1ZUzBGN2FhcXM4U2d5ejNpa1JwODNYY3hLU3J5d3c?oc=5",
+      "headline": "Campbell County teachers, students and parents speak out against full cellphone ban",
+      "date": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "source": "WyomingNews.com",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQUHd6RC00RlNQaUhVNEotUlBnbmZpcmVXQ1UxX25rSDBqQUI5YWdiQzdMbXdwc1Rad1lxSmlVRzA0ZEpVNmhwakJ6bW5aYVIxX1AtNGVrbE1sMTRUU0tabXMzOUhXQS04VXJ5MzB1YVJvXzFkME16OTl0eFdNQnN3dlpDdXNVM2owMmRVb0gyZTExS01GelRkZjRpRzJ0bjM0UkF1dk1acVFNcU1rWFlVdnljTWFBOWRSYmd3eF9jVEJsanp2MGRRWGJSRnE5ZXRVZXVUY2NkYVBEcjRqbm55N0dmeWNIRmhfdm5UbDE1YVBxdmJrNWxiNWFhSC0xeHVTZ2huVWhWSQ?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -3017,7 +3047,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Voices: Utah’s cellphone law goes too far. As high school students, we should have a say.",
       "date": "Wed, 27 May 2026 07:00:00 GMT",
-      "source": "The Salt Lake Tribune",
+      "source": "sltrib.com",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeDFUU3ZIeWZxc3o0NG9Gb2NpY25sTTA3Q1RmSk0yOXdLc0pCNlV6Rkhsd1VQXzc2Nk1oc1hVd0RRMG51Q0I0aGk3LWc4eW1MZmJlWkh0M0d6ODV6VkZyMnhiT05fWUFhMTJ6NmRUNmFlWS00akFmTGhEVTdScXZ4S3ZncFo1NzFVVE92N3lCYWVFQQ?oc=5",
       "type": "scrape",
       "free": true
@@ -3075,9 +3105,9 @@ window.NEWS_CACHE_DATA = {
     {
       "state": "Iowa",
       "district": null,
-      "headline": "How a stricter Iowa City CSD cell phone policy will impact students - press-citizen.com",
+      "headline": "How a stricter Iowa City CSD cell phone policy will impact students - Iowa City Press-Citizen",
       "date": "Wed, 20 May 2026 07:00:00 GMT",
-      "source": "press-citizen.com",
+      "source": "Iowa City Press-Citizen",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQLXlVc0RBaWtVaHBZX1pyRzBBN2sxNTZXMGVVQlVSMGFGMHVuNDFfblQ3VmVXZ0ZyTlpjc082LTZmYlZ3VDBJY3pyRk8zU1dnYUNVbjNwVld6bi1uQTFtUmZuUWZEd3hyT0dGNG4xZFZKanVaeGlXM1pBTWxzbHhJVTEtWUF0Tll1VWhPcHVQM3p4cWdSQy1KT2NjT2ZEd2wxaFRiLXFTTS1xLWI2ZUg5Q3RGM25KTkVibXl4d2NReEV6UnNmRnl4VkxIaDZMbWxjT1NLajlYbjRsOWpSZmZ4bUoyTmd0QWdub0laZ280ZkN5SVREWHVQOQ?oc=5",
       "type": "scrape",
       "free": true
@@ -3093,52 +3123,12 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Iowa",
-      "district": null,
-      "headline": "Iowa limits classroom screen time following new surgeon general warning",
-      "date": "Wed, 20 May 2026 07:00:00 GMT",
-      "source": "KCCI",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeHZUSzdtc1d0cXJRSV9zcnRITGlyRE5FS0VtSGpFNjZGQnA3aV92b09HWVd6VWNGYndzVC1EUl9yRkc2OGZVd3hiU2FST1o5d2VLcmpHZ2pIcVFYR281ZTdEMEctRjVqdTNJM1dSU1hvQWhmVXFZUmI1TFpId3VDSXVCaGhkTWtoeVNaZEM4Yjlkb3BQYWluY1ZCUlF5blpDR05McGxTREw4VzhMdDFNeDJCSW9HYlFYb0E?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Tennessee",
-      "district": null,
-      "headline": "As Tennessee limits screen time for young students, here's how low-tech learning plays out in one school",
-      "date": "Wed, 20 May 2026 07:00:00 GMT",
-      "source": "WPLN News",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdzdpN3RreDdhN0NsYTROcmVvbGNHMVFLQmxPbFA3YXVBMGV5Tm1jNjNsaFdlQkZvYkZ2VkVjdENUUHhuNHp2dDlQMllLRXRlLUo2c1hFNWZyU3ZBNDB6VnNJQzRiR2o5Tm9hY3pQNmpIVFJMSWdBdjYxcTRIWjhpOW1oS0ZqUURvUm5NM0VlSnpFSTN0NmZxaVhjSFhzNFdFV2tZMmdVb3RMYkhEYkJ2aGNydGZXbFhtTzJ5akJpZ1pCN28?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "Alaska",
       "district": null,
       "headline": "Alaska Legislature votes to ban certain synthetic food dyes in school meals",
       "date": "Tue, 19 May 2026 07:00:00 GMT",
       "source": "Alaska Beacon",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTkxQa2ZuZU1oRWhmb1ExWDU5WVFzeGQ1b1pqS3cwTFhRb1dUMHdnYXdVRDloZmJwVGNYU2wzY1daSE1yUEsxaG9ka181U2N4dEJNV0ZvTTNlQUppazRSYkgtSjBuYlY0RzdBNlowdXVFOW9QVWRwSnhrTmgyWGJCazhadUI1ZnhYWDlGYkN1SjRGb05ldFpwVU14NWUzTG0ya2VaTy1ReHpmclZmOHFtMG93?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Kentucky",
-      "district": null,
-      "headline": "Threats lead to lockdowns, evacuation at Lexington schools. Students safe.",
-      "date": "Fri, 15 May 2026 07:00:00 GMT",
-      "source": "kentucky.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ySktNWmxsejYxMmg2VGF1dXp3Q1RucHpmdDRSZGUwUUVFWUdSZGF6ZWV0aGhqQkxwTlNGR0luME91TU9taVo5R0JYSmJqTXc4aUE1cUwzZ21CZmFQbmpqZVRwRV9abVd1WXByZnN5aU9vb3pSYXfSAXZBVV95cUxOMnpFRUxjVWZKWnNxYldtYmx5WjhYeGRlSnpEMVpHZXpuZ3pzUUFiREk2UU13cU00OXVpbXBTak1WSkxHZEcyNW5KMk5va2dwS3NNRmNyMVRPcjJLTDFmM0NtS3p4TUw5Rk1zaHF4Q2JQYWFuWW5n?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Wyoming",
-      "district": null,
-      "headline": "Wyoming Supreme Court Overturns Block On $50 Million School Choice Program",
-      "date": "Thu, 14 May 2026 07:00:00 GMT",
-      "source": "Cowboy State Daily",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZldQZlhTRDJ0bmpqTXpZOFdnSjFRdU5uWWpURVJ3akNrSUNERU1HdzNieW9QLWxGb1pkQWhIVnFXZlhmUjRhTWVBM01UQXQwNzNOTW5aYzRVX3lVejh1SEdGU0hHVmU5Z1lnaHZUeVpIeXc1TUVGRE9sbm0tVEUycFU1TDNDQnU3N1ZyZThzYzg1Ni1uLW16Q0FMQWVGay1CdEd0Zk5IS0o3U0JxQU4welpNNE8?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -3163,12 +3153,12 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Vermont",
+      "state": "Nevada",
       "district": null,
-      "headline": "Vermont lawmakers abandon push to ban chemical dyes from cafeterias after school district opposition",
-      "date": "Mon, 11 May 2026 07:00:00 GMT",
-      "source": "VTDigger",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOM0htMHdHdDV0bkNYNWJnWFVWdnhUbFNNU2Z1SEloenBrUlcxbk1lWW56Q3RkQnQ3elJMTVBiZnBTTHhyNVlTUGI4bjFVUVdBWXhiZG1NUE1wVHJvZW1uRm1wX2pKcTFJeHlwdUc1Y1h1dW83TFVWNUdIc21PbHpQWi11X1pWWm9pa1R2dXVBcTJMN0QyMHVnMU80NzQ3ckNFa21uUVlfZXdUdVJ4QTFubzR4RkRfbkdWdmd6ckNFQXA5SHNqQjdOVVk0czlSdw?oc=5",
+      "headline": "Fact Check: Is a \"New\" Cell Phone Law Hitting Nevada on June 5?",
+      "date": "Mon, 11 May 2026 23:02:18 GMT",
+      "source": "Nevada Globe",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSnU0RGNadjFnRG9rdDgxNFFtNmZrX0ZYVUxQd2tPNzIzVFBnYlpkSkV5dWM5SF9SVnVxTHFpYnhJdlRQNG9HT3Z5T3JLd1ZhSFoweGozbDZoZGZPR2owdGxIdlRydlJyUFB3cmFPTzI1aDBaNFN2MUVCSHQ3WHVPbml5WkJYaVUtdko2X3hiRW1tY0F4WDdfY0RvNHU?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -3179,16 +3169,6 @@ window.NEWS_CACHE_DATA = {
       "date": "Fri, 08 May 2026 07:00:00 GMT",
       "source": "Western Mass News",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWm9JUjY2YXNkdXdiMnhJZHFENGtXSlZkRm1Pcjd0ck9VOGIzSUltdnBxd0g5UXM5ckp0eGFhN0ZUanEwUE96ZEhfM2NWUFZSZ1dacWx4eVFuVjR0VG5jRDVpR2xCOEx1SWJ5OGZaMHRRVzBoQWRoMkpyT3N6S3RxdFBjT3ZvTG1zZ2JLZ1J5TWkzX09wTEZ1MnJJNXA4Znd6NU9nT3VYUjVDTnBfc0hnRGFXOG8zNkwz?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Montana",
-      "district": null,
-      "headline": "Report finds mixed success for school cell phone bans",
-      "date": "Fri, 08 May 2026 07:00:00 GMT",
-      "source": "Montana Public Radio",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcjJoaTFTR2tCNkItZEtfREV4TXFlU2pQM2d6b3k2eDhSTWRWa2pBM1MxeWpmdHM0UWI5RU94TlJZZ1RiUWpvdERGTDdSZm12OGdQUS1MLWdLNFplQWJNc1k5clhicnFEa0xXY05wUXlKQnFFT3UybERKMUx0VTFzZERBUXNSSTRWSTkwZm1jSEVVTW1kS2RJTGF4NDZkbXM?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -3219,26 +3199,6 @@ window.NEWS_CACHE_DATA = {
       "date": "Fri, 01 May 2026 07:00:00 GMT",
       "source": "NPR",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2JhbGlXOEJPcXJpR2UtRENYZG5HemMtdlVOa3BZdm5oaVVwaEtybVpGd0JpaVJEdUVmZm5VeHFiWW93ZEJDamhKc2s3azViZF9yM1c4bXB2TF9BeXNJTjA0U1dRUEIxUm8xWUhxZkNieFJqMFBNQ2J2TnVMbVMyRDFCLURRQWxReGY0?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Arizona",
-      "district": null,
-      "headline": "Arizona nonprofit turns old tech into new opportunity for students",
-      "date": "Thu, 30 Apr 2026 07:00:00 GMT",
-      "source": "ABC15 Arizona",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWEJOQVZ1akl3dW5FTjVBR2JLcWVvUzVTTDhYMkNIeWJJODlkTEdJQmRMODdHSUhMRTJsbU52TmtQQld6cDdpMFdMSUM0MElqWnFqSWllVndBOUthcjlyVEo2OU9DSnlQb3d0OG1tOVdjamNHU09UdE5Bc2hmMS1KYUgzN0YwMUlTdmFOTGgtV1BucGxlREFNSUMxcWRKLWNLU0RDWXJJdw?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Montana",
-      "district": null,
-      "headline": "Montana State STEM student admitted to prestigious pre-law program",
-      "date": "Thu, 30 Apr 2026 07:00:00 GMT",
-      "source": "Montana State University",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMWJUemNfa285SGdnLUwtTkJYUVBKMmptR3RFV2dVdEVXUzRVTUlHTzFlc01BWV9QeThlQ0YxQkNUT1B6RWYyZkRGeGZnWG9UT0VScGJ6WjNGaE9xMVpjN1g2c1N4SVY2WnpNUG5CTFhuMzBGQ2Z6SlY5X0NJcUI1SUNUS2VQUS1VT2dKaXl4VjZCSU9KY2ctbjhPdFh2SENOV3Q4?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -3293,21 +3253,11 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Alaska",
-      "district": null,
-      "headline": "Alaska Senate advances bill to ban certain food dyes in school meals",
-      "date": "Mon, 20 Apr 2026 07:00:00 GMT",
-      "source": "Alaska Beacon",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcmM4ME9yc25ubnExMl9GTHNrelB0c2tTSTR6T1lpcXFyZWFFWXlyM3BFV29xUzFFRW0yTkd1RkdyUm5yUmZyVEpJblJlNmpBb2dxT3FNQ0lkWXZDSktReFpWX2lYX1pqb2tuZFVNSHdjMXZHS0VGS25VV2E0SlB1eHZzTHZsWVppTTlfcUZtMWRVRmdkVlZsX0FHYjBmV05jNlJrQmxLdk0?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "Ohio",
       "district": null,
       "headline": "I-TEAM Special Report: How Ohio’s cell phone ban is transforming the classroom",
       "date": "Wed, 15 Apr 2026 07:00:00 GMT",
-      "source": "13abc.com",
+      "source": "WTVG",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaFVscnl3M1JvU0VHSGtpc3p5TFNTZFY3RmZuVmVTTVkxaWxGTklzR1pjWW5NTVRYcks4ejN5Rk82MnpBd2tzNzhBN2JudDA5d2NYWWFoN1dwOTdacFJ3Sy1CbUFOOE9ZUGI3RDI2MVVCNzRxZDhINm5EMDVmZ1ZkQkVaaXF6dlJMMlZxekNKVFN5YmlWM05BSmU1cXhjN3lGX2fSAbYBQVVfeXFMTVRkbWUyMzZnSGwtYUZBTjZNanlGXzE1Qjh6RE1nNWpwWXpDVXVsYldsSVU2eWliT0ZMN0JndmRULVhGbGp1blYzWnhZQzZocG4wSmIyX1VvLVRJeko4ZFhpZmM3RUt5LXAyMHlyRVBTWDVFTkFKS0dpSEFLYlpCV1hiNFF1Mzd5X0Uzc0dDZ291LTBObUF2UTZzbUFDOTV2LVE3cGI3d1kwRFdDUE14TnBHMUE5QkE?oc=5",
       "type": "scrape",
       "free": true
@@ -3317,7 +3267,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "I-TEAM Special Report: How Ohio’s cell phone ban is transforming the classroom",
       "date": "Wed, 15 Apr 2026 07:00:00 GMT",
-      "source": "13abc.com",
+      "source": "WTVG",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa0JiREFENEYySkN6TFFXei1NSGJZSkhORjRoa0wweDJZb3RiR1piQVF1bk04MGJ3SnFPUnpYNkowQWFYYUhJaThScS1hWW1haFVnTWp4bHFZd2ZoN094dDJoVWFsRndJRFN4YVZ1QUYtQzJfWl9LSXdJVGxMSjA2ODFVeE05RTZTblZHdlUzdDhUeDdNNDN6QlNTX1cyWXpoZ05XR0NadktQU3Y5V1pvVER3?oc=5",
       "type": "scrape",
       "free": true
@@ -3337,7 +3287,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Life after Ohio school phone ban",
       "date": "Tue, 14 Apr 2026 07:00:00 GMT",
-      "source": "fox19.com",
+      "source": "FOX19 | Cincinnati",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2ZTh3VnUxSFVVQlllZ0VpaXRscVlaVFZaRGlQcjc2WlVqaERveXcwMWltbUo5SFhzTzFZWXpYdmt6TXpHVlRJSWRnaGZCUGU4UjVNOGpCYWY1WmxISWhyU3pPdFd1aGF3dWREblY4R3BoN0QzNnctLU8yR2Y?oc=5",
       "type": "scrape",
       "free": true
@@ -3363,16 +3313,6 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Arizona",
-      "district": null,
-      "headline": "Most Arizona schools ban 'offensive' speech. It cost a district $200K",
-      "date": "Sun, 12 Apr 2026 07:00:00 GMT",
-      "source": "azcentral.com and The Arizona Republic",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPeXZnc3h6aVlWaXIxNWQ2UzFYRXc0U1JYa05hcjM4cUkxVFJjdmZHY0FDUkN2VkZpcWZqakxnZVd5RFRYYnpyOF93UDB2VDBZaHE2NjlfUFdVcGpOUUFfRl9lZUhhV1FBejB1MTMwZ1NPTllHbi1JbVJjRUNmRGFEbVpMX0h2b1pwbDV2anhKRnpVVnFRakItUVhFcF9GRWhNdmhYek5TT2RTdzBRblNYcE91SVgyaHpCUmtZN1RYcUVaU01ZSGF3Y0w4dURJTk1TdHVxNkZHcm56dlpLdmVFbkI4S2hZQQ?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "Massachusetts",
       "district": null,
       "headline": "Massachusetts moves to pair school phone limits with tough youth social media crackdown",
@@ -3387,7 +3327,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Massachusetts House Approves Social Media Restrictions for Teens, School Cell Phone Ban",
       "date": "Thu, 09 Apr 2026 07:00:00 GMT",
-      "source": "New Bedford Guide",
+      "source": "newbedfordguide.com",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUHJwTkg5WVJVZjlrSDZyR04tZDdRUHlJY2Zod2xfWFBOS0l6R3ZBb0R5TlhrSkhERjdvdWtIbDNWVGNhR3gyUzZBQnhwcG4zS3I4MU95TmMzbFc0VVVEOThLYWxfZENUd2RzRXdJQXNVNGFKRGFyU2Q4TVhCdzcxTWVkbEVMX2JSU2hQVV85d3BPMGFfZFBseFdZVkhkYmRHOFhOcjRiWEJkTjRkc3ZkakpSUjBKakJib2RZWXNwdTdfeFU?oc=5",
       "type": "scrape",
       "free": true
@@ -3409,16 +3349,6 @@ window.NEWS_CACHE_DATA = {
       "date": "Thu, 09 Apr 2026 07:00:00 GMT",
       "source": "GovTech",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTE5EOUVXV1dmY0JUTzRlY0xoc250TTRqVkxvT3BQWFN1QmVTaEktcmVaTFA2eEN2LXVMVUVjUXNUZ3pHM2NPNTAzWjNUUHZfWEZhcHdtMXhNNkkzeFJrS0tZdzJvZy0wbnZJMEVhZXZCU1huaUh4djZMeEx5SkRKWDk2WnVoUkZYUWQwaXZfM01zUFN4T2NOenNfWlBEQmRoelYxSw?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Massachusetts",
-      "district": null,
-      "headline": "Massachusetts House passes bill to ban cell phones in schools, limit social media for kids",
-      "date": "Wed, 08 Apr 2026 07:00:00 GMT",
-      "source": "WCVB",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYUdFWUFxeW5ocU1zX0VsWHRsbGQ3TGkwN2lwWVliSDVIQTc0UFJqV1VmVkR2ZnNXd2xGSlNwZlhKV3dGRHlwQl9Sc0YwaWNFX203VTJ0Uzc5dThDTHA0b3liQ2Y2SklkcFRNbGpzVkxEbGkwTDJGZ2oyYXc5ci01UUlrM09SdGJCUEtpRWpsQkl3NGZkTG9jZElfTQ?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -3449,6 +3379,36 @@ window.NEWS_CACHE_DATA = {
       "date": "Tue, 07 Apr 2026 07:00:00 GMT",
       "source": "CBS News",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVnRVdHZRa1lINDFUdXo5MWkzSzNsS20wUnpxRmpsX1ptMms1ZzdfdlFfSlgwdGp6TkxpQTc3MWZPQXJRSld6NDMweF8wV09uS1RtRDhFWk1tRVpDR0xHQ2tCdEY1eTlvWjc5S3ktYUdnRTVrMDdteXAwS3RIeWlpS3JjV1JsS3dlLWcySnJuVjg4dw?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Nebraska",
+      "district": null,
+      "headline": "Nebraska CD2 candidate Denise Powell on AI, cell phones in schools and why she says she isn't a politician - Oma...",
+      "date": "Tue, 07 Apr 2026 07:00:00 GMT",
+      "source": "Omaha World-Herald",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX2V6d3VWVWJTQTdFQ3NZYVJJekJUelh6U0dzR1hmSUxzSk5rQllOSXY0akM5eldPTDFkblJoUGl4c2MzOXhETHJZaDV0cGZRYmprQlBXQ0ZUYS1jOUZYMmZxODBKNS16NFRJQkRQUkdyck1DbVJsMUhJZEFEbTl1QU54cFFTU0hGc1NaYkVIbkIwbEdBVUpoQVEyRWJSX28?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "South Dakota",
+      "district": null,
+      "headline": "South Dakota receives an \"F\" on Phone Free Schools Report Card",
+      "date": "Tue, 07 Apr 2026 07:00:00 GMT",
+      "source": "KOTA Territory News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeHdId2tzR0huOFQ2WGtQRFowLVVQallkZEN0c3Z6dzd4aW1LcFdJcGNZMmdIck0xZXhYaHhqMFllVVktanI0cEVFSHdCaUdLZ2ZlLXlNbm5zS2htRGdVU0NhM2UxdU5EV2hobW5SOVlBUDRhNmdkenNVYUMwbmtMMURubTBCSWc5ZjVPeU5GaXJGanM4cWRpRHJpNnkxbkE?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Massachusetts",
+      "district": null,
+      "headline": "Massachusetts House to vote on social media ban for young minors, restrictions for cell phone in schools",
+      "date": "Mon, 06 Apr 2026 07:00:00 GMT",
+      "source": "Boston Herald",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcmJCTnhrVW5ITnlfMks3QzYxSlROWjZpZHdBVnI0MXJVbzZpdHBLenczLUE1WVZMVGxUNjQtbnBCczB3ZmhONmk0bVJsR1lzaGhlMkhrZVAtSDVoV0JmMlp3NlNwOGNIbWt1ZGNmdEJzWTdxTEZ6Vk0xSEllYVM5LU9sVW1aVFhlbTctanFkd0FNekVocjRwOWI0RW9WcHNQcVltWGxfN1MxckI0S0lkUGxvbUZYZEpXalk4Y2wySUZDN1N6enRHQk1rSTNWd196R2NaV0RYeDQyNWs4?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -3497,8 +3457,18 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "Silos, cellphones and literacy: Breaking down Wyoming’s new public ed policies",
       "date": "Fri, 20 Mar 2026 07:00:00 GMT",
-      "source": "wyomingpublicmedia.org",
+      "source": "Wyoming Public Media",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbTlTN2VJSTMxVW5iOWFTdHZNRVUwQzFPZG1LNDh2djlKdjFoLVhxRWhlOUc2UVFjWWdOQlBDa3RzWXdOTWdRS1RLSmFaNjhOOGFIdndPR2VuU29BSmd4M0lhRWhSVy1WekRYV1RyNGFmbG9CckRyR0hlUUsxR1pMRlVWQVkzOXExNExhSzg2RzVVN0hpM3h0cDkxQWlNUmxGNVdSM20xR0pyWlQxOWY2Vi1fUmRhSjRua3I4OWdzdnhNbFRfYndzaTlmbzZfdw?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Nebraska",
+      "district": null,
+      "headline": "Nebraska budget bill fails as conservatives revolt over pulling private school vouchers",
+      "date": "Thu, 19 Mar 2026 07:00:00 GMT",
+      "source": "nebraskaexaminer.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORV9ha0ZIeEdqcEFjalJnX05OdXFDdGM4WW01MXZ6TlJfTkxWUlpmUzZMM1hHeVNvaVNmTTdoM3dKNjl4UDZEZkllUGFkRTR3a3oteUNpZ3JEcVMzYWR6UjRBQnNsUEVId1ZWU1J1bEZLRHUxZUJQOF94TF9XYWo1bldwV1FJUTV6cGJuQWlfVjdKZWdBbTR0YU1UemFxNFNmSG5XRzVEYm9ZUDZSS2VLcVE0ckdWaVFxV3FZTGJNUUhNcU9VMEY4?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -3509,16 +3479,6 @@ window.NEWS_CACHE_DATA = {
       "date": "Mon, 16 Mar 2026 07:00:00 GMT",
       "source": "The Statehouse News Bureau",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbDBzYVIycWRIMXdZd1dFbF9TelRReWxvekx6LXI0UXROLUF0aTMyUGpIT3UwQkR0d09oVm9zRnJwM0ZTMTVYQXJNREpyWmtnNjlmdXc0Z0M1TmNGTy1oMnhCTE84S0xJS2hzdkpWNktPRWJLYzlIaGxVM1g2YkpibURZemk0dklmZFAtUzJCMUJqSkppODJzaFN4ZkJFYVJTSFBLdjB0S3FSN2JXNEZ4LU9TcXdlQlJLUkgtTjhlNmhWZVZpWUNPLWh6S3VMUGoxZjRLencyMkVhWHEwazJraExaV01mQ2M?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "Wyoming",
-      "district": null,
-      "headline": "Wyoming Governor Signs New Laws On Oil, Health, And Education, While Vetoing Key Budget Bill",
-      "date": "Mon, 09 Mar 2026 07:00:00 GMT",
-      "source": "KGAB",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYcksyQm0zVkJETWxtSjAtMnBfaUJ3VGlFLUxyb01PNXJYaGE0OExFV1pIYmViTmxFT1FoWnhHamVZWjRGQ2kwWWtmb1FCYXNFT2ZoTmZXeUxJa0hjR0RKZ0U0c1A?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -3543,22 +3503,22 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Wyoming",
-      "district": null,
-      "headline": "Bill to ban ‘sexually explicit’ books from school libraries dies",
-      "date": "Thu, 05 Mar 2026 08:00:00 GMT",
-      "source": "wyomingpublicmedia.org",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2hySTNDdGsxTnhZZlZ5YU1lVUdoQXZTVFhONjdfc0Rsd0FFeWN4Nnk5MVZuV09vUk5jSzlLUzRhNmg1ZE4weFkwV05PZGVtNG9YUmVLdFZNNGZTeHBSbW5ac3ItVEFJR2VNZWxHLUcyQUtmZFhlWVIwM1dkSE8xYmxzVmNPR0U5UHBRTWxFdDVSSWV1RXJldjdqWXlVS2xxd21RaFpYdTdJNGZqRWpMTXhfQnVqbVJINGc?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "Rhode Island",
       "district": null,
       "headline": "Bill Spotlight: Rhode Island Ban on Smartphones",
       "date": "Wed, 04 Mar 2026 08:00:00 GMT",
       "source": "paragoninstitute.org",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMUlUamlTczREdEZ1ZVlpaHg2SW52WF81RURaRFYzRTI3LWU3Y0RtUXVzRFhRa2g0ZjczYTVUMHVpVXdKYU9ldmNnbWx2cnBQQTkydUtUbEdDNEVsRnpLcFJXS2VGc3hBeVRxTWpZcWlIWE9IY2RGN1ZYSUdTTEg3UXZR?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Rhode Island",
+      "district": null,
+      "headline": "School sports anti-hazing bill sees no opposition during RI House panel hearing",
+      "date": "Wed, 04 Mar 2026 08:00:00 GMT",
+      "source": "Rhode Island Current",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVnZmQlhyNzZjbk8td0REMEsxSUNkcVdzaU10Tm5TMkw5Qy1UOHh4TXZyUFk0bk9CbE0wSXZzdFRHUTlyUkpUZlRaempvblBwVXdHeEJEbEhnY2tfUXNZYXg4SlVEcjJ0bVRBaWMybnZITEIzc2ROTzBxclhXb3c4RTRMbWM0SlFiUHdjMHEtQ0laNU9GazMzU3IzYWVVc1lHUEJtTmdTTi1ZQUhYa1l3a08yaFB5Z290SXhJTU9HQQ?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -3573,22 +3533,22 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "North Carolina",
-      "district": null,
-      "headline": "At-Risk Students Get Second Chance at North Carolina Charter School",
-      "date": "Tue, 03 Mar 2026 08:00:00 GMT",
-      "source": "Education Next",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZFA2cVEyWDdUTTIyMzFKRGg3WlRlYmNMU1k5YVNJT0N0TUZ2U3hldFRCMnFaYmkzSFdnNTh6cE82MlcxQ21ISGZhS1hyb1JqakpfSnRBZEtsZmpSWG1xVjlQdHhtZ1h3MEJEMW9jT0lrVjlwTVJHcTFZY1h1T0ZpVXFUN1pMdXMwZVJFeGx2ZEdHZzY4U3N2QlZORkVrWkE1Y194cmR0bU9DTlJkVi1vajdSSGwwTXhfcDVBWi1xNG9UUQ?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "South Dakota",
       "district": null,
       "headline": "South Dakota bill to ban student cellphones in schools fails",
       "date": "Tue, 03 Mar 2026 08:00:00 GMT",
       "source": "aberdeennews.com",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNY3BvVThfNjRZTTFHWE9NQzV2RlpCNkFqU0ZWRlg4UnhXZVpQQVg5d0RPR0U3QnlrNlF6Y3owSk54YVVtbkVEU1NYQWpUY3BYWlozbWxQUm5xbWsycEVYN1FubHJoRTRJMWVQTDZhRUNrN0VmWHlkNzJmc25ldjRZeElycEVZcWFtWWttWHcxb04wUjlYV3cwalA4ejBNWWVKYXlIbkxZSXNXWUtfQkFqLTlwbHdVTzRVR1JyUVJLU2xnb2JKRy1DbG9wR1ZpNkxneFdB?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "South Dakota",
+      "district": null,
+      "headline": "SD House kills statewide ban of cellphones in schools",
+      "date": "Mon, 02 Mar 2026 08:00:00 GMT",
+      "source": "Dakota News Now",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRmJ6TUtNTW1jYkFEY3pXYUtackZjQzIwT21aRkZjcFV3UkJCNWJraFFZOGlXemdaLWNobDJibXBXUGxIU0dQTktZclVFZUMxUnFNbUpZMW9VVllXNlpiT0ZVNUFBNElwZ095MFRSZklrai1YUTdyTmdYeGs1YldCc2NkTldKcDBmc2w1ZFR3VWM2VlFIbF9JMtIBrAFBVV95cUxOdHBrSlNEMWFoemNmRHplOXJQeGliM2pJSUpGRG4telF5LUtaWXJiZ0Z0ZGxGSFNIRG1pbEdCTkRwc21ON2ZtblhOVlgtbUJoeFdVdHBidHBhVXVXTE80bmd4X1pDbXpiaWFVejhDUjFGemgxSFVad3FGdEU4dnFCUHVlcGZoN3dNcUJvRVY4MXFta0tSS3FpdG9vem1QOXY5VEtubVk4Z2J6X05S?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -3637,7 +3597,7 @@ window.NEWS_CACHE_DATA = {
       "district": null,
       "headline": "What worked and what didn't with a cellphone ban at a Kentucky school",
       "date": "Fri, 20 Feb 2026 08:00:00 GMT",
-      "source": "Louisville Public Media",
+      "source": "lpm.org",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV3d1OGlQUHdQTFhIYzJqRlJLZ0xDd2Njc29Kbk5aRzBQdnROQndUTFRWTFRxUmJ2SmxtSlo2TkVXTlRUaGZ0eS1WdWs2V3dnVnpWY3ZGTTUtQ0FadnVabFRYS0x2WnVQT25hN2I0T0VUN0VsUEZtMkZVOFQxSHc2cGJKMjh2Q1lpeUx6Ull0YmtmNVA5ZHo5M0x5VVAyVEhkbXN1VlBhQQ?oc=5",
       "type": "scrape",
       "free": true
@@ -3723,22 +3683,22 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "South Dakota",
+      "state": "New Mexico",
       "district": null,
-      "headline": "School cellphone ban stays alive in South Dakota Legislature",
-      "date": "Tue, 10 Feb 2026 08:00:00 GMT",
-      "source": "South Dakota Searchlight",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSlVfN0lfQTVIYlJiWlpLV2NBVjZNT2NScDJ1dG1XeWZzcHY0X1FyMGlvSExEa19vOGRnWFBhUGNVSFVaTlgyWWE2dUtmQ29jZ3RfM0V0b1NhVXhiN1g0dktfcjQ5TmhFVV80d1pjUkViOG9veEx0QVNNOVVjR3BDRDE4Y1FFMjdHMWh1Y2VvLXlNSTB4VWkxZXBhWU5xbUJwNWc2dENHV0twSm8?oc=5",
+      "headline": "Cellphones and classroom learning simply don’t mix. New Mexico students deserve a distraction-free learning envi...",
+      "date": "Wed, 11 Feb 2026 08:00:00 GMT",
+      "source": "facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRkY4eUJVa0hkUkstdkR5WVl3X2lrbUtDb3FscVhPLW04Y1pyNjZmYmZEcFF2Vm9XVzdYRFgtZGNrZmw5aUxqUGlRUjlfWGZrQVVFRmNTUjQxdGUxNFZmRFI2d2poVnEzUk1zei02SWF3MDFNWGkwenpnNjBuR1pCWFllTDFNSkpkelo0Mk5uN0tadnczdnk0bjBLdWJNVDk0OWwzZEZrb1B4b0xnMDV0V1VXenlJX2FnRUlDWXZSakU2MllPTUk3VTlXbmZrVHVfYnlJ?oc=5",
       "type": "scrape",
       "free": true
     },
     {
-      "state": "South Dakota",
+      "state": "Iowa",
       "district": null,
-      "headline": "Pitfalls aplenty await legislators who want to micromanage school districts",
+      "headline": "Legislators in Iowa, South Dakota look at mandating school rules on dress codes & mobile device use",
       "date": "Tue, 10 Feb 2026 08:00:00 GMT",
-      "source": "South Dakota Searchlight",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUU14anAzU0FvZDJVMng3QVBfZVdxOW80V2hWZHctaVRrRzJ2QTBWQzJhVmQwT3pqc0VYZDdyUmllR1NGaHo1TjBUdFYtdTBjZ0dLczI5WWRveFo0Ukd0OUFfWEpNMWRCSzlRcXo1V2I3RUJvdEw4cVZCZXYxYkFmNmhPVERKaVhIcHhXRTctblQ4MDBNaDQzQktGYThsY0ZEWXJaODNFRDlrSTc0WHNTSzlaT1VoZy1GOWw3YnBVMA?oc=5",
+      "source": "Siouxland Public Media",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNkt5a3Z0SXpsaDNhallxb1JDbGo4amkwNFlfSlBZLXptTWp0bHRPa05yTnVORFdnREdON2tNLU5CUjV4WmVMVW5KWld2Ym9vWDVZcDJQV3UzSkk0anFNTG4zbVp2Mjk2UGR6X0t2R0VHS2VWMWtlUFg3Z2VNNWp6eHB3M2d1dU1HWEluTERoQS1ick15cHRXYjFFLUJFOHU2OWZtOGl4Q0ZqbzZMa01STjRpV0hNNGNaMUdYSG5xaHlSRU1zRjhZVVFvTWZOT1U4NFU3MXBiWnNkVlFBQnc?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -3803,6 +3763,16 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
+      "state": "Alaska",
+      "district": null,
+      "headline": "Anchorage School Board bans plastic glitter after Girl Scouts’ initiative | Education News",
+      "date": "Thu, 18 Dec 2025 00:01:11 GMT",
+      "source": "Your Alaska Link",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQc3ROVzhwUUxIRnZqejNiRXVoczktamx0ay1PdTVmOF85cDIxWFczVHZHc3BYRUhrWmJGWUFmVngzcHJiZExQa0ZOcjFKTGxQUjBQbm50UnF2cG5EeHQzMDdjUUliMTl0andVZE5RU3VwTkFPdEJyTlhPQVVFUXE4M2p5dWU1X0syOWxKUjVOSDVtay1mMm1xLXNxSld5UkxFcmw5bGE1V0FWNUt1VkZKYVlNYXlZdmFCaUtuV3JGOWU3ejV6XzJEVUtDQ2xmNDJzdzJHSEJCWndJT0R0SEw5NkFQRmxXTXVrTnFlU2tiMlFoWkxwRDV1N1NrNks?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
       "state": "Florida",
       "district": null,
       "headline": "Florida’s cellphone ban hasn’t reversed testing score trends | Opinion",
@@ -3823,16 +3793,6 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "North Dakota",
-      "district": null,
-      "headline": "North Dakota cell phone ban shows positive results in Fargo area schools",
-      "date": "Fri, 12 Dec 2025 08:00:00 GMT",
-      "source": "Valley News Live",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOclM0ekRRYmJoSFlIeTN3dElVbXpqZnJ2NkhJdVlZRzI5aW1jb0ZiSzYzUkNxQlVXYkdfaWVrMUJDajBSZmpYb3E3UTlZVERobkZOTWlCQlJ4WEtmT3F4U0d6ajJVMzZoZm02YWpjWVk1NFFFbHROcXk2STktenNvTGZxTUZGbVdndmYwRkluNnIyMTYwYlJSVlZBMjNUVG9hdGh2Zkg2TU82WG45WHVpdTJn0gHGAUFVX3lxTFB3U1pfcWdmaG1pRzU3bllsYmdiZmFDX1FWNUFRQkdyQVUtU1hhTWd6WGd1dWFaNlhVd3Fuc3M3TEV0aHVCZTJ2NXR3MFNMNFNiRVkzTFpyLWE2MDlURmJ5ODJQX1drLWx6V3NZMjA5VEtpQ1RSRXQwd1dzU2RFUG95amVVR3BPbDhSeXIwT2dUUEVIUjFXUHVZQlpsc1VYdmZJZ2FhOUxnSXI0N2VvaXkxX0lKQlJ3RWJWcE9ZX0hBMldza08xZw?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "Florida",
       "district": null,
       "headline": "Catholic school cell phone ban a hit",
@@ -3849,6 +3809,16 @@ window.NEWS_CACHE_DATA = {
       "date": "Wed, 10 Dec 2025 08:00:00 GMT",
       "source": "WBTV",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV0FuYnRZSTRiZFRkYmtzblJjdmFwRGNKcFl1RmhtM3NpVl9iNUh5cE9XUE5VcW9IZXVCaGVFc3JLSlJCRlktOElMYmtfbXY0Z0lmb2xxSXNyRXlkeVBnZW53VzRsRWw4V2FfaXZIeDZqeG80d3lhVnh5elJVRmFpblg0Wmp5czFHdTNIU0p1SWxpR3pWcmVNbEhCcUM?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Massachusetts",
+      "district": null,
+      "headline": "Most Massachusetts Parents Favor Banning Phones at School",
+      "date": "Mon, 08 Dec 2025 08:00:00 GMT",
+      "source": "GovTech",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd2hjUHNoSTRsUmVpbmNnaEZ2eVNBV3lOV0tZR1JqVWNiZ1l0eDROZ2lYZlltZ2cwTWFveWRvTlBONmhzYXpNYUw5ZVF4MlU5ODdLLUtTOVhlSEI3OEZiYWVJUks1endsV3c2bklGdDgtZHF4WFFBSGRWOFlDaGEtbE00Q1JQTy1nMlY0SGJZRk5ZQXhhdS1McWxHWmI?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -3883,16 +3853,6 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Arizona",
-      "district": null,
-      "headline": "8-year-old boy arrested after bringing loaded gun to western Arizona school",
-      "date": "Mon, 01 Dec 2025 08:00:00 GMT",
-      "source": "12News",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWnlZSmRYcXVFaHBySGFPUHdjUkxxT25sYmZZS2NDMVNObE5aR19keHFZWFZPS1dYbU9TU1R3OFk2aThrQ3U3enBXVE8yUDJQMHRpUWdTWWhMbFlpYndhQXFleF93aTd5dWpEcFN4REItTlV6dUN4cmJLQmRpTEg4aUhXYlcwQVd1WDIyRVJ4VEZBMkNNcmFrcDFhX25lQWZJNjVES0RVSWdySk5iU2x6Ym5JbjNRZzNjQ3luMXNzbnhvM2toOHhjaFZtNHNsV1ZfQlFPOFdVcW03d3BFVkE?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
       "state": "Alaska",
       "district": null,
       "headline": "Alaska AG calls out Anchorage School District’s failure to endorse U.S. Constitution flyer",
@@ -3903,22 +3863,32 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
-      "state": "Arkansas",
+      "state": "Louisiana",
       "district": null,
-      "headline": "Arkansas high school wins $1M grand prize in T-Mobile Friday Night 5G Lights contest",
-      "date": "Thu, 30 Oct 2025 07:00:00 GMT",
-      "source": "thv11.com",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVE5QMnZfcEQxVngtWnEzczd1ZGpLbHpkRHdfakJuSk9DU2JyQ2R6NmZ1cFFia1BtdGtOQzRJZmJYejQ0cHVpMEt4TWVOS0hnWEJtZmEzd0RGQ3VuZWl1WG9vZTN1QzdkTHM2aE1YelJscENYYWJsbGxQbm5ZSXRXUF9ORmRocTQ2X0ZIU3RFc2hUbHZHVW0taWthZmdDV3l3VUpXaGNOZHRlUTM4R1dnUTR0TkM4TmR1eG8tZnNGeUY?oc=5",
+      "headline": "Louisiana middle school student expelled for lashing out over AI-generated nude photos",
+      "date": "Mon, 10 Nov 2025 08:00:00 GMT",
+      "source": "Houma Today",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcnUtQm1tR0hBUXpId1EwUnUzQXNWbHhkbmJuYXpQMnlwZ3hGbldkblk1YTBTU3FrSUFseGZ2ZzN0UHRvYUZPYnZSQWljWTMwbUhfVnlZZW5fOUYzdnJjdnpRbzZpY2NFOWNmWVFRb3h5MnVtSzhXYUFndUx6a180dlRRNDhNdmZxYWNSWmg5MmszSW1HMDhLQkxMXzZrbUY5WjJXaTFVa080NlFEajgyaS04b2x4OHpGbmY0X2V3bVhYc1B4N2s1X1ZMSkRJYThveGxvdHp4YVhFSndv?oc=5",
       "type": "scrape",
       "free": true
     },
     {
-      "state": "Arkansas",
+      "state": "North Dakota",
       "district": null,
-      "headline": "Arkansas educators report more engagement, less bullying after schools go phone-free - The Arkansas Democrat-Gaz...",
-      "date": "Sun, 26 Oct 2025 07:00:00 GMT",
-      "source": "The Arkansas Democrat-Gazette",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcEhzcUZXUHhHQUVKbTlmakNwNVlER2xLZmZYVTNRV1V3dmt1VHpBSUt3ZmN0QjVua3hBNVBhay1fMmhXLXd6NEVlUjlSNU14VDRSNEtvNzVNSjFyMEthQ2pUaEJYYWFfQjFUdzgwWi1EaFFsdmx1U3dzaWNtOHoxMHVrVXp1Si02RXRXbF9kQzZ6WWJwZVg2RmlGUQ?oc=5",
+      "headline": "From suspensions to conversations: The uneven impact of North Dakota’s school cell phone ban",
+      "date": "Fri, 31 Oct 2025 07:00:00 GMT",
+      "source": "kfyrtv.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPelZ6c1NMRV82Y0V1Q0R0V2pnYXhId1BiaTBScFNYZjBWbGQ0OFlWdGpJSldpUEFscFZmZTVQRkxHZkZ0R3NNQ1NwREhJaG5oOWtJQXQ0M3B2VDEzbERSVjhfYzlPVl80dF9MUVpnemJmc1lOU1Brd0h1T2c2SHBzM3RfbUFyN0M4Ti02UzlaZEVNbHdzeUZkTzZYY2F6ZkZpNmpkSXhSR1JnTUZFX1dv0gHDAUFVX3lxTE1oOXBRem1kVE5nbjc1NE9OTzVqVlRfcVl4S1FoeTdVUkpUYjBXMTZPZnExTTREVkE1bFg5MDRBTkxqSmpIZFRncFp0REhuRUtxS0lDQ1prTkxIaDZfUDdxLS1ndFVFaUJmWTZXRElfRHgxX2pfc252clVBeUNLdVhjY3ltWnVhOGFQVVJzR2laMHBkREI5WDVMT2IxMDA5bkRYb1pheC1KYkNjYmF1ZHA0T1NfWEN6OV9zMC1fMmpMYnMyOA?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "North Dakota",
+      "district": null,
+      "headline": "North Dakota students among the leaders in national assessment testing",
+      "date": "Sat, 18 Oct 2025 07:00:00 GMT",
+      "source": "Grand Forks Herald",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSm5hb3VVR0RLUmh1dlNFdXBSb2h3SzdOM1lWNmd4S0lSdU8wTFpaT3pEeXNTbG5pR3ZCNXh0WVEzWVF4cjBxaDVkOWh6al9vQ2tONlpUdy0xQkZaZExNa25nS3p4WmFuSGdIOEl6dmdTSThubzhKcXpwQzVLOUNrTlJMbmlMWXZQRFk3ZnhMcE9jeXVYQ0IyN1gyZkViemNwNkdmMEJGeVota29SN2YwcUZNbVlkVXpVOXNSOW5n?oc=5",
       "type": "scrape",
       "free": true
     },
@@ -3943,6 +3913,16 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
+      "state": "Kentucky",
+      "district": null,
+      "headline": "A school in Kentucky banned phones. Remarkable things started happening",
+      "date": "Fri, 26 Sep 2025 07:00:00 GMT",
+      "source": "detroitnews.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbjBhUnpOUkdCTnVNbmFDT3lQMkNka0tDdXhxb0ZDaHFWZzY1ZUdUSFNBekw5THFPdzdBYWN4MzVOTjJPNTROZU5GdmstRlZMWDJMdGc5RmwyYTdZbjhBVU5RSFR1am9JUDdTMDdaSE5XMjlEMllrREVGd2t4N1VlQ3NvSk9xRTZ1NjNZNDVZUjBHMzU1a3MwWDlDWTg4T1lSd0FxUzljTmhyRU16eWlVdnhia055VGpndS1iVHIxeTV3SXBDQUlja2dpR3VsQnRB?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
       "state": "Arkansas",
       "district": null,
       "headline": "Schools report success with Arkansas' phone-free law",
@@ -3963,11 +3943,41 @@ window.NEWS_CACHE_DATA = {
       "free": true
     },
     {
+      "state": "Arkansas",
+      "district": null,
+      "headline": "Arkansas back-to-school guide 2025",
+      "date": "Fri, 15 Aug 2025 07:00:00 GMT",
+      "source": "KHBS",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwbkozWnRIbGNSeGZkRVB1X3BpVW1JYWhxZ0F1T3FfSnlQemplNjdwYm9UazBpRE90NXk5dk5HVjd2aDVfLXhLVnktOTZtbU4teWt2eXpFNVBHWnBYWkhzaUtPY3VTNmc0eGswMU13?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "Arkansas",
+      "district": null,
+      "headline": "Little Rock School Board OKs cellphone policy; students must store, lock devices starting Friday - The Arkansas ...",
+      "date": "Thu, 14 Aug 2025 07:00:00 GMT",
+      "source": "The Arkansas Democrat-Gazette",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTEQ0UWlZMGNUV3k3Szh0bXo4RmlQcDZ2RDhscXBsQ3FDT3JJZFNfRDlhUG8yb0tuR3N2Rk9tZHoyX1NORUxCVS11MXllQTY3S285YURTUnl2a0hWblMwUlNYdnBiUzhsNjg4MFR3VThGWDFOSHFQTmpObVZLTER6akJXQVlvQ1VrcU1odE9qaEhuTnlvbE83cmpR?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
+      "state": "South Carolina",
+      "district": null,
+      "headline": "SC school districts fully enforce statewide cellphone ban as students head back to class",
+      "date": "Fri, 01 Aug 2025 07:00:00 GMT",
+      "source": "WCBD News 2",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa2p2UEdNek5EendoNHo3bUlnVFhETXBndjl4WTJ2dktFX1Brdzd0RW1CQVR4Q1h3NFhKVDllNUQtUUhwb19mVjBLY1c3dG1MYWcxZjdOcnBrSW1GV295NURJMHBCaTVuR1lDSnByUFNiY2ZnQlQ2SU01OGxoZVAwUlF5cGNwSG1NQWlDTzRkRnpDQXVGNnlYTEdtVUJFdDJsRG8wRmJPSE55TFZTYVNkNmVpd1BpYzU3Ny1lNTNIM3hDSEJS0gHKAUFVX3lxTFBCblpkNmJSVXZWQnhLR2Q4dzZ4X3FDTi1LY1V3NUlwdXZxQko0S21PRmdjTXFvWUxXejVYeHROdXB2bU1hdEFDWDMyNC0zc2tMd0VndTJEZDJlaDB5VHU3Y1hKOEFCeS1aRk9DMTc2RWJweWszd3VWVmtYZ2IzUXd2cU5tU29hMVZCblgwRFZnVUdoclR0aXI2Y3Q5VFo5UElLSEo3azVTMFRXRmJVYUwyN0V0ZkZvaW1VOXRCeWM1RmxfZGxpRHc2REE?oc=5",
+      "type": "scrape",
+      "free": true
+    },
+    {
       "state": "South Carolina",
       "district": null,
       "headline": "New school year starts with student cellphone ban in effect across SC",
       "date": "Tue, 22 Jul 2025 07:00:00 GMT",
-      "source": "live5news.com",
+      "source": "Live 5 News",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSDc2bV9RbkYwaTNrYUV2MVpoZjM0VEVCUm1iUjRYUjNpdmYtQU0xd0g5bVRvV0hsdXk0c0JVYXVmMXczdWVqZjF2SFNMRXNqNlhFUS03N295QkFJX3pMbTRoMzlwbS1BaUM3TGEwY05DeUttWEloQm80OF91d01md1RoMml4QU0xbUoybFowdG8yQ2trc0ozUDFWako2T1RRaVlrUW9aVdIBuwFBVV95cUxQZUdadVJJZFBUUlR5bVlMd1Nib1BHbmx4QkwwM0ZNdDZuaFN3clZCbllIZlNJSS16U21iQ2ctR0ZpS1NmSnhyQzh6cHIxMUQyNjdTTHhDRTFWVUxVSFhoZ1E3WlozQmFqSnBsWTR2dU5IMVpjajM5VUszdGtqbks4MzExTmE5RnAwVk5oZm0zaFhueFNhZ3U3SXlrdU4xdWo2RWNGZnBaZ0FkMi1UTGxfQ1dTeHE0V01fTlZB?oc=5",
       "type": "scrape",
       "free": true
@@ -3989,16 +3999,6 @@ window.NEWS_CACHE_DATA = {
       "date": "Mon, 21 Jul 2025 07:00:00 GMT",
       "source": "WJBF",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQXzZVMTFXQlpxWWZURkRWUXJmLW9NNTBubmZFZTNacHkzaVZOb1R3Qm1xdmlfX3c2NHB1Y2c5ek5DTVVDR2VVbW56V1lQR0NNVkJKWmtsV0JGeGpTMW1rVy1nNE5fVjE4ajkyalZEVjhLTVVRTmFzZExtdGxUNGFPWm9PTTY3TF83UlJ4aUFKQ3l0OWRiVGhNU3VUcWIwUTBGLTMydHdmSDRpZknSAbABQVVfeXFMT3MxMldZeW1NN3ZHcVU4eksxeEdUdWI5T2ZtWXkzU1l5Wm83ZTRKMDJzajhDTFRrdkx0RjB5LWdPd0xSV1o3azQ0Y3ZmemQwLTZSUE1ONkY3Z2J1dmpraFNDb0hfU2d2RWlVekxkdkVIVTRlUkVrRFNPM1ZncVdGdWxNa0Robm9qb1ZWdzdPUXR3Z1BSZllVZGVHeko4MnI0X3JXMU5DUWoxQ0pPSzg1MVI?oc=5",
-      "type": "scrape",
-      "free": true
-    },
-    {
-      "state": "South Carolina",
-      "district": null,
-      "headline": "After a semester, SC schools' cellphone ban shows promise but raises enforcement questions",
-      "date": "Wed, 02 Jul 2025 07:00:00 GMT",
-      "source": "postandcourier.com",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYkE0RU96RVBVMXBQa2dLZ1hfRm9DY0lKcERfWUtkT2M4UE9RMjNWZ0I4Uy1lbWpvaVpfUU8tRlJ2a1lqak9RVEdwS1lVRHk2Vy1fSmtWUmE5OC1zUml2Z0FUWVJRVGE2MjVxR3YxTGJCRk1WZXFURVVyd0lYU1A2emNjRzN3Znd6bVdTNlNUWU5BVTdFeW5HcnZVYnQ4SXdvWVl2T1doU1ZZdl9kdmdsbWs1MDF1OWJPa0N4V19NNE5mR0lQWEowX1pLa04?oc=5",
       "type": "scrape",
       "free": true
     }
